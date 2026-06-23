@@ -5108,28 +5108,28 @@
 <text class="node-text-title" x="676" y="270">Bank ID</text>
 <text class="node-text-sub" x="676" y="288">本地信用证/融资/避险行</text>
 </g>
-<!-- F1: IDR 母证开证与承兑 (135天) -->
+<!-- F1: IDR Master LC开证与承兑 (135天) -->
 <g class="flow-arrow-group s5-phase-1" data-flow-id="s5-lc-mother">
 <path class="flow-line hedging" d="M 710 95 L 710 243" marker-end="url(#arrow-hedging-5)" style="stroke:#0D9488;"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="720" y="165">F1. IDR 母证开证与承兑 (135天)</text>
+<text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="720" y="165">F1. IDR Master LC开证与承兑 (135天)</text>
 </g>
-<!-- F2: USD 子证开证与承兑 (90天) -->
+<!-- F2: USD SEC LC开证与承兑 (90天) -->
 <g class="flow-arrow-group s5-phase-1" data-flow-id="s5-lc-child">
 <path class="flow-line bydid" d="M 410 95 L 410 243" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="400" y="165">F2. USD 子证开证与承兑 (90天)</text>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="400" y="165">F2. USD SEC LC开证与承兑 (90天)</text>
 </g>
-<!-- F3: 子证贴现 -->
+<!-- F3: SEC LC贴现 -->
 <g class="flow-arrow-group s5-phase-1" data-flow-id="s5-discount">
 <path class="flow-line finance" d="M 150 95 L 150 275 L 338 275" marker-end="url(#arrow-finance-5)" style="stroke:#2563EB;"></path>
-<text class="flow-line-label" style="fill:#2563EB; text-anchor: end;" x="140" y="140">F3. 子证贴现</text>
+<text class="flow-line-label" style="fill:#2563EB; text-anchor: end;" x="140" y="140">F3. SEC LC贴现</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="140" y="158">贴现 USD 7M 应收款</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="140" y="173">提前收回上游货款</text>
 </g>
-<!-- F4: 子证到期偿付 -->
+<!-- F4: SEC LC到期偿付 -->
 <g class="flow-arrow-group s5-phase-1" data-flow-id="s5-bridge">
 <path class="flow-line bydid" d="M 450 95 L 450 243" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: start;" x="460" y="185">F4. 子证到期偿付</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="460" y="203">使用 USD 过桥融资偿付子证到期款</text>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: start;" x="460" y="185">F4. SEC LC到期偿付</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="460" y="203">使用 USD 过桥融资偿付SEC LC到期款</text>
 </g>
 <!-- F5: USD/IDR 远期锁汇 (45天) -->
 <g class="flow-arrow-group s5-phase-1" data-flow-id="s5-lock">
@@ -5137,11 +5137,11 @@
 <text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="560" y="140">F5. USD/IDR 远期锁汇 (45天)</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="560" y="163">锁定过桥还款汇率</text>
 </g>
-<!-- F6: 母证到期还款 -->
+<!-- F6: Master LC到期还款 -->
 <g class="flow-arrow-group s5-phase-2">
 <path class="flow-line hedging" d="M 750 95 L 750 243" marker-end="url(#arrow-hedging-5)" style="stroke:#0D9488;"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="760" y="160">F6. 母证到期还款</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="760" y="175">偿还 IDR 母证到期款</text>
+<text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="760" y="160">F6. Master LC到期还款</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="760" y="175">偿还 IDR Master LC到期款</text>
 </g>
 <!-- F7: 远期购汇交割 (45天) -->
 <g class="flow-arrow-group s5-phase-2">
@@ -5149,11 +5149,11 @@
 <text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="560" y="140">F7. 远期购汇交割 (45天)</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="560" y="163">向 Bank ID 购汇清偿过桥</text>
 </g>
-<!-- F8: 母证净额结算 -->
+<!-- F8: Master LC净额结算 -->
 <g class="flow-arrow-group s5-phase-2">
 <path class="flow-line bydid" d="M 390 243 L 390 97" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="380" y="185">F8. 母证净额结算</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="380" y="203">支付母证款，偿还过桥融资本息</text>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="380" y="185">F8. Master LC净额结算</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="380" y="203">支付Master LC款，偿还过桥融资本息</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="380" y="218">剩余金额入账</text>
 </g>
 <!-- Legend (图例) -->
@@ -5181,7 +5181,7 @@
 <span class="echo-status-badge status-solved">✓ 已解决</span>
 </div>
 <div class="embed-card-body">
-      打通跨币种背靠背信用证结构，BYD HK 可在发货后 45天内通过境外 USD 子证贴现提早收回美元，满足资金周转。
+      打通跨币种背靠背信用证结构，BYD HK 可在发货后 45天内通过境外 USD SEC LC贴现提早收回美元，满足资金周转。
     </div>
 </div>
 </foreignobject>
@@ -5199,7 +5199,7 @@
 <span class="echo-status-badge status-solved">✓ 成本降至 1.00%</span>
 </div>
 <div class="embed-card-body">
-      经销商无汇率与锁汇风险。因母证期限需配合拉长至 135天，实际费率比方案二的 0.75% 略有上升（为 1.00%），但仍远低于库存融资。
+      经销商无汇率与锁汇风险。因Master LC期限需配合拉长至 135天，实际费率比方案二的 0.75% 略有上升（为 1.00%），但仍远低于库存融资。
     </div>
 </div>
 </foreignobject>
@@ -5215,7 +5215,7 @@
 </div>
 <div class="cost-cards-row">
 <div class="cost-detail-block" data-flow-id="s5-discount">
-<div class="cost-block-title">F3. 子证贴现利率</div>
+<div class="cost-block-title">F3. SEC LC贴现利率</div>
 <div class="cost-block-value-row">
 <span class="cost-block-rate">0.70%</span>
 <span class="cost-block-rate-label">实际费率</span>
@@ -5223,7 +5223,7 @@
 <div class="cost-block-meta">
 <div class="meta-row desc-row">
 <span class="meta-label">成本说明</span>
-<span class="meta-value desc">BYD HK 办理 90天 子证贴现，提前收回上游货款。</span>
+<span class="meta-value desc">BYD HK 办理 90天 SEC LC贴现，提前收回上游货款。</span>
 </div>
 <div class="meta-row param-row">
 <span class="meta-label">年化费率</span>
@@ -5246,7 +5246,7 @@
 </div>
 <div class="cost-cards-row">
 <div class="cost-detail-block" data-flow-id="s5-lc-child">
-<div class="cost-block-title">F2. 子证开证及承兑费</div>
+<div class="cost-block-title">F2. SEC LC开证及承兑费</div>
 <div class="cost-block-value-row">
 <span class="cost-block-rate">0.28%</span>
 <span class="cost-block-rate-label">实际费率</span>
@@ -5254,7 +5254,7 @@
 <div class="cost-block-meta">
 <div class="meta-row desc-row">
 <span class="meta-label">成本说明</span>
-<span class="meta-value desc">BYD ID以母证作为还款来源，开立90天子证</span>
+<span class="meta-value desc">BYD ID以Master LC作为还款来源，开立90天SEC LC</span>
 </div>
 <div class="meta-row param-row">
 <span class="meta-label">票证费用</span>
@@ -5276,7 +5276,7 @@
 <div class="cost-block-meta">
 <div class="meta-row desc-row">
 <span class="meta-label">成本说明</span>
-<span class="meta-value desc">子证到期后，BYD ID 办理 45天 美元过桥融资清偿子证。</span>
+<span class="meta-value desc">SEC LC到期后，BYD ID 办理 45天 美元过桥融资清偿SEC LC。</span>
 </div>
 <div class="meta-row param-row">
 <span class="meta-label">年化费率</span>
@@ -5321,7 +5321,7 @@
 </div>
 <div class="cost-cards-row">
 <div class="cost-detail-block" data-flow-id="s5-lc-mother">
-<div class="cost-block-title">F1. 母证开证及承兑费</div>
+<div class="cost-block-title">F1. Master LC开证及承兑费</div>
 <div class="cost-block-value-row">
 <span class="cost-block-rate">1.00%</span>
 <span class="cost-block-rate-label">实际费率</span>
@@ -5391,7 +5391,7 @@
 <div class="desc-box-title">为什么不采用离岸 USD 双信用证结构？</div>
 <div class="desc-box-points">
 <div class="desc-point-item">
-<strong>1. 经销商负担未解决</strong>：经销商仍然要开立 135天的 USD 远期母证，并自己负责在本地锁汇并承担美元负债，无法实现印尼本币交易（去美元化）的目标，推广阻力大。
+<strong>1. 经销商负担未解决</strong>：经销商仍然要开立 135天的 USD 远期Master LC，并自己负责在本地锁汇并承担美元负债，无法实现印尼本币交易（去美元化）的目标，推广阻力大。
                     </div>
 <div class="desc-point-item">
 <strong>2. 全流程费用较昂贵 (实际 2.99% / 年化 7.97%)</strong>：由于经销商锁汇期延长至 135天导致锁汇费用大涨（1.07%），全流程实际费率高达 2.99%，明显高于IDR Master+USD SEC信用证 的 2.61%。
@@ -5524,34 +5524,34 @@
 <text class="node-text-title" x="676" y="270">Bank ID</text>
 <text class="node-text-sub" x="676" y="288">本地信用证/融资/避险行</text>
 </g>
-<!-- F1: USD 母证开证与承兑 (Main title above line y=205, lands on Bank HK top at x=450, subtitle removed) -->
+<!-- F1: USD Master LC开证与承兑 (Main title above line y=205, lands on Bank HK top at x=450, subtitle removed) -->
 <g class="flow-arrow-group s4-phase-1" data-flow-id="s4-lc-mother">
 <path class="flow-line hedging" d="M 710 95 L 710 215 L 450 215 L 450 243" marker-end="url(#arrow-hedging-4)" style="stroke:#0D9488;"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: middle;" x="580" y="205">F1. USD 母证开证与承兑 (135天)</text>
+<text class="flow-line-label" style="fill:#0D9488; text-anchor: middle;" x="580" y="205">F1. USD Master LC开证与承兑 (135天)</text>
 </g>
 <!-- F2: USD/IDR 远期锁汇 (Straight vertical line at x=750 to Bank ID at x=630-830, center 730) -->
 <g class="flow-arrow-group s4-phase-1" data-flow-id="s4-lock">
 <path class="flow-line hedging" d="M 750 95 L 750 243" marker-end="url(#arrow-hedging-4)" style="stroke:#0D9488;"></path>
 <text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="760" y="160">F2. USD/IDR 远期锁汇</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="760" y="175">锁定 Day135 母证还款汇率</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="760" y="175">锁定 Day135 Master LC还款汇率</text>
 </g>
-<!-- F3: USD 子证开证与承兑 (Straight vertical line at x=410, perfectly aligned, subtitle removed) -->
+<!-- F3: USD SEC LC开证与承兑 (Straight vertical line at x=410, perfectly aligned, subtitle removed) -->
 <g class="flow-arrow-group s4-phase-1" data-flow-id="s4-lc-child">
 <path class="flow-line bydid" d="M 410 95 L 410 243" marker-end="url(#arrow-id-4)" style="stroke:#7C3AED;"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: start;" x="420" y="155">F3. USD 子证开证与承兑 (90天)</text>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: start;" x="420" y="155">F3. USD SEC LC开证与承兑 (90天)</text>
 </g>
-<!-- F4: 子证贴现 (Lands at x=338, left side of Bank HK, date hidden, text re-centered) -->
+<!-- F4: SEC LC贴现 (Lands at x=338, left side of Bank HK, date hidden, text re-centered) -->
 <g class="flow-arrow-group s4-phase-1" data-flow-id="s4-discount">
 <path class="flow-line finance" d="M 150 95 L 150 275 L 338 275" marker-end="url(#arrow-finance-4)" style="stroke:#2563EB;"></path>
-<text class="flow-line-label" style="fill:#2563EB; text-anchor: end;" x="140" y="140">F4. 子证贴现</text>
+<text class="flow-line-label" style="fill:#2563EB; text-anchor: end;" x="140" y="140">F4. SEC LC贴现</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="140" y="158">贴现 USD 7M 应收款</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="140" y="173">提前收回上游货款</text>
 </g>
-<!-- F5: 子证到期偿付 (Staggered to right of x=450, date hidden, split into 2 lines, aligned with F10 at y=185,203) -->
+<!-- F5: SEC LC到期偿付 (Staggered to right of x=450, date hidden, split into 2 lines, aligned with F10 at y=185,203) -->
 <g class="flow-arrow-group s4-phase-2" data-flow-id="s4-bridge">
 <path class="flow-line bydid" d="M 450 95 L 450 243" marker-end="url(#arrow-id-4)" style="stroke:#7C3AED;"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: start;" x="460" y="185">F5. 子证到期偿付</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="460" y="203">使用 USD 过桥融资偿付子证到期款</text>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: start;" x="460" y="185">F5. SEC LC到期偿付</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="460" y="203">使用 USD 过桥融资偿付SEC LC到期款</text>
 </g>
 <!-- F6: 远期购汇交割 (Straight vertical line at x=710, date hidden, label shifted right to x=720, text-anchor: start) -->
 <g class="flow-arrow-group s4-phase-2">
@@ -5559,17 +5559,17 @@
 <text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="720" y="155">F6. 远期购汇交割</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="720" y="170">按锁定汇率买入 USD</text>
 </g>
-<!-- F7: 母证到期还款 (Routed through gap between banks to avoid crossing Bank ID, enters Bank HK from the right, exit line separated from F8) -->
+<!-- F7: Master LC到期还款 (Routed through gap between banks to avoid crossing Bank ID, enters Bank HK from the right, exit line separated from F8) -->
 <g class="flow-arrow-group s4-phase-2">
 <path class="flow-line hedging" d="M 670 95 L 670 115 L 575 115 L 575 275 L 522 275" marker-end="url(#arrow-hedging-4)" style="stroke:#0D9488;"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: middle;" x="630" y="135">F7. 母证到期还款</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="630" y="150">偿还 USD 母证到期款</text>
+<text class="flow-line-label" style="fill:#0D9488; text-anchor: middle;" x="630" y="135">F7. Master LC到期还款</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="630" y="150">偿还 USD Master LC到期款</text>
 </g>
-<!-- F8: 母证净额结算 (Straight vertical line at x=390, date hidden, label on the left side at x=380, right-aligned, vertically shifted to y=185,203,218, changed to purple to match BYD ID role) -->
+<!-- F8: Master LC净额结算 (Straight vertical line at x=390, date hidden, label on the left side at x=380, right-aligned, vertically shifted to y=185,203,218, changed to purple to match BYD ID role) -->
 <g class="flow-arrow-group s4-phase-2">
 <path class="flow-line bydid" d="M 390 243 L 390 97" marker-end="url(#arrow-id-4)" style="stroke:#7C3AED;"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="380" y="185">F8. 母证净额结算</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="380" y="203">支付母证款，偿还过桥融资本息</text>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="380" y="185">F8. Master LC净额结算</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="380" y="203">支付Master LC款，偿还过桥融资本息</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="380" y="218">剩余金额入账</text>
 </g>
 <!-- Legend (图例) -->
@@ -5595,7 +5595,7 @@
 </div>
 <div class="cost-cards-row">
 <div class="cost-detail-block" data-flow-id="s4-discount">
-<div class="cost-block-title">F4. 子证贴现利率</div>
+<div class="cost-block-title">F4. SEC LC贴现利率</div>
 <div class="cost-block-value-row">
 <span class="cost-block-rate">0.70%</span>
 <span class="cost-block-rate-label">实际费率</span>
@@ -5603,7 +5603,7 @@
 <div class="cost-block-meta">
 <div class="meta-row desc-row">
 <span class="meta-label">成本说明</span>
-<span class="meta-value desc">BYD HK 办理 90天 子证贴现，提前收回上游货款。</span>
+<span class="meta-value desc">BYD HK 办理 90天 SEC LC贴现，提前收回上游货款。</span>
 </div>
 <div class="meta-row param-row">
 <span class="meta-label">年化费率</span>
@@ -5626,7 +5626,7 @@
 </div>
 <div class="cost-cards-row">
 <div class="cost-detail-block" data-flow-id="s4-lc-child">
-<div class="cost-block-title">F3. 子证开证及承兑费</div>
+<div class="cost-block-title">F3. SEC LC开证及承兑费</div>
 <div class="cost-block-value-row">
 <span class="cost-block-rate">0.28%</span>
 <span class="cost-block-rate-label">实际费率</span>
@@ -5634,7 +5634,7 @@
 <div class="cost-block-meta">
 <div class="meta-row desc-row">
 <span class="meta-label">成本说明</span>
-<span class="meta-value desc">BYD ID以母证作为还款来源，开立90天子证</span>
+<span class="meta-value desc">BYD ID以Master LC作为还款来源，开立90天SEC LC</span>
 </div>
 <div class="meta-row param-row">
 <span class="meta-label">票证费用</span>
@@ -5656,7 +5656,7 @@
 <div class="cost-block-meta">
 <div class="meta-row desc-row">
 <span class="meta-label">成本说明</span>
-<span class="meta-value desc">子证到期后，BYD ID 办理 45天 美元过桥融资清偿子证。</span>
+<span class="meta-value desc">SEC LC到期后，BYD ID 办理 45天 美元过桥融资清偿SEC LC。</span>
 </div>
 <div class="meta-row param-row">
 <span class="meta-label">年化费率</span>
@@ -5701,7 +5701,7 @@
 </div>
 </div>
 <div class="cost-detail-block" data-flow-id="s4-lc-mother">
-<div class="cost-block-title">F1. 母证开证及承兑费</div>
+<div class="cost-block-title">F1. Master LC开证及承兑费</div>
 <div class="cost-block-value-row">
 <span class="cost-block-rate">0.53%</span>
 <span class="cost-block-rate-label">实际费率</span>
@@ -5929,7 +5929,7 @@
 <div class="cost-item">
 <div class="item-header">
 <span class="role-badge hk">BYD HK</span>
-<span class="cost-name">子证 90天贴现利息</span>
+<span class="cost-name">SEC LC 90天贴现利息</span>
 </div>
 <div class="cost-rate-row"><span>0.70%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 数据来源：3M Term SOFR 美元基准利率 (3.67%) + 银行贴现加点 (0.75%) = 4.42% p.a.<br/>• 实际费率换算：4.42% × (90 / 360天) × 63.35% = 0.70%</span></span></div>
 </div>
@@ -5946,7 +5946,7 @@
 <div class="cost-item">
 <div class="item-header">
 <span class="role-badge id">BYD ID</span>
-<span class="cost-name">USD 子证开证及承兑费</span>
+<span class="cost-name">USD SEC LC开证及承兑费</span>
 </div>
 <div class="cost-rate-row"><span>0.28%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 票证费用：开证 0.25%/半年；承兑 0.75% p.a.<br/>注：参考DBS HK / BOCHK Trade Finance Service Fee，信用证开证和承兑费用<br/>• 实际费率计算公式：(0.25% + 0.75% × 90/360) × 63.35% = 0.28%</span></span></div>
 </div>
@@ -5963,7 +5963,7 @@
 <div class="cost-item">
 <div class="item-header">
 <span class="role-badge dealer">经销商</span>
-<span class="cost-name">母证开证及承兑费</span>
+<span class="cost-name">Master LC开证及承兑费</span>
 </div>
 <div class="cost-rate-row"><span>1.00%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 票证费用：开证 0.25%/季；承兑 2.0% p.a.<br/>注：参考 UOB Indonesia 与 Maybank Indonesia 公开费率<br/>• 实际费率计算公式：0.25% + 2.0% × 135/360 = 1.00%</span></span></div>
 </div>
@@ -6174,8 +6174,8 @@
                     </div>
                     <div class="m4-phase-docs">
                         <ul class="m4-doc-list">
-                            <li><span class="m4-doc-text"><strong>Master证 (IDR)：</strong>开证申请书、采购合同、PI</span></li>
-                            <li><span class="m4-doc-text"><strong>SEC证 (USD)：</strong>开证申请书、背靠背协议、外贸采购合同</span></li>
+                            <li><span class="m4-doc-text"><strong>Master LC (IDR)：</strong>开证申请书、采购合同、PI</span></li>
+                            <li><span class="m4-doc-text"><strong>SEC LC (USD)：</strong>开证申请书、背靠背协议、外贸采购合同</span></li>
                         </ul>
                     </div>
                 </div>
@@ -6186,8 +6186,8 @@
                     </div>
                     <div class="m4-phase-docs">
                         <ul class="m4-doc-list">
-                            <li><span class="m4-doc-text"><strong>Master证 (IDR)：</strong>本地销售发票、POD/BSTK、物流签收</span></li>
-                            <li><span class="m4-doc-text"><strong>SEC证 (USD)：</strong>商业发票、海运提单 (B/L) 及随附单据</span></li>
+                            <li><span class="m4-doc-text"><strong>Master LC (IDR)：</strong>本地销售发票、POD/BSTK、物流签收</span></li>
+                            <li><span class="m4-doc-text"><strong>SEC LC (USD)：</strong>商业发票、海运提单 (B/L) 及随附单据</span></li>
                         </ul>
                     </div>
                 </div>
