@@ -135,7 +135,7 @@
 
             border-bottom: none;
 
-            padding-bottom: 10px;
+            padding-bottom: 4px;
 
         }
 
@@ -1510,10 +1510,10 @@
             border-radius: 16px;
             box-shadow: 0 20px 40px rgba(15, 23, 42, 0.06);
             border: 1px solid rgba(226, 232, 240, 0.8);
-            padding: 30px 40px;
+            padding: 20px 40px 30px 40px;
             display: flex;
             flex-direction: column;
-            gap: 24px;
+            gap: 12px;
             overflow: visible;
             position: relative;
         }
@@ -3071,7 +3071,11 @@
         display: flex;
         align-items: center;
         gap: 16px;
-        padding: 40px 30px 28px 30px;
+        padding: 36px 30px 12px 30px;
+    }
+    .module-content-viewport > .section-divider:first-child {
+        padding-top: 4px;
+        padding-bottom: 4px;
     }
     .section-divider .step-badge {
         flex-shrink: 0;
@@ -3105,7 +3109,7 @@
         display: flex;
         flex-direction: column;
         gap: 25px;
-        padding: 20px;
+        padding: 8px 20px 10px 20px;
     }
     .module-1-top {
         background: #FFFFFF;
@@ -3675,7 +3679,7 @@
 <!-- 模块一 -->
 <div class="section-divider">
 <span class="step-badge">01</span>
-<span class="step-title">常规库存融资：经销商成本高，BYD HK回款慢</span>
+<span class="step-title">常规库存融资：经销商融资成本高，BYD HK回款慢且有汇率波动风险</span>
 <span class="step-line"></span>
 </div>
 <div class="module-section active" id="module-1">
@@ -3685,7 +3689,12 @@
 <span>印尼供应链常规业务模式及痛点</span>
 </div>
 <div class="intro-description" style="font-size: 14px; color: #475569; line-height: 1.7; margin-bottom: 0; margin-top: 10px;">
-  在印尼本地常规业务模式下，跨境汽车供应链面临长达 <b>45天</b> 的美元在途应收账款占用（BYD HK 回款账期），以及本地极高信贷年化成本（以Allo Bank 库融为例，年化约 <b>8.50% p.a.</b>）。这两大核心痛点在常规模式下同时存在，严重压抑了经销商的提车积极性并占压了总部的流动性资金。
+  在印尼本地常规业务模式下，跨境汽车供应链面临以下<strong>三大核心痛点</strong>，严重压抑了经销商的提车积极性并占压了总部的流动性资金：
+  <ul class="pain-point-bullet-list" style="margin: 10px 0 0 20px; padding: 0; list-style-type: disc;">
+    <li style="margin-bottom: 8px; line-height: 1.6;"><strong>回款账期长（资金占压）</strong>：跨境汽车供应链面临长达 <b>45天</b> 的美元在途应收账款占用（BYD HK 回款账期）。</li>
+    <li style="margin-bottom: 8px; line-height: 1.6;"><strong>本地库融成本极高</strong>：印尼本地库存融资年化利息高达约 <b>8.50% p.a.</b>（以 Allo Bank 库融为例）。</li>
+    <li style="margin-bottom: 0; line-height: 1.6;"><strong>汇率波动风险</strong>：在途回款与交易周期的汇率敞口易产生外汇折算风险（注：市场上有成熟的套期保值工具，如 DF/NDF）。</li>
+  </ul>
 </div></div><div class="module-1-bottom">
 <div class="flow-panel-mini">
 <div class="panel-title-mini">
@@ -6010,13 +6019,14 @@
         </div>
     </div>
 </div>
+</div> <!-- closes #module-3 -->
 <!-- 模块四 -->
 <div class="section-divider">
 <span class="step-badge">04</span>
-<span class="step-title">落地执行：双证结构最复杂，先验证银行是否接受IDR Master + USD SEC结构</span>
+<span class="step-title">落地执行：双信用证结构最复杂，需结合BYD和经销商诉求，重点评估贸易文书完备性和双证结构可行性</span>
 <span class="step-line"></span>
 </div>
-<div class="module-section" id="module-4" style="background: #F8FAFC; padding: 20px 0;">
+<div class="module-section" id="module-4" style="background: #F8FAFC; padding: 10px 0;">
     
 
     
@@ -6219,17 +6229,86 @@
 
     <!-- 决策抓手 -->
     <div class="decision-bar-m4">
-        <div class="decision-label">
-            <svg fill="none" height="14" stroke="#1D4ED8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="14"><polyline points="9 18 15 12 9 6"></polyline></svg>
-            <span>下一步：</span>
+        <!-- Title -->
+        <div style="display: flex; align-items: center; gap: 8px; font-weight: 600; color: #1C1C1E; font-size: 15px; width: 100%; margin-bottom: 4px;">
+            <span style="width: 3.5px; height: 15px; background-color: #007AFF; border-radius: 2px; display: inline-block;"></span>
+            <span>下一步</span>
         </div>
-        <div class="decision-text">
-            优先验证银行是否接受 <strong>IDR Master LC + USD SEC LC</strong> 结构；若可落地，推荐方案三；若不可落地，根据经销商能力与回款诉求，在方案一与方案二中择优。
+        
+        <!-- Parent container for list groups -->
+        <div style="display: flex; flex-direction: column; gap: 24px; width: 100%;">
+            
+            <!-- BYD Group -->
+            <div style="display: flex; flex-direction: column; gap: 6px;">
+                <div style="font-size: 13px; font-weight: 700; color: #1C1C1E; background-color: #F2F2F7; padding: 8px 12px; border-radius: 6px; display: flex; align-items: center; gap: 6px; margin-bottom: 4px; text-align: left;">
+                    👥 与 BYD 沟通要点
+                </div>
+                <div style="display: flex; flex-direction: column; padding: 0 4px;">
+                    <!-- Row 1 -->
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid #E5E5EA; align-items: flex-start;">
+                        <div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">提前回款需求</div>
+                        <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
+                            <div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">明确 BYD HK 对贸易回款时效性的诉求</div>
+                            <div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">决定是否必须使用复杂的贴现架构，或可直接采用低成本到期信用证。</div>
+                        </div>
+                    </div>
+                    <!-- Row 2 -->
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid #E5E5EA; align-items: flex-start;">
+                        <div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">开证主体沟通</div>
+                        <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
+                            <div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">排查经销商的美元开证资格和外汇敞口及衍生品的管理能力，并确认 BYD ID 是否接受作为 SEC LC 的开立主体</div>
+                            <div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">直接关系到方案一与方案三的实操准入，以及印尼实体授信额度占用和运营负担的承受度。</div>
+                        </div>
+                    </div>
+                    <!-- Row 3 -->
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; align-items: flex-start;">
+                        <div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">法律文书检查</div>
+                        <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
+                            <div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">在 Master LC 与 SEC LC 开立、离岸贴现及远期套保等关键节点所需的贸易单证与法务协议是否齐全</div>
+                            <div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">确保全流程单证流与法务流合规闭环，避免因单证不符导致贴现或付汇受阻。</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bank Group -->
+            <div style="display: flex; flex-direction: column; gap: 6px;">
+                <div style="font-size: 13px; font-weight: 700; color: #1C1C1E; background-color: #F2F2F7; padding: 8px 12px; border-radius: 6px; display: flex; align-items: center; gap: 6px; margin-bottom: 4px; text-align: left;">
+                    🏦 与 银行 沟通要点
+                </div>
+                <div style="display: flex; flex-direction: column; padding: 0 4px;">
+                    <!-- Row 1 -->
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid #E5E5EA; align-items: flex-start;">
+                        <div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">验证双信用证联动结构</div>
+                        <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
+                            <div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">确认境内外银行是否接受 IDR Master LC 与 USD SEC LC 的联动开立，重点核实 SEC LC 能否免保证金占用 Master LC 额度</div>
+                            <div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">这是双证方案落地的技术前提，旨在避免对印尼公司造成二次授信与资金压占压力。</div>
+                        </div>
+                    </div>
+                    <!-- Row 2 -->
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid #E5E5EA; align-items: flex-start;">
+                        <div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">锁定离岸贴现利率</div>
+                        <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
+                            <div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">与香港贴现行确认 SEC LC 的美元贴现利率</div>
+                            <div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">直接决定方案三离岸美元低息贴现的最终融资成本和降本幅度的有效性。</div>
+                        </div>
+                    </div>
+                    <!-- Row 3 -->
+                    <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; align-items: flex-start;">
+                        <div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">获取锁汇掉期报价</div>
+                        <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
+                            <div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">向银行获取 45天 及 135天 远期合约（DF/NDF）的最新外汇掉期报价</div>
+                            <div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">用于精准测算全流程汇率风险对冲成本，锁定防范本币波动的财务敞口。</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
 </div>
-</div>
-</div>
+</div> <!-- closes module-content-viewport -->
+
 <!-- 批发货值拆分悬停浮窗 -->
 <div class="pie-tooltip-popup" id="pie-tooltip-popup">
 <div class="chart-title">200 Bn IDR 批发货值构成拆分 (估算)</div>
@@ -7715,16 +7794,18 @@
 }
 
 .decision-bar-m4 {
-    background: #EFF6FF !important;
-    border: 1px solid #BFDBFE !important;
-    border-radius: 8px !important;
-    padding: 16px 20px !important;
-    margin: 20px 20px 0 20px !important;
+    background: #FFFFFF !important;
+    border: 1px solid #E5E5EA !important;
+    border-radius: 12px !important;
+    padding: 24px !important;
+    margin: 24px 20px 0 20px !important;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.03) !important;
     display: flex !important;
-    align-items: center !important;
-    gap: 10px !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 20px !important;
     font-size: 13.5px !important;
-    color: #1E3A8A !important;
+    color: #1C1C1E !important;
     line-height: 1.5 !important;
 }
 .decision-bar-m4 .decision-label {
@@ -8046,6 +8127,10 @@
     .section-divider {
         padding: 24px 10px 16px 10px !important;
         gap: 10px !important;
+    }
+    .module-content-viewport > .section-divider:first-child {
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
     }
     .section-divider .step-title {
         font-size: 15px !important;
