@@ -55,8 +55,6 @@
 
         }
 
-
-
         * {
 
             box-sizing: border-box;
@@ -66,8 +64,6 @@
             padding: 0;
 
         }
-
-
 
         body {
 
@@ -88,8 +84,6 @@
             padding: 15px;
 
         }
-
-
 
         /* 16:9 标准宽屏容器 */
 
@@ -120,8 +114,6 @@
             position: relative;
 
         }
-
-
 
         /* 顶栏标题区 */
 
@@ -158,10 +150,6 @@
             vertical-align: middle;
         }
 
-
-
-
-
         /* 基础交易参数面板 */
 
         .params-bar {
@@ -175,8 +163,6 @@
             flex-shrink: 0;
 
         }
-
-
 
         .param-badge {
 
@@ -200,8 +186,6 @@
 
         }
 
-
-
         .param-badge strong {
 
             color: var(--text-title);
@@ -211,8 +195,6 @@
             font-weight: 700;
 
         }
-
-
 
         /* 网格表格区 - 左右分离设计 */
 
@@ -232,8 +214,6 @@
 
         }
 
-
-
         /* 网格行结构 */
 
         .grid-row {
@@ -252,23 +232,13 @@
 
         }
 
-
-
         .grid-row:hover {
 
             z-index: 10;
 
         }
 
-
-
-        .grid-row.active-row {
-
-            z-index: 20;
-
-        }
-
-
+        
 
         /* 主表卡片（左侧） */
 
@@ -288,8 +258,6 @@
 
         }
 
-
-
         .main-table-group > .cell:first-child {
 
             border-top-left-radius: 9px;
@@ -298,8 +266,6 @@
 
         }
 
-
-
         .main-table-group > .cell:last-child {
 
             border-top-right-radius: 9px;
@@ -307,8 +273,6 @@
             border-bottom-right-radius: 9px;
 
         }
-
-
 
         /* 费率与综合评价卡片（右侧视觉分离） */
 
@@ -336,8 +300,6 @@
 
         }
 
-
-
         .rates-table-group > .cell:first-child {
 
             border-top-left-radius: 9px;
@@ -346,8 +308,6 @@
 
         }
 
-
-
         .rates-table-group > .cell:last-child {
 
             border-top-right-radius: 9px;
@@ -355,8 +315,6 @@
             border-bottom-right-radius: 9px;
 
         }
-
-
 
         /* 右侧比较卡片内的列宽 */
 
@@ -536,8 +494,6 @@
 
         }
 
-
-
         .rates-table-group::before {
 
             content: '';
@@ -555,8 +511,6 @@
             background: repeating-linear-gradient(to bottom, var(--color-border), var(--color-border) 4px, transparent 4px, transparent 8px);
 
         }
-
-
 
         /* 单元格基础设定 */
 
@@ -576,15 +530,11 @@
 
         }
 
-
-
         .cell:last-child {
 
             border-right: none;
 
         }
-
-
 
         /* 表头行样式 */
 
@@ -596,8 +546,6 @@
 
         }
 
-
-
         .grid-row.header-row .main-table-group {
 
             background: #F1F5F9;
@@ -606,8 +554,6 @@
 
         }
 
-
-
         .grid-row.header-row .rates-table-group {
 
             background: #E2E8F0;
@@ -615,8 +561,6 @@
             border: 1px solid #CBD5E1;
 
         }
-
-
 
         .grid-row.header-row .cell {
 
@@ -637,8 +581,6 @@
             padding: 10px 6px;
 
         }
-
-
 
         /* 每一列的具体宽度占比 */
 
@@ -666,8 +608,6 @@
 
         }
 
-
-
         .col-stage {
 
             flex: 1;
@@ -675,8 +615,6 @@
             min-width: 0;
 
         }
-
-
 
         .col-rate {
 
@@ -687,8 +625,6 @@
             text-align: center;
 
         }
-
-
 
         /* 第一列：场景专业命名与链路结构 */
 
@@ -704,8 +640,6 @@
 
         }
 
-
-
         .scenario-meta {
 
             margin-top: 5px;
@@ -717,8 +651,6 @@
             gap: 4px;
 
         }
-
-
 
         .meta-pill {
 
@@ -744,8 +676,6 @@
 
         }
 
-
-
         .meta-pill.financing {
 
             background: #F1F5F9;
@@ -755,8 +685,6 @@
             border-color: #E2E8F0;
 
         }
-
-
 
         .meta-pill.hedging-id {
 
@@ -768,8 +696,6 @@
 
         }
 
-
-
         .meta-pill.hedging-dealer {
 
             background: #ECFDF5;
@@ -779,8 +705,6 @@
             border-color: #D1FAE5;
 
         }
-
-
 
         /* 统一格式化内层容器 */
 
@@ -796,15 +720,11 @@
 
         }
 
-
-
         .cost-item:last-child {
 
             margin-bottom: 0;
 
         }
-
-
 
         .item-header {
 
@@ -815,8 +735,6 @@
             gap: 4px;
 
         }
-
-
 
         /* 角色徽章 */
 
@@ -840,8 +758,6 @@
 
         }
 
-
-
         .role-badge.hk {
 
             background: #EFF6FF;
@@ -851,8 +767,6 @@
             border: 1px solid #DBEAFE;
 
         }
-
-
 
         .role-badge.id {
 
@@ -864,8 +778,6 @@
 
         }
 
-
-
         .role-badge.dealer {
 
             background: #ECFDF5;
@@ -875,8 +787,6 @@
             border: 1px solid #D1FAE5;
 
         }
-
-
 
         .cost-name {
 
@@ -889,8 +799,6 @@
             line-height: 1.2;
 
         }
-
-
 
         .cost-rate-row {
 
@@ -912,8 +820,6 @@
 
         }
 
-
-
         /* Tooltip 悬浮提示框样式 */
 
         .tooltip-container {
@@ -932,15 +838,11 @@
 
         }
 
-
-
         .tooltip-container:hover {
 
             color: #2563EB;
 
         }
-
-
 
         .tooltip-container .tooltip-text {
 
@@ -986,8 +888,6 @@
 
         }
 
-
-
         .tooltip-container .tooltip-text::after {
 
             content: "";
@@ -1008,8 +908,6 @@
 
         }
 
-
-
         .tooltip-container:hover .tooltip-text,
 
         .tooltip-container.clicked .tooltip-text {
@@ -1019,8 +917,6 @@
             opacity: 1;
 
         }
-
-
 
         /* 表头行的提示框向下弹出，避免被顶部遮挡 */
 
@@ -1034,8 +930,6 @@
 
         }
 
-
-
         .header-row .tooltip-container .tooltip-text::after {
 
             top: auto;
@@ -1045,8 +939,6 @@
             border-color: transparent transparent #1E293B transparent;
 
         }
-
-
 
         /* 费率数字 */
 
@@ -1060,15 +952,11 @@
 
         }
 
-
-
         .rate-num.high {
 
             color: #EF4444; /* 高费率用红色警告 */
 
         }
-
-
 
         .rate-num.low {
 
@@ -1076,15 +964,11 @@
 
         }
 
-
-
         .rate-num.medium {
 
             color: #F59E0B; /* 中等费率用橙色 */
 
         }
-
-
 
         /* 空值状态样式 */
 
@@ -1102,8 +986,6 @@
 
         }
 
-
-
         /* 方案行 Hover 联动效果 */
 
         .grid-row:hover .main-table-group {
@@ -1116,8 +998,6 @@
 
         }
 
-
-
         .grid-row:hover .rates-table-group {
 
             border-color: #94A3B8;
@@ -1127,8 +1007,6 @@
             transform: translateY(-1px);
 
         }
-
-
 
         /* 推荐方案突出显示 (Scenario 5) */
 
@@ -1140,8 +1018,6 @@
 
         }
 
-
-
         .grid-row.recommended-row .rates-table-group {
 
             border: 2px solid var(--color-recommended);
@@ -1150,8 +1026,6 @@
 
         }
 
-
-
         .grid-row.recommended-row .col-scenario {
 
             background: rgba(16, 185, 129, 0.06);
@@ -1159,8 +1033,6 @@
             color: #065F46;
 
         }
-
-
 
         .recommended-badge {
 
@@ -1186,8 +1058,6 @@
 
         }
 
-
-
         @keyframes pulse {
 
             0% { opacity: 0.9; }
@@ -1197,8 +1067,6 @@
             100% { opacity: 0.9; }
 
         }
-
-
 
         /* 底部说明区 (Accordion Style) */
 
@@ -1211,8 +1079,6 @@
             margin-top: 4px;
 
         }
-
-
 
         .footer-header {
 
@@ -1227,8 +1093,6 @@
             user-select: none;
 
         }
-
-
 
         .footer-title {
 
@@ -1246,23 +1110,17 @@
 
         }
 
-
-
         .footer-title svg {
 
             transition: transform 0.2s ease;
 
         }
 
-
-
         .footer-title.collapsed svg {
 
             transform: rotate(-90deg);
 
         }
-
-
 
         .footer-content {
 
@@ -1286,8 +1144,6 @@
 
         }
 
-
-
         .footer-content.collapsed {
 
             max-height: 0;
@@ -1295,8 +1151,6 @@
             margin-top: 0;
 
         }
-
-
 
         .conclusion-column-3 {
 
@@ -1326,8 +1180,6 @@
 
         }
 
-
-
         .column-title {
 
             font-size: 13px;
@@ -1344,8 +1196,6 @@
 
         }
 
-
-
         .conclusion-item {
 
             font-size: 11.5px;
@@ -1355,8 +1205,6 @@
             line-height: 1.4;
 
         }
-
-
 
         .conclusion-tag {
 
@@ -1376,8 +1224,6 @@
 
         }
 
-
-
         .conclusion-tag.priority-1 {
 
             background: #D1FAE5;
@@ -1386,8 +1232,6 @@
 
         }
 
-
-
         .conclusion-tag.priority-2 {
 
             background: #F3F4F6;
@@ -1395,8 +1239,6 @@
             color: #374151;
 
         }
-
-
 
         .methodology-item {
 
@@ -1407,8 +1249,6 @@
             line-height: 1.35;
 
         }
-
-
 
         .methodology-item strong {
 
@@ -1447,7 +1287,6 @@
             flex-direction: column;
 
         }
-
 
         /* 长网页看板重构样式 */
         body {
@@ -1729,36 +1568,44 @@
          }
 
          /* 资金成本列对齐 - 宽度与流程图对应方框完美一致 (HK, ID, Dealer, Reference) */
-        /* Horizontal cost cards row */
+        /* Horizontal cost cards row (Balanced equal-width cards on same level) */
         .cost-cards-row {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            align-items: stretch;
-            margin-bottom: 16px;
-            flex-grow: 1;
+            display: flex !important;
+            flex-direction: row !important;
+            width: 100% !important;
+            align-items: stretch !important;
+            margin-bottom: 16px !important;
+            flex-grow: 1 !important;
+            gap: 16px !important;
         }
         .cost-cards-row > .cost-detail-block {
-            flex: 1;
-            min-width: 0;
+            flex: 1 !important;
+            min-width: 0 !important;
             margin-bottom: 0 !important;
             margin-top: 0 !important;
             margin-left: 0 !important;
+            margin-right: 0 !important;
         }
-        .cost-cards-row > .cost-detail-block:not(:last-child) {
-            margin-right: 16px !important;
+        
+        /* Grid overrides to balance widths of 2-card columns with 1-card columns */
+        #pane-scenario-2 > .diagram-left > .flow-cost-columns {
+            grid-template-columns: 1fr 2fr 1fr 1fr !important;
+        }
+        #pane-scenario-3 > .diagram-left > .flow-cost-columns {
+            grid-template-columns: 1fr 1fr 2fr 1fr !important;
+        }
+        #pane-scenario-4 > .diagram-left > .flow-cost-columns {
+            grid-template-columns: 1fr 3fr 1fr 1fr !important;
+        }
+        #pane-scenario-5 > .diagram-left > .flow-cost-columns {
+            grid-template-columns: 1fr 3fr 1fr 1fr !important;
         }
 
         /* Scenario-specific column templates to accommodate horizontal card widths */
-        #pane-scenario-3 > .diagram-left > .flow-cost-columns {
-            grid-template-columns: 1fr 1fr 2fr 1fr;
-        }
-        #pane-scenario-4-moved > .diagram-left > .flow-cost-columns {
-            grid-template-columns: 1fr 2fr 2fr 1fr;
-        }
-        #pane-scenario-5 > .diagram-left > .flow-cost-columns {
-            grid-template-columns: 1fr 3fr 1fr 1fr;
-        }
+        
+        
+                
+        
 
          .flow-cost-columns {
              display: grid;
@@ -1969,23 +1816,11 @@
              stroke: #94A3B8;
          }
 
-
          /* 表格联动双向高亮 */
          .grid-row:not(.header-row) {
-             cursor: pointer;
+             cursor: default;
          }
-         .grid-row.active-row .main-table-group {
-             border: 2px solid #2563EB !important;
-             background: rgba(37, 99, 235, 0.01) !important;
-             box-shadow: 0 4px 15px rgba(37, 99, 235, 0.06);
-             transform: translateY(-1px);
-         }
-         .grid-row.active-row .rates-table-group {
-             border: 2px solid #2563EB !important;
-             background: rgba(37, 99, 235, 0.02) !important;
-             box-shadow: 0 4px 15px rgba(37, 99, 235, 0.06);
-             transform: translateY(-1px);
-         }
+
 
           .donut-chart .slice {
               cursor: pointer;
@@ -2172,7 +2007,6 @@
               align-items: center;
               gap: 5px;
           }
-
 
               /* v23 Layout Adjustments */
               .role-badge.summary {
@@ -2844,20 +2678,17 @@
                    transition: filter 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
                }
 
-               /* 虚化时排除 float-panel 的 pointer-events 限制，以便 hover 状态能持续响应 */
-               .slide-container.has-pie-tooltip > :not(.pie-tooltip-popup):not(.flow-panel) {
-                   filter: blur(3px);
-                   opacity: 0.65;
-                   pointer-events: none;
-               }
-
-               .slide-container.has-pie-tooltip > .flow-panel {
-                   filter: blur(3px);
-                   opacity: 0.65;
-                   /* 保留指针事件，避免鼠标移动至信息图标或浮窗时状态被强行中断 */
-               }
-               
-               /* Scenario 1 Click-to-Toggle Phase 1 and Phase 2 Flow Lines */
+                /* 虚化时排除 tooltip popup，其它直接子元素均应用虚化及禁用指针事件 */
+                .slide-container.has-pie-tooltip > :not(.pie-tooltip-popup) {
+                    filter: blur(3px);
+                    opacity: 0.65;
+                    pointer-events: none;
+                }
+                
+                /* 强制保留小 i 提示图标的指针事件，防止因父容器被禁用 pointer-events 而触发 mouseleave 产生抖动 */
+                .pie-info-trigger {
+                    pointer-events: auto !important;
+                }
                #pane-scenario-1 .flow-svg .s1-phase-2 {
                    opacity: 0.05;
                    pointer-events: none;
@@ -2918,21 +2749,21 @@
                }
                
                /* Scenario 4 Click-to-Toggle Phase 1 and Phase 2 Flow Lines */
-               #pane-scenario-4-moved .flow-svg .s4-phase-2 {
+               #pane-scenario-4 .flow-svg .s4-phase-2 {
                    opacity: 0.05;
                    pointer-events: none;
                    transition: opacity 0.3s ease;
                }
-               #pane-scenario-4-moved .flow-svg .s4-phase-1 {
+               #pane-scenario-4 .flow-svg .s4-phase-1 {
                    opacity: 1;
                    pointer-events: auto;
                    transition: opacity 0.3s ease;
                }
-               #pane-scenario-4-moved .flow-svg.phase-2-active .s4-phase-2 {
+               #pane-scenario-4 .flow-svg.phase-2-active .s4-phase-2 {
                    opacity: 1;
                    pointer-events: auto;
                }
-               #pane-scenario-4-moved .flow-svg.phase-2-active .s4-phase-1 {
+               #pane-scenario-4 .flow-svg.phase-2-active .s4-phase-1 {
                    opacity: 0.05;
                    pointer-events: none;
                }
@@ -3619,17 +3450,64 @@
     .badge-status.red { background: #FEE2E2; color: #B91C1C; }
     
     /* Make comparison table row 4 hidden implicitly */
-    .grid-row[data-scenario="4"] {
-        display: none !important;
-    }
-    </style>
+    
+    
+.t2-composition-card {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 2px 3px !important;
+    box-shadow: none !important;
+    font-family: inherit !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5px !important;
+    box-sizing: border-box !important;
+}
+.comp-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 6px !important;
+    font-size: 8.5px !important;
+    line-height: 1.2 !important;
+    color: #64748B !important;
+    white-space: nowrap !important;
+}
+.comp-row .label {
+    font-weight: 500 !important;
+    width: 50px !important;
+    text-align: left !important;
+}
+.comp-row .val {
+    font-weight: 500 !important;
+}
+
+/* Enforce equal-width horizontal cost cards */
+.cost-cards-row {
+    display: flex !important;
+    flex-direction: row !important; /* Horizontal layout! */
+    width: 100% !important;
+    align-items: stretch !important;
+    margin-bottom: 0 !important;
+    gap: 16px !important;
+}
+.cost-cards-row > .cost-detail-block {
+    flex: 1 1 0% !important; /* Force equal split of available row width */
+    width: 0 !important;
+    min-width: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+</style>
 </head>
 <body>
 <div class="slide-container">
 <!-- 顶栏 -->
 <div class="slide-header">
 <div class="title-area">
-<h1><svg class="header-icon" fill="none" height="24" stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="24" style="margin-right: 2px; vertical-align: middle;"><path d="M3 3v18h18"></path><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"></path></svg>印尼汽车贸易融资与汇率风险管理方案推演</h1>
+<h1><svg class="header-icon" fill="none" height="24" stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-right: 2px; vertical-align: middle;" viewbox="0 0 24 24" width="24"><path d="M3 3v18h18"></path><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"></path></svg>印尼汽车贸易融资与汇率风险管理方案推演</h1>
 </div>
 </div>
 <!-- 4大模块层级导航栏 -->
@@ -3645,34 +3523,29 @@
 <div class="module-1-container"><div class="module-1-top">
 <div class="pain-point-header">
 <svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="color: #EF4444; vertical-align: middle;" viewbox="0 0 24 24" width="20"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" x2="12" y1="9" y2="13"></line><line x1="12" x2="12.01" y1="17" y2="17"></line></svg>
-<span>印尼供应链常规业务模式及痛点</span>
+<span>供应链常规库融模式及痛点</span>
 </div>
 <div class="intro-description" style="font-size: 14px; color: #475569; line-height: 1.7; margin-bottom: 0; margin-top: 10px;">
-  在印尼本地常规业务模式下，跨境汽车供应链面临以下<strong>三大核心痛点</strong>，严重压抑了经销商的提车积极性并占压了总部的流动性资金：
-  <ul class="pain-point-bullet-list" style="margin: 10px 0 0 20px; padding: 0; list-style-type: disc;">
-    <li style="margin-bottom: 8px; line-height: 1.6;"><strong>回款账期长（资金占压）</strong>：跨境汽车供应链面临长达 <b>45天</b> 的美元在途应收账款占用（BYD HK 回款账期）。</li>
-    <li style="margin-bottom: 8px; line-height: 1.6;"><strong>本地库融成本极高</strong>：印尼本地库存融资年化利息高达约 <b>8.50% p.a.</b>（以 Allo Bank 库融为例）。</li>
-    <li style="margin-bottom: 0; line-height: 1.6;"><strong>汇率波动风险</strong>：在途回款与交易周期的汇率敞口易产生外汇折算风险（注：市场上有成熟的套期保值工具，如 DF/NDF）。</li>
-  </ul>
+在目前的库融业务模式下，跨境汽车供应链面临以下三大核心痛点：
+<ul class="pain-point-bullet-list" style="margin: 10px 0 0 20px; padding: 0; list-style-type: disc;">
+<li style="margin-bottom: 8px; line-height: 1.6;"><strong>经销商本地融资成本高</strong>：印尼本地库存融资年化利率约 <b>8.50% p.a.</b>；巴西和中亚地区利率在<b>20%以上</b>。</li>
+<li style="margin-bottom: 8px; line-height: 1.6;"><strong>BYD回款账期长，在途资金积压</strong>：跨境汽车海运有<b>45天-60天</b>的在途应收账款。</li>
+<li style="margin-bottom: 0; line-height: 1.6;"><strong>BYD汇率波动风险</strong>：从车辆起运到资金回笼期间的汇率波动。</li>
+</ul>
 </div></div><div class="module-1-bottom">
 <div class="flow-panel-mini">
-<div class="panel-title-mini">
-  本地库存融资业务流程及费用
- </div>
+<div class="panel-title-mini">本地库存融资业务流程及费用（以印尼为例）</div>
 <div class="diagram-pane active" id="pane-scenario-1" style="display: flex; flex-direction: column; gap: 15px; border: none; padding: 0; background: transparent; box-shadow: none;">
 <div class="diagram-left">
 <!-- 场景 1 文字描述放在最上方 -->
 <div class="phase-selector-container">
 <div class="phase-selector-left">
-<span class="phase-selector-title">
-      交易阶段切换：
-     </span>
 <div class="phase-tab-group" id="phase-tabs-s1">
 <button class="phase-tab-btn active" data-phase="1">
-       阶段一：前期开证与资金融通 (Day 1 - 90)
+       阶段一：开证与锁汇
       </button>
 <button class="phase-tab-btn" data-phase="2">
-       阶段二：后期到期与购汇交割 (Day 90 - 135)
+       阶段二：购汇和还款
       </button>
 </div>
 </div>
@@ -3688,8 +3561,8 @@
      提示：点击按钮或点击下方流程图均可切换阶段
     </span>
 </div>
-<div style="width: 100%; min-height: 380px; padding: 20px 0 20px 0;">
-<svg class="flow-svg" viewbox="0 0 1140 490">
+<div style="width: 100%; min-height: 380px; padding: 45px 0 20px 0;">
+<svg class="flow-svg" viewbox="0 0 1140 560">
 <defs>
 <marker id="arrow-trade-1" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
 <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#475569">
@@ -3715,53 +3588,17 @@
 <!-- 基础贸易流 (Trade Flow) - 重新排版防止文本与线条重叠 (7 Mn -> 7 Mn) -->
 <path class="flow-line trade" d="M 230 65 L 350 65" marker-end="url(#arrow-trade-1)">
 </path>
-<text class="flow-line-label" style="fill:#475569;" x="290" y="24">
-      T1. 车辆出口发运
-     </text>
-<text class="flow-line-sublabel" style="fill:#2563EB; font-weight: bold; font-size: 10px; text-anchor: middle;" x="290" y="38">
-      出口货值: USD 7Mn
-     </text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="290" y="52">
-      (约 126.7 Bn IDR)
-     </text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="290" y="77">
-      (Day 0-30)
-     </text>
+<text class="flow-line-label" style="fill:#475569;" x="290" y="24">T1. 车辆出口发运（Day 0）</text>
+<text class="flow-line-sublabel" style="fill:#2563EB; font-weight: bold; font-size: 10px; text-anchor: middle;" x="290" y="38">出口货值假设:</text>
+<text class="flow-line-sublabel" style="fill:#2563EB; font-weight: bold; font-size: 10px; text-anchor: middle;" x="290" y="50">USD 7 Mn / Rp 126.7 Bn</text>
 <path class="flow-line trade" d="M 510 65 L 630 65" marker-end="url(#arrow-trade-1)">
 </path>
-<text class="flow-line-label" style="fill:#475569;" x="570" y="24">
-      T2. 清关及总装交付
-     </text>
-<g class="pie-info-group">
-<text class="flow-line-sublabel" style="fill:#7C3AED; font-weight: bold; font-size: 10px; text-anchor: middle;" x="570" y="38">
-       批发货值: 200 Bn IDR
-      </text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="570" y="52">
-       (约 11.05M USD)
-      </text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="570" y="77">
-       (Day 30-45)
-      </text>
-<g class="pie-info-trigger" data-scen="1" style="cursor: pointer;">
-<!-- 增大隐形交互区域，防止鼠标微移时抖动关闭 -->
-<circle cx="612" cy="49" fill="none" pointer-events="all" r="18">
-</circle>
-<!-- 实际可视的图标 -->
-<circle cx="612" cy="49" fill="#7C3AED" opacity="0.15" r="6.5">
-</circle>
-<text fill="#7C3AED" font-size="9px" font-weight="bold" text-anchor="middle" x="612" y="52">
-        i
-       </text>
-</g>
-</g>
+<text class="flow-line-label" style="fill:#475569;" x="570" y="24">T2. 清关及总装交付（Day 45）</text>
+<text class="flow-line-sublabel" style="fill:#7C3AED; font-weight: bold; font-size: 10px; text-anchor: middle;" x="570" y="38">批发货值假设:</text>
+<text class="flow-line-sublabel" style="fill:#7C3AED; font-weight: bold; font-size: 10px; text-anchor: middle;" x="570" y="50">USD 11 Mn / Rp 200 Bn</text>
 <path class="flow-line trade" d="M 790 65 L 910 65" marker-end="url(#arrow-trade-1)">
 </path>
-<text class="flow-line-label" style="fill:#475569;" x="850" y="44">
-      T3. 终端零售销售
-     </text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="850" y="77">
-      (Day 45-135)
-     </text>
+<text class="flow-line-label" style="fill:#475569;" x="850" y="24">T3. 终端零售销售回款 （Day 135）</text>
 <!-- 主体节点 -->
 <!-- BYD HK -->
 <g class="flow-node" data-role-link="hk">
@@ -3839,28 +3676,28 @@
 </g>
 <!-- Bank ID -->
 <g class="flow-node">
-<rect class="node-rect bank" height="60" rx="8" ry="8" width="200" x="590" y="245">
+<rect class="node-rect bank" height="60" rx="8" ry="8" width="200" x="590" y="275">
 </rect>
-<g transform="translate(602, 263)">
+<g transform="translate(602, 293)">
 <path d="M3 21h18 M4 21v-3h16v3 M5 11h14 M3 11l9-6 9 6 M7 18v-7 M12 18v-7 M17 18v-7" fill="none" stroke="#64748B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8">
 </path>
 </g>
-<text class="node-text-title" x="636" y="270">
+<text class="node-text-title" x="636" y="300">
        Bank ID
       </text>
-<text class="node-text-sub" x="636" y="288">
+<text class="node-text-sub" x="636" y="318">
        本地信用证/融资/避险行
       </text>
 </g>
 <!-- 场景 1 专有金融流 -->
 <!-- F1. 远期锁汇 - 从 Bank ID 左侧入 -->
 <g class="flow-arrow-group s1-phase-1" data-flow-id="s1-lock">
-<path class="flow-line bydid" d="M 430 95 L 430 265 L 588 265" marker-end="url(#arrow-id-1)">
+<path class="flow-line bydid" d="M 430 95 L 430 295 L 588 295" marker-end="url(#arrow-id-1)">
 </path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="509" y="260">
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="509" y="290">
        F1. 远期锁汇
       </text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="509" y="277">
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="509" y="307">
        BYD ID 锁定 USD/IDR 汇率 (45天)
       </text>
 </g>
@@ -3878,28 +3715,22 @@
 <!-- 3. 库存融资 (3-1 和 3-2 联动库融卡片) -->
 <g class="flow-arrow-group s1-phase-1" data-flow-id="s1-kurong">
 <!-- F3-1. 库融申请 -->
-<path class="flow-line dealer-finance" d="M 730 95 L 730 243" marker-end="url(#arrow-hedging-1)">
+<path class="flow-line dealer-finance" d="M 730 95 L 730 273" marker-end="url(#arrow-hedging-1)">
 </path>
 <text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="740" y="165">
        F3-1. 库融申请
       </text>
 <!-- F3-2. 库融放款 -->
-<path class="flow-line dealer-finance" d="M 650 245 L 650 150 L 450 150 L 450 97" marker-end="url(#arrow-hedging-1)">
+<path class="flow-line dealer-finance" d="M 650 275 L 650 170 L 450 170 L 450 97" marker-end="url(#arrow-hedging-1)">
 </path>
-<text class="flow-line-label" style="fill:#0D9488;" x="550" y="142">
-       F3-2. 库融放款
-      </text>
+<text class="flow-line-label" style="fill:#0D9488;" x="550" y="162">F3-2. 库融放款（Rp 200 Bn）</text>
 </g>
 <!-- F4. 远期购汇交割 -->
 <g class="flow-arrow-group s1-phase-2">
-<path class="flow-line bydid" d="M 590 280 L 390 280 L 390 97" marker-end="url(#arrow-id-1)">
+<path class="flow-line bydid" d="M 690 275 L 690 185 L 430 185 L 430 97" marker-end="url(#arrow-id-1)">
 </path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="490" y="275">
-       F4. 远期购汇
-      </text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="490" y="292">
-       BYD ID 从 Bank ID 按远期汇率购汇
-      </text>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="560" y="177">F4. 远期购汇</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="560" y="202">Rp 126.7 Bn → USD 7 Mn (远期锁汇交割)</text>
 </g>
 <!-- F5. 结清应付账款 -->
 <g class="flow-arrow-group s1-phase-2">
@@ -3936,34 +3767,55 @@
        资金流 (Finance)
       </text>
 </g>
-<!-- 痛点二虚线连接线 -->
-<path class="s1-phase-1" d="M 730 200 L 950 200 L 950 330" fill="none" stroke="#F97316" stroke-dasharray="3,3" stroke-width="1.5"></path>
+<!-- 痛点一虚线连接线 (经销商融资成本高) -->
+<path class="s1-phase-1" d="M 730 200 L 910 200 L 910 390" fill="none" stroke="#F97316" stroke-dasharray="3,3" stroke-width="1.5"></path>
 <circle class="s1-phase-1" cx="730" cy="200" fill="#F97316" r="3"></circle>
-<!-- 痛点二看板 (经销商融资成本高) -->
-<foreignobject height="160" width="320" x="790" y="330">
+<!-- 痛点一看板 (经销商本地融资成本高) -->
+<foreignobject height="160" width="300" x="760" y="390">
 <div class="pain-point-embed-card orange-theme" xmlns="http://www.w3.org/1999/xhtml">
 <div class="embed-card-header">
-<span class="embed-num">02</span>
-<strong>痛点二：经销商融资成本高</strong>
+<span class="embed-num">01</span>
+<strong>痛点一：经销商本地融资成本高</strong>
 </div>
-<div class="embed-card-body">
-      以Allo Bank 库融为例，其90天实际费率达 <strong>2.13%</strong>（年化高达 <strong>8.5%</strong> 左右），沉重的利息负担直接抑制了其向比亚迪提车和铺货的积极性。
-    </div>
+<div class="embed-card-body">印尼本地库存融资年化利率约 <strong>8.50% p.a.</strong>。</div>
 </div>
 </foreignobject>
-<!-- 痛点一虚线连接线 -->
-<path class="s1-phase-1" d="M 270 130 L 270 330" fill="none" stroke="#EF4444" stroke-dasharray="3,3" stroke-width="1.5"></path>
+<!-- 痛点二虚线连接线 (BYD回款账期长) -->
+<path class="s1-phase-1" d="M 270 130 L 270 390" fill="none" stroke="#EF4444" stroke-dasharray="3,3" stroke-width="1.5"></path>
 <circle class="s1-phase-1" cx="270" cy="130" fill="#EF4444" r="3"></circle>
-<!-- 痛点一看板 (BYD HK 回款压力) -->
-<foreignobject height="160" width="300" x="120" y="330">
+<!-- 痛点二看板 (BYD回款账期长，在途资金积压) -->
+<foreignobject height="160" width="300" x="120" y="390">
 <div class="pain-point-embed-card" xmlns="http://www.w3.org/1999/xhtml">
 <div class="embed-card-header">
-<span class="embed-num">01</span>
-<strong>痛点一：BYD HK回款压力</strong>
+<span class="embed-num">02</span>
+<strong>痛点二：BYD回款账期长，在途资金积压</strong>
 </div>
 <div class="embed-card-body">
-      香港总部面临回款效率低下的财务压力。从车辆海运发出到收回车款间存在约<strong>45天</strong>的账期，形成在途的美元应收账款。
-    </div>
+跨境汽车海运有<strong>45天-60天</strong>的在途应收账款，显著积压了总部的流动性资金并减缓了资金流转速度。
+</div>
+</div>
+</foreignobject>
+<!-- 痛点三虚线连接线 (BYD汇率波动风险) -->
+<path class="s1-phase-1" d="M 540 295 L 540 390" fill="none" stroke="#7C3AED" stroke-dasharray="3,3" stroke-width="1.5"></path>
+<circle class="s1-phase-1" cx="540" cy="295" fill="#7C3AED" r="3"></circle>
+<!-- 痛点三看板 (BYD汇率波动风险) -->
+<foreignobject height="160" width="300" x="440" y="390">
+<div class="pain-point-embed-card purple-theme" xmlns="http://www.w3.org/1999/xhtml">
+<div class="embed-card-header">
+<span class="embed-num">03</span>
+<strong>痛点三：BYD汇率波动风险</strong>
+</div>
+<div class="embed-card-body">
+从车辆起运到资金回笼期间面临着汇率波动风险。
+</div>
+</div>
+</foreignobject>
+<foreignobject height="52" width="120" x="510" y="70">
+<div class="t2-composition-card" xmlns="http://www.w3.org/1999/xhtml">
+<div class="comp-row"><span class="label">出口货值:</span><span class="val">Rp 126.7 Bn</span></div>
+<div class="comp-row"><span class="label">增值税:</span><span class="val">Rp 19.8 Bn</span></div>
+<div class="comp-row"><span class="label">进口毛利:</span><span class="val">Rp 40.2 Bn</span></div>
+<div class="comp-row"><span class="label">税费及物流:</span><span class="val">Rp 13.3 Bn</span></div>
 </div>
 </foreignobject>
 </svg>
@@ -4017,7 +3869,7 @@
 </line>
 </svg>
 <span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">
-            注：3M Term SOFR 美元基准利率 (3.67%)
+            注：美国国债回购市场 3M Term SOFR 美元基准利率 (3.67%)
            </span>
 </span>
 </span>
@@ -4207,7 +4059,7 @@
 <span class="note-content">
       注：公式中 63.35% 代表“出口货值占比”，计算来源为：BYD HK 出口货值 (7 Mn USD = 126.7 Bn IDR) ÷ BYD ID 对经销商批售货值 (200 Bn IDR) 估算所得。
      </span>
-<span class="pie-info-trigger" style="display: inline-flex; align-items: center; cursor: pointer; color: #7C3AED; margin-left: 4px; vertical-align: middle;">
+<span class="pie-info-trigger" data-scen="1" style="display: inline-flex; align-items: center; cursor: pointer; color: #7C3AED; margin-left: 4px; vertical-align: middle;">
 <svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12">
 <circle cx="12" cy="12" r="10">
 </circle>
@@ -4228,32 +4080,66 @@
 <!-- 模块二 -->
 <div class="section-divider">
 <span class="step-badge">02</span>
-<span class="step-title">信用证方案推演：用票证替代库存融资，但风险在不同主体间转移</span>
+<span class="step-title">信用证方案推演：经销商开立 IDR Master LC 可降低融资成本，BYD ID开立 USD SEC LC 助力 BYD HK提早回款</span>
 <span class="step-line"></span>
 </div>
 <div class="module-section" id="module-2">
+<!-- 为什么票证方案更省 对比表格 -->
+<div class="saving-compare-section" style="margin: 15px 0 20px 0;">
+<div class="saving-compare-title" style="font-size: 13.5px; font-weight: 600; color: #1F2937; margin-bottom: 10px; display: flex; align-items: flex-start; gap: 6px; line-height: 1.55;">
+<svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="color: #2563EB; margin-top: 3px; flex-shrink: 0;" viewbox="0 0 24 24" width="14"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect height="4" rx="1" ry="1" width="8" x="8" y="2"></rect></svg>
+<span>为什么票证方案更好？票证方案用较小的融资本金、更短的资金占用、更低的票证融资成本，替代经销商全额高息库存融资，同时让经销商本币付款、BYD HK提前回款。</span>
+</div>
+<div class="saving-compare-container" style="border: 1px solid #E5E7EB; border-radius: 8px; overflow: hidden; background: #FFFFFF; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);">
+<table style="width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.5;">
+<thead>
+<tr style="background: #F8FAFB; border-bottom: 1px solid #E5E7EB;">
+<th style="padding: 12px 16px; text-align: left; color: #4B5563; font-weight: 600; width: 15%;">维度</th>
+<th style="padding: 12px 16px; text-align: left; color: #1F2937; font-weight: 600; width: 42.5%;">库存融资</th>
+<th style="padding: 12px 16px; text-align: left; color: #2563EB; font-weight: 600; width: 42.5%;">票证方案怎么省</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom: 1px solid #F3F4F6;">
+<td style="padding: 12px 16px; color: #1F2937; font-weight: 600; background: #F9FAFB;">降低计息本金</td>
+<td style="padding: 12px 16px; color: #4B5563;">经销商按整批库存金额融资</td>
+<td style="padding: 12px 16px; color: #1D4ED8; font-weight: 500; background: rgba(37, 99, 235, 0.03);">围绕BYD HK出口货值或阶段性资金缺口融资。</td>
+</tr>
+<tr style="border-bottom: 1px solid #F3F4F6;">
+<td style="padding: 12px 16px; color: #1F2937; font-weight: 600; background: #F9FAFB;">缩短计息时长</td>
+<td style="padding: 12px 16px; color: #4B5563;">完整库存周期融资</td>
+<td style="padding: 12px 16px; color: #1D4ED8; font-weight: 500; background: rgba(37, 99, 235, 0.03);">仅覆盖SEC LC贴现期限或Master/SEC到期错配期间。</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; color: #1F2937; font-weight: 600; background: #F9FAFB;">降低计息利率</td>
+<td style="padding: 12px 16px; color: #4B5563;">印尼本地IDR库存融资利率</td>
+<td style="padding: 12px 16px; color: #1D4ED8; font-weight: 500; background: rgba(37, 99, 235, 0.03);">较低的USD信用证贴现 / 承兑融资利率。</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <div class="flow-panel" style="margin-top: 10px;">
 <div class="panel-title">
 <svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="16"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
-<span>贸易票证结构推演及流程图</span>
+<span>背靠背票证结构推演及流程图</span>
 </div>
-<!-- 模块二主 Tab 栏 (只保留场景 3, 2, 5) -->
+<!-- 模块二主 Tab 栏 (只保留场景 2, 4, 5) -->
 <div class="tab-bar">
-<button class="tab-btn active" data-scenario="3">方案一：单一 USD 信用证</button>
-<button class="tab-btn" data-scenario="2">方案二：单一 IDR 信用证</button>
-<button class="tab-btn" data-scenario="5">方案三：IDR Master + USD SEC 信用证</button>
+<button class="tab-btn active" data-scenario="4">分支一：IDR Master LC + 本地 USD SEC LC</button>
+<button class="tab-btn" data-scenario="5">分支二：IDR Master LC + 离岸 USD SEC LC</button>
 </div>
 <div class="diagram-viewport">
 <!-- 场景 3 流程推演 -->
-<div class="diagram-pane active" id="pane-scenario-3">
+<!-- 场景 5 流程推演 -->
+<div class="diagram-pane active" id="pane-scenario-4" style="gap: 15px; border: none; padding: 0; background: transparent; box-shadow: none;">
 <div class="diagram-left">
-<!-- 场景 3 文字描述放在最上方 -->
+<!-- 场景 5 文字描述放在最上方 -->
 <div class="phase-selector-container">
 <div class="phase-selector-left">
-<span class="phase-selector-title">交易阶段切换：</span>
-<div class="phase-tab-group" id="phase-tabs-s3">
-<button class="phase-tab-btn active" data-phase="1">阶段一：前期开证与资金融通 (Day 1 - 90)</button>
-<button class="phase-tab-btn" data-phase="2">阶段二：后期到期与购汇交割 (Day 90 - 135)</button>
+<div class="phase-tab-group" id="phase-tabs-s4">
+<button class="phase-tab-btn active" data-phase="1">阶段一：开证与锁汇</button>
+<button class="phase-tab-btn" data-phase="2">阶段二：购汇和还款</button>
 </div>
 </div>
 <span class="phase-selector-tip">
@@ -4265,56 +4151,44 @@
             提示：点击按钮或点击下方流程图均可切换阶段
         </span>
 </div>
-<div style="width: 100%; min-height: 380px; padding: 20px 0 20px 0;">
-<svg class="flow-svg" viewbox="0 0 1140 490">
+<div style="width: 100%; min-height: 380px; padding: 45px 0 20px 0;">
+<svg class="flow-svg" viewbox="0 0 1140 540">
 <defs>
-<marker id="arrow-trade-3" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
+<marker id="arrow-trade-4" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
 <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#475569"></path>
 </marker>
-<marker id="arrow-finance-3" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
+<marker id="arrow-finance-4" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
 <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#2563EB"></path>
 </marker>
-<marker id="arrow-hedging-3" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
+<marker id="arrow-hedging-4" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
 <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0D9488"></path>
 </marker>
-<marker id="arrow-id-3" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
+<marker id="arrow-id-4" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
 <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#7C3AED"></path>
 </marker>
-<marker id="arrow-payment-3" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
+<marker id="arrow-payment-4" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
 <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#10B981"></path>
 </marker>
 </defs>
 <!-- 基础贸易流 (Trade Flow) - 重新排版防止文本与线条重叠 (7 Mn -> 7 Mn) -->
-<path class="flow-line trade" d="M 230 65 L 350 65" marker-end="url(#arrow-trade-3)"></path>
-<text class="flow-line-label" style="fill:#475569;" x="290" y="24">T1. 车辆出口发运</text>
-<text class="flow-line-sublabel" style="fill:#2563EB; font-weight: bold; font-size: 10px; text-anchor: middle;" x="290" y="38">出口货值: USD 7Mn</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="290" y="52">(约 126.7 Bn IDR)</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="290" y="77">(Day 0-30)</text>
-<path class="flow-line trade" d="M 510 65 L 630 65" marker-end="url(#arrow-trade-3)"></path>
-<text class="flow-line-label" style="fill:#475569;" x="570" y="24">T2. 清关及总装交付</text>
-<g class="pie-info-group">
-<text class="flow-line-sublabel" style="fill:#7C3AED; font-weight: bold; font-size: 10px; text-anchor: middle;" x="570" y="38">批发货值: 200 Bn IDR</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="570" y="52">(约 11.05M USD)</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="570" y="77">(Day 30-45)</text>
-<g class="pie-info-trigger" data-scen="3" style="cursor: pointer;">
-<!-- 增大隐形交互区域，防止鼠标微移时抖动关闭 -->
-<circle cx="612" cy="49" fill="none" pointer-events="all" r="18"></circle>
-<!-- 实际可视的图标 -->
-<circle cx="612" cy="49" fill="#7C3AED" opacity="0.15" r="6.5"></circle>
-<text fill="#7C3AED" font-size="9px" font-weight="bold" text-anchor="middle" x="612" y="52">i</text>
-</g>
-</g>
-<path class="flow-line trade" d="M 790 65 L 910 65" marker-end="url(#arrow-trade-3)"></path>
-<text class="flow-line-label" style="fill:#475569;" x="850" y="44">T3. 终端零售销售</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="850" y="77">(Day 45-135)</text>
+<path class="flow-line trade" d="M 230 65 L 350 65" marker-end="url(#arrow-trade-4)"></path>
+<text class="flow-line-label" style="fill:#475569;" x="290" y="24">T1. 车辆出口发运（Day 0）</text>
+<text class="flow-line-sublabel" style="fill:#2563EB; font-weight: bold; font-size: 10px; text-anchor: middle;" x="290" y="38">出口货值假设:</text>
+<text class="flow-line-sublabel" style="fill:#2563EB; font-weight: bold; font-size: 10px; text-anchor: middle;" x="290" y="50">USD 7 Mn / Rp 126.7 Bn</text>
+<path class="flow-line trade" d="M 510 65 L 630 65" marker-end="url(#arrow-trade-4)"></path>
+<text class="flow-line-label" style="fill:#475569;" x="570" y="24">T2. 清关及总装交付（Day 45）</text>
+<text class="flow-line-sublabel" style="fill:#7C3AED; font-weight: bold; font-size: 10px; text-anchor: middle;" x="570" y="38">批发货值假设:</text>
+<text class="flow-line-sublabel" style="fill:#7C3AED; font-weight: bold; font-size: 10px; text-anchor: middle;" x="570" y="50">USD 11 Mn / Rp 200 Bn</text>
+<path class="flow-line trade" d="M 790 65 L 910 65" marker-end="url(#arrow-trade-4)"></path>
+<text class="flow-line-label" style="fill:#475569;" x="850" y="24">T3. 终端零售销售回款 （Day 135）</text>
 <!-- Bank HK (Shifted right to x=340 to align with BYD ID at x=350) -->
 <g class="flow-node">
-<rect class="node-rect bank" height="60" rx="8" ry="8" width="180" x="340" y="245"></rect>
-<g transform="translate(352, 263)">
+<rect class="node-rect bank" height="60" rx="8" ry="8" width="180" x="340" y="280"></rect>
+<g transform="translate(352, 298)">
 <path d="M3 21h18 M4 21v-3h16v3 M5 11h14 M3 11l9-6 9 6 M7 18v-7 M12 18v-7 M17 18v-7" fill="none" stroke="#64748B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
 </g>
-<text class="node-text-title" x="386" y="270">Bank HK</text>
-<text class="node-text-sub" x="386" y="288">USD开证行/贴现行</text>
+<text class="node-text-title" x="386" y="305">Bank HK</text>
+<text class="node-text-sub" x="386" y="323">USD信用证议付行/贴现行</text>
 </g>
 <!-- 主体节点 -->
 <!-- BYD HK -->
@@ -4362,63 +4236,21 @@
 </g>
 <!-- Bank ID (Shifted right to x=630 to maintain spacing) -->
 <g class="flow-node">
-<rect class="node-rect bank" height="60" rx="8" ry="8" width="200" x="630" y="245"></rect>
-<g transform="translate(642, 263)">
+<rect class="node-rect bank" height="60" rx="8" ry="8" width="200" x="630" y="280"></rect>
+<g transform="translate(642, 298)">
 <path d="M3 21h18 M4 21v-3h16v3 M5 11h14 M3 11l9-6 9 6 M7 18v-7 M12 18v-7 M17 18v-7" fill="none" stroke="#64748B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
 </g>
-<text class="node-text-title" x="676" y="270">Bank ID</text>
-<text class="node-text-sub" x="676" y="288">本地信用证/融资/避险行</text>
+<text class="node-text-title" x="676" y="305">Bank ID</text>
+<text class="node-text-sub" x="676" y="323">本地信用证/融资/避险行</text>
 </g>
-<!-- 场景 3 专有金融流 -->
-<!-- ================= 阶段 2：后结清闭环流 (F5-F7) ================= -->
-<!-- F5. 结清应付账款 (Starts at x=370, left of F4/F8 to avoid crossings) -->
-<g class="flow-arrow-group s3-phase-2">
-<path class="flow-line finance" d="M 370 95 L 370 130 L 130 130 L 130 97" marker-end="url(#arrow-finance-3)" style="stroke:#2563EB;"></path>
-<text class="flow-line-label" style="fill:#2563EB; text-anchor: middle;" x="250" y="125">F5. 结清应付账款</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="250" y="142">使用 USD 7 Mn 贴现款结清</text>
-</g>
-<!-- F6. 远期购汇 (Straight vertical line at x=730 to Bank ID at x=630-830, center 730) -->
-<g class="flow-arrow-group s3-phase-2">
-<path class="flow-line hedging" d="M 730 245 L 730 97" marker-end="url(#arrow-hedging-3)"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="740" y="165">F6. 远期购汇</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="740" y="180">售车回款后购入美元</text>
-</g>
-<!-- F7. 信用证到期还款 (Ends at x=490, right of F4/F8 to avoid crossings) -->
-<g class="flow-arrow-group s3-phase-2">
-<path class="flow-line dealer-finance" d="M 690 95 L 690 210 L 490 210 L 490 243" marker-end="url(#arrow-hedging-3)"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: middle;" x="590" y="205">F7. 信用证到期还款</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="590" y="222">偿付美元信用证给开证行</text>
-</g>
-<!-- F8. 剩余金额到期议付 (Straight vertical line at x=470, perfectly aligned) -->
-<g class="flow-arrow-group s3-phase-2">
-<path class="flow-line bydid" d="M 470 243 L 470 97" marker-end="url(#arrow-id-3)"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="460" y="165">F8. 剩余金额到期议付</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="460" y="182">剩余 USD 4.05M 到期议付收回</text>
-</g>
-<!-- ================= 阶段 1：高亮产生工具成本 of L/C opening and lock (F1-F4) ================= -->
-<!-- F1. 应收账款资金占用 (第一顺序, ends at x=350 to avoid crossing F4/F8) -->
-<g class="flow-arrow-group s3-phase-1" data-flow-id="s3-ar">
-<path class="flow-line finance" d="M 150 95 L 150 120 L 350 120 L 350 97" marker-end="url(#arrow-finance-3)" style="stroke:#2563EB;"></path>
-<text class="flow-line-label" style="fill:#2563EB; text-anchor: middle;" x="250" y="115">F1. 应收账款资金占用</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="250" y="132">BYD HK 资金占用 (45天)</text>
-</g>
-<!-- F2. 申请开证与承兑 (90天 USD L/C, ends at x=510, right of F4/F8 to avoid crossings) -->
-<g class="flow-arrow-group s3-phase-1" data-flow-id="s3-lc-open">
-<path class="flow-line dealer-finance" d="M 710 95 L 710 225 L 510 225 L 510 243" marker-end="url(#arrow-hedging-3)"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: middle;" x="610" y="220">F2. 申请开证与承兑 (90天 USD L/C)</text>
-</g>
-<!-- F3. 远期锁汇 (90天) -->
-<g class="flow-arrow-group s3-phase-1" data-flow-id="s3-lock">
-<path class="flow-line hedging" d="M 750 95 L 750 243" marker-end="url(#arrow-hedging-3)"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="760" y="165">F3. 远期锁汇</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="760" y="180">经销商锁定 USD/IDR 汇率 (90天)</text>
-</g>
-<!-- F4. 信用证贴现 (Straight vertical line at x=450, perfectly aligned) -->
-<g class="flow-arrow-group s3-phase-1" data-flow-id="s3-lc-discount">
-<path class="flow-line bydid" d="M 450 245 L 450 97" marker-end="url(#arrow-id-3)"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="440" y="165">F4. 信用证贴现</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="440" y="182">仅贴现 USD 7 Mn 以结清总部应付</text>
-</g>
+<!-- F1: IDR Master LC开证与承兑 (135天) -->
+<!-- F2: USD SEC LC开证与承兑 (90天) -->
+<!-- F3: SEC LC贴现 -->
+<!-- F4: SEC LC到期偿付 -->
+<!-- F5: USD/IDR 远期锁汇 (45天) -->
+<!-- F6: Master LC到期还款 -->
+<!-- F7: 远期购汇交割 (45天) -->
+<!-- F8: Master LC净额结算 -->
 <!-- Legend (图例) -->
 <g class="diagram-legend" transform="translate(990, 250)">
 <rect fill="#FFFFFF" height="60" rx="6" stroke="#E2E8F0" stroke-width="1" width="140" x="0" y="0"></rect>
@@ -4431,44 +4263,88 @@
 <text fill="#64748B" font-size="9.5px" x="48" y="50">资金流 (Finance)</text>
 </g>
 <!-- 痛点一虚线连接线 (BYD HK) -->
-<path class="s3-phase-1" d="M 270 120 L 270 330" fill="none" stroke="#EF4444" stroke-dasharray="3,3" stroke-width="1.5"></path>
-<circle class="s3-phase-1" cx="270" cy="120" fill="#EF4444" r="3"></circle>
+<path class="s4-phase-1" d="M 270 310 L 270 365" fill="none" stroke="#EF4444" stroke-dasharray="3,3" stroke-width="1.5"></path>
+<circle class="s4-phase-1" cx="270" cy="310" fill="#EF4444" r="3"></circle>
 <!-- 痛点一看板 (BYD HK 回款压力) -->
-<foreignobject height="160" width="300" x="120" y="330">
+<foreignobject height="160" width="300" x="120" y="365">
 <div class="pain-point-embed-card" xmlns="http://www.w3.org/1999/xhtml">
 <div class="embed-card-header">
-<span class="embed-num">01</span>
-<strong style="font-size: 13.5px; color: #1E293B;">痛点一：BYD HK回款压力</strong>
+<span class="embed-num">02</span>
+<strong style="font-size: 13.5px; color: #1E293B;">痛点二：BYD HK回款压力</strong>
 </div>
 <div class="embed-card-status" style="margin-left: 26px; margin-bottom: 8px;">
-<span class="echo-status-badge status-not">✗ 未解决</span>
+<span class="echo-status-badge status-solved">✓ 已解决</span>
 </div>
 <div class="embed-card-body">
-      未满足提前回款要求。BYD HK 美元回款账期仍为发货后 45天，在途及通关阶段的资金未能得到释放。
+      BYD HK 发货后即可交单申请 SEC LC 贴现，提早回笼美元
     </div>
 </div>
 </foreignobject>
 <!-- 痛点二虚线连接线 (Dealer) -->
-<path class="s3-phase-1" d="M 710 200 L 950 200 L 950 330" fill="none" stroke="#F97316" stroke-dasharray="3,3" stroke-width="1.5"></path>
-<circle class="s3-phase-1" cx="710" cy="200" fill="#F97316" r="3"></circle>
+<path class="s4-phase-1" d="M 710 200 L 950 200 L 950 365" fill="none" stroke="#F97316" stroke-dasharray="3,3" stroke-width="1.5"></path>
+<circle class="s4-phase-1" cx="710" cy="200" fill="#F97316" r="3"></circle>
 <!-- 痛点二看板 (经销商融资成本高) -->
-<foreignobject height="160" width="320" x="790" y="330">
+<foreignobject height="160" width="320" x="790" y="365">
 <div class="pain-point-embed-card orange-theme" xmlns="http://www.w3.org/1999/xhtml">
 <div class="embed-card-header">
-<span class="embed-num">02</span>
-<strong style="font-size: 13.5px; color: #1E293B;">痛点二：经销商融资成本高</strong>
+<span class="embed-num">01</span>
+<strong style="font-size: 13.5px; color: #1E293B;">痛点一：经销商融资成本高</strong>
 </div>
 <div class="embed-card-status" style="margin-left: 26px; margin-bottom: 8px;">
-<span class="echo-status-badge status-partial">! 成本降至 1.15%</span>
+<span class="echo-status-badge status-solved">✓ 成本降至 1.00%</span>
 </div>
 <div class="embed-card-body">
-      较库存融资实际费率 2.13% 明显降本。但经销商需开立离岸美元证，并承受 USD 到期债务与自行锁汇的外币敞口风险。
+      经销商承担的135天 Master LC 实际费率降低至1%，低于库存融资
     </div>
 </div>
 </foreignobject>
-</svg>
+<foreignobject height="52" width="120" x="510" y="70">
+<div class="t2-composition-card" xmlns="http://www.w3.org/1999/xhtml">
+<div class="comp-row"><span class="label">出口货值:</span><span class="val">Rp 126.7 Bn</span></div>
+<div class="comp-row"><span class="label">增值税:</span><span class="val">Rp 19.8 Bn</span></div>
+<div class="comp-row"><span class="label">进口毛利:</span><span class="val">Rp 40.2 Bn</span></div>
+<div class="comp-row"><span class="label">税费及物流:</span><span class="val">Rp 13.3 Bn</span></div>
 </div>
-<!-- 场景 3 角色对齐资金成本卡片 -->
+</foreignobject>
+<g class="flow-arrow-group s4-phase-1" data-flow-id="s4-lc-mother">
+<path class="flow-line hedging" d="M 710 95 L 710 278" marker-end="url(#arrow-hedging-4)" style="stroke:#0D9488;"></path>
+<text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="720" y="165">F1. IDR Master LC开证与承兑 (135天)</text><text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="720" y="182">受益人：BYD ID</text>
+</g><g class="flow-arrow-group s4-phase-1" data-flow-id="s4-lc-child">
+<path class="flow-line bydid" d="M 410 95 L 410 240 L 640 240 L 640 278" marker-end="url(#arrow-id-4)" style="stroke:#7C3AED;"></path>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="400" y="165">F2. USD SEC LC开证与承兑 (90天)</text><text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="400" y="182">受益人：BYD HK</text>
+</g><g class="flow-arrow-group s4-phase-1" data-flow-id="s4-discount">
+<path class="flow-line finance" d="M 340 310 L 150 310 L 150 97" marker-end="url(#arrow-finance-4)" style="stroke:#2563EB;"></path>
+<text class="flow-line-label" style="fill:#2563EB; text-anchor: end;" x="140" y="160">F3. SEC LC贴现</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="140" y="178">贴现 USD 7M 应收款</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="140" y="193">提前收回上游货款</text>
+</g><g class="flow-arrow-group s4-phase-1" data-flow-id="s4-lock">
+<path class="flow-line bydid" d="M 470 95 L 470 200 L 680 200 L 680 278" marker-end="url(#arrow-id-4)" style="stroke:#7C3AED;"></path>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="560" y="190">F4. USD/IDR 远期锁汇 (45天)</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="560" y="215">锁定过桥融资到期购汇汇率</text>
+</g><g class="flow-arrow-group s4-phase-2" data-flow-id="s4-idr-discount">
+<path class="flow-line bydid" d="M 650 280 L 650 255 L 365 255 L 365 97" marker-end="url(#arrow-id-4)" style="stroke:#7C3AED;"></path>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="355" y="200">F5. SEC LC到期偿付</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="355" y="218">使用 USD 过桥融资偿付SEC LC到期款</text>
+</g>
+<g class="flow-arrow-group s4-phase-2">
+<path class="flow-line" d="M 670 340 L 670 380 L 470 380 L 470 342" marker-end="url(#arrow-trade-4)" style="stroke:#64748B; stroke-width:1.5; stroke-dasharray:4,4;"></path>
+<text class="flow-line-label" style="fill:#475569; text-anchor: middle;" x="570" y="370">F6. 偿付贴现金额</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="570" y="398">Bank ID 向 Bank HK 偿付 SEC LC 贴现款</text>
+</g>
+<g class="flow-arrow-group s4-phase-2">
+<path class="flow-line hedging" d="M 750 95 L 750 278" marker-end="url(#arrow-hedging-4)" style="stroke:#0D9488;"></path>
+<text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="760" y="160">F7. Master LC到期还款</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="760" y="175">偿还 IDR Master LC到期款</text>
+</g><g class="flow-arrow-group s4-phase-2">
+<path class="flow-line bydid" d="M 420 95 L 420 210 L 680 210 L 680 278" marker-end="url(#arrow-id-4)" style="stroke:#7C3AED;"></path>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="550" y="200">F8. 远期购汇交割 (45天)</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="550" y="225">向 Bank ID 购汇清偿过桥</text>
+</g><g class="flow-arrow-group s4-phase-2">
+<path class="flow-line bydid" d="M 710 280 L 710 160 L 480 160 L 480 97" marker-end="url(#arrow-id-4)" style="stroke:#7C3AED;"></path>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="595" y="150">F9. Master LC净额结算</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="595" y="178">支付Master LC款，偿还过桥融资本息，剩余金额入账</text></g></svg>
+</div>
+<!-- 场景 5 角色对齐资金成本卡片 -->
 <div class="flow-cost-columns">
 <!-- Column 1: BYD HK -->
 <div class="cost-column" data-role-link="hk">
@@ -4476,37 +4352,9 @@
 <span class="column-title-dot hk"></span>
 <span class="column-title-text">BYD HK (出口港口端)</span>
 </div>
-<div class="cost-detail-block" data-flow-id="s3-ar">
-<div class="cost-block-title">F1. 应收账款资金占用</div>
-<div class="cost-block-value-row">
-<span class="cost-block-rate">0.29%</span>
-<span class="cost-block-rate-label">实际费率</span>
-</div>
-<div class="cost-block-meta">
-<div class="meta-row desc-row">
-<span class="meta-label">成本说明</span>
-<span class="meta-value desc">BYD HK 出口账期为 45天，期间资金占用成本由总部承担。</span>
-</div>
-<div class="meta-row param-row">
-<span class="meta-label">年化费率</span>
-<div class="meta-value-group"><span class="meta-value">3.67% p.a.
-        <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">注：3M Term SOFR 美元基准利率 (3.67%)</span></span></span></div>
-</div>
-<div class="meta-row formula-row">
-<span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">3.67% × (45 / 360天) × 63.35%</span>
-</div>
-</div>
-</div>
-</div>
-<!-- Column 2: BYD ID -->
-<div class="cost-column" data-role-link="id">
-<div class="cost-column-header">
-<span class="column-title-dot id"></span>
-<span class="column-title-text">BYD ID (印尼进口端)</span>
-</div>
-<div class="cost-detail-block" data-flow-id="s3-lc-discount">
-<div class="cost-block-title">F4. USD 信用证贴现利息</div>
+<div class="cost-cards-row">
+<div class="cost-detail-block" data-flow-id="s4-discount">
+<div class="cost-block-title">F3. SEC LC贴现利率</div>
 <div class="cost-block-value-row">
 <span class="cost-block-rate">0.70%</span>
 <span class="cost-block-rate-label">实际费率</span>
@@ -4514,7 +4362,7 @@
 <div class="cost-block-meta">
 <div class="meta-row desc-row">
 <span class="meta-label">成本说明</span>
-<span class="meta-value desc">BYD ID 在香港贴现行办理USD信用证部分金额贴现（USD 7M）。</span>
+<span class="meta-value desc">BYD HK 办理 90天 SEC LC贴现，提前收回上游货款。</span>
 </div>
 <div class="meta-row param-row">
 <span class="meta-label">年化费率</span>
@@ -4523,337 +4371,8 @@
 </div>
 <div class="meta-row formula-row">
 <span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">7 Mn USD × 4.42% × (90 / 360天) ÷ 11.05M USD</span>
+<span class="meta-value formula">4.42% × (90 / 360天) × 63.35%</span>
 </div>
-</div>
-</div>
-</div>
-<!-- Column 3: DEALER -->
-<div class="cost-column" data-role-link="dealer">
-<div class="cost-column-header">
-<span class="column-title-dot dealer"></span>
-<span class="column-title-text">DEALER (印尼本地经销商)</span>
-</div>
-<div class="cost-cards-row">
-<div class="cost-detail-block" data-flow-id="s3-lc-open">
-<div class="cost-block-title">F2. USD 信用证开证及承兑费</div>
-<div class="cost-block-value-row">
-<span class="cost-block-rate">0.44%</span>
-<span class="cost-block-rate-label">实际费率</span>
-</div>
-<div class="cost-block-meta">
-<div class="meta-row desc-row">
-<span class="meta-label">成本说明</span>
-<span class="meta-value desc">经销商以批售货值为基础，向香港银行开立 90天 USD 信用证。</span>
-</div>
-<div class="meta-row param-row">
-<span class="meta-label">票证费用</span>
-<div class="meta-value-group"><span class="meta-value">开证 0.25%/半年；承兑 0.75% p.a.
-        <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">注：参考DBS HK / BOCHK Trade Finance Service Fee，信用证开证和承兑费用</span></span></span></div>
-</div>
-<div class="meta-row formula-row">
-<span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">0.25% + 0.75% × 90/360</span>
-</div>
-</div>
-</div>
-<div class="cost-detail-block" data-flow-id="s3-lock">
-<div class="cost-block-title">F3. 90天本地锁汇成本</div>
-<div class="cost-block-value-row">
-<span class="cost-block-rate">0.71%</span>
-<span class="cost-block-rate-label">实际费率</span>
-</div>
-<div class="cost-block-meta">
-<div class="meta-row desc-row">
-<span class="meta-label">成本说明</span>
-<span class="meta-value desc">经销商承担汇率风险，在当地银行购买90天远期合约进行锁汇。</span>
-</div>
-<div class="meta-row param-row">
-<span class="meta-label">90天 USD/IDR 远期掉期点</span>
-<div class="meta-value-group"><span class="meta-value">129点
-        <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">注：1）美元信用证金额 11.05M USD = 200 Bn IDR ÷ 18100（即期汇率）；2）即期汇率为 18100，90天远期汇率为 18229（即期加上掉期点 129点）；3）掉期点参考 BCA 公布的 USD/IDR Forward Sell Rate 测算</span></span></span></div>
-</div>
-<div class="meta-row formula-row">
-<span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">11.05M USD × 129 IDR/USD ÷ 200 Bn IDR</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Column 4: Summary Rates -->
-<div class="reference-column" data-role-link="summary" style="grid-row: 1 / span 2;">
-<div class="cost-column-header">
-<span class="column-title-dot summary"></span>
-<span class="column-title-text">SUMMARY (汇总费率)</span>
-</div>
-<div class="cost-detail-block" data-role-link="summary">
-<div class="cost-block-title">全流程实际费用率</div>
-<div class="cost-block-value-row">
-<span class="cost-block-rate summary">2.14%</span>
-<span class="cost-block-rate-label">实际费率</span>
-</div>
-<div class="cost-block-meta">
-<div class="meta-row desc-row">
-<span class="meta-label">说明</span>
-<span class="meta-value">包含总部及进口端全流程费率，所有费率口径都以 BYD ID 对 经销商批售 货值作为分母</span>
-</div>
-<div class="meta-row formula-row">
-<span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">0.29% (HK) + 0.70% (ID) + 1.15% (Dealer)</span>
-</div>
-</div>
-</div>
-</div>
-<!-- Footer Note for Exporter Value Share (63.35%) -->
-<div class="exporter-note-row">
-<span class="note-content">注：公式中 63.35% 代表“出口货值占比”，计算来源为：BYD HK 出口货值 (7 Mn USD = 126.7 Bn IDR) ÷ BYD ID 对经销商批售货值 (200 Bn IDR) 估算所得。</span>
-<span class="pie-info-trigger" style="display: inline-flex; align-items: center; cursor: pointer; color: #7C3AED; margin-left: 4px; vertical-align: middle;">
-<svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
-</span>
-</div>
-</div>
-<!-- 最下面放饼图区域 (已移至悬停浮窗) -->
-</div>
-</div>
-<!-- 场景 2 流程推演 -->
-<div class="diagram-pane" id="pane-scenario-2">
-<div class="diagram-left">
-<!-- 场景 2 文字描述放在最上方 -->
-<div class="phase-selector-container">
-<div class="phase-selector-left">
-<span class="phase-selector-title">交易阶段切换：</span>
-<div class="phase-tab-group" id="phase-tabs-s2">
-<button class="phase-tab-btn active" data-phase="1">阶段一：前期开证与资金融通 (Day 1 - 90)</button>
-<button class="phase-tab-btn" data-phase="2">阶段二：后期到期与购汇交割 (Day 90 - 135)</button>
-</div>
-</div>
-<span class="phase-selector-tip">
-<svg fill="none" height="12" stroke="currentColor" stroke-width="2.5" style="vertical-align: middle; margin-right: 2px;" viewbox="0 0 24 24" width="12">
-<circle cx="12" cy="12" r="10"></circle>
-<line x1="12" x2="12" y1="16" y2="12"></line>
-<line x1="12" x2="12.01" y1="8" y2="8"></line>
-</svg>
-            提示：点击按钮或点击下方流程图均可切换阶段
-        </span>
-</div>
-<div style="width: 100%; min-height: 380px; padding: 20px 0 20px 0;">
-<svg class="flow-svg" viewbox="0 0 1140 490">
-<defs>
-<marker id="arrow-trade-2" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
-<path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#475569"></path>
-</marker>
-<marker id="arrow-finance-2" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
-<path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#2563EB"></path>
-</marker>
-<marker id="arrow-hedging-2" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
-<path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0D9488"></path>
-</marker>
-<marker id="arrow-id-2" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
-<path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#7C3AED"></path>
-</marker>
-<marker id="arrow-payment-2" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
-<path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#10B981"></path>
-</marker>
-</defs>
-<!-- 基础贸易流 (Trade Flow) - 重新排版防止文本与线条重叠 (7 Mn -> 7 Mn) -->
-<path class="flow-line trade" d="M 230 65 L 350 65" marker-end="url(#arrow-trade-2)"></path>
-<text class="flow-line-label" style="fill:#475569;" x="290" y="24">T1. 车辆出口发运</text>
-<text class="flow-line-sublabel" style="fill:#2563EB; font-weight: bold; font-size: 10px; text-anchor: middle;" x="290" y="38">出口货值: USD 7Mn</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="290" y="52">(约 126.7 Bn IDR)</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="290" y="77">(Day 0-30)</text>
-<path class="flow-line trade" d="M 510 65 L 630 65" marker-end="url(#arrow-trade-2)"></path>
-<text class="flow-line-label" style="fill:#475569;" x="570" y="24">T2. 清关及总装交付</text>
-<g class="pie-info-group">
-<text class="flow-line-sublabel" style="fill:#7C3AED; font-weight: bold; font-size: 10px; text-anchor: middle;" x="570" y="38">批发货值: 200 Bn IDR</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="570" y="52">(约 11.05M USD)</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="570" y="77">(Day 30-45)</text>
-<g class="pie-info-trigger" data-scen="2" style="cursor: pointer;">
-<!-- 增大隐形交互区域，防止鼠标微移时抖动关闭 -->
-<circle cx="612" cy="49" fill="none" pointer-events="all" r="18"></circle>
-<!-- 实际可视的图标 -->
-<circle cx="612" cy="49" fill="#7C3AED" opacity="0.15" r="6.5"></circle>
-<text fill="#7C3AED" font-size="9px" font-weight="bold" text-anchor="middle" x="612" y="52">i</text>
-</g>
-</g>
-<path class="flow-line trade" d="M 790 65 L 910 65" marker-end="url(#arrow-trade-2)"></path>
-<text class="flow-line-label" style="fill:#475569;" x="850" y="44">T3. 终端零售销售</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="850" y="77">(Day 45-135)</text>
-<!-- 主体节点 -->
-<!-- BYD HK -->
-<g class="flow-node" data-role-link="hk">
-<rect class="node-rect hk" height="60" rx="8" ry="8" width="160" x="70" y="35"></rect>
-<g transform="translate(82, 53)">
-<rect fill="none" height="20" rx="2" ry="2" stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" width="16" x="4" y="2"></rect>
-<line stroke="#2563EB" stroke-linecap="round" stroke-width="1.8" x1="9" x2="15" y1="6" y2="6"></line>
-<line stroke="#2563EB" stroke-linecap="round" stroke-width="1.8" x1="9" x2="15" y1="12" y2="12"></line>
-<line stroke="#2563EB" stroke-linecap="round" stroke-width="1.8" x1="9" x2="15" y1="18" y2="18"></line>
-<circle cx="6" cy="6" fill="#2563EB" r="0.7"></circle>
-<circle cx="6" cy="12" fill="#2563EB" r="0.7"></circle>
-<circle cx="6" cy="18" fill="#2563EB" r="0.7"></circle>
-</g>
-<text class="node-text-title" x="116" y="60">BYD HK</text>
-<text class="node-text-sub" x="116" y="78">出口枢纽 (香港)</text>
-</g>
-<!-- BYD ID -->
-<g class="flow-node" data-role-link="id">
-<rect class="node-rect id" height="60" rx="8" ry="8" width="160" x="350" y="35"></rect>
-<g transform="translate(362, 53)">
-<path d="M2 20V10l6 4V10l6 4V10l6 4v6H2z M10 20v-4h4v4" fill="none" stroke="#7C3AED" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
-</g>
-<text class="node-text-title" x="396" y="60">BYD ID</text>
-<text class="node-text-sub" x="396" y="78">进口总装 (印尼)</text>
-</g>
-<!-- DEALER -->
-<g class="flow-node" data-role-link="dealer">
-<rect class="node-rect dealer" height="60" rx="8" ry="8" width="160" x="630" y="35"></rect>
-<g transform="translate(642, 53)">
-<path d="M3 20h18 M20 20V10l-8-6-8 6v10 M9 20v-6h6v6" fill="none" stroke="#0D9488" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
-</g>
-<text class="node-text-title" x="676" y="60">DEALER</text>
-<text class="node-text-sub" x="676" y="78">印尼本地经销商</text>
-</g>
-<!-- CUSTOMER -->
-<g class="flow-node">
-<rect class="node-rect customer" height="60" rx="8" ry="8" width="160" x="910" y="35"></rect>
-<g transform="translate(922, 53)">
-<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" fill="none" stroke="#475569" stroke-linecap="round" stroke-width="1.8"></path>
-<circle cx="12" cy="7" fill="none" r="4" stroke="#475569" stroke-width="1.8"></circle>
-</g>
-<text class="node-text-title" x="956" y="60">CUSTOMER</text>
-<text class="node-text-sub" x="956" y="78">印尼本地终端买家</text>
-</g>
-<!-- Bank ID -->
-<g class="flow-node">
-<rect class="node-rect bank" height="60" rx="8" ry="8" width="200" x="590" y="245"></rect>
-<g transform="translate(602, 263)">
-<path d="M3 21h18 M4 21v-3h16v3 M5 11h14 M3 11l9-6 9 6 M7 18v-7 M12 18v-7 M17 18v-7" fill="none" stroke="#64748B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
-</g>
-<text class="node-text-title" x="636" y="270">Bank ID</text>
-<text class="node-text-sub" x="636" y="288">本地信用证/融资/避险行</text>
-</g>
-<!-- 场景 2 专有金融流 -->
-<!-- F1. 远期锁汇 - 从 Bank ID 左侧入 -->
-<g class="flow-arrow-group s2-phase-1" data-flow-id="s2-lock">
-<path class="flow-line bydid" d="M 430 95 L 430 265 L 588 265" marker-end="url(#arrow-id-2)"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="509" y="260">F1. 远期锁汇</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="509" y="277">BYD ID 锁定 USD/IDR 汇率 (135天)</text>
-</g>
-<!-- 2. 135天AR占用 -->
-<g class="flow-arrow-group s2-phase-1" data-flow-id="s2-ar">
-<path class="flow-line finance" d="M 150 95 L 150 130 L 390 130 L 390 97" marker-end="url(#arrow-finance-2)" style="stroke:#2563EB; stroke-width: 1.4;"></path>
-<text class="flow-line-label" style="fill:#2563EB;" x="270" y="125">F2. 应收账款资金占用</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="270" y="140">BYD HK 资金占用 (135天)</text>
-</g>
-<!-- 3. 信用证开证与承兑 -->
-<g class="flow-arrow-group s2-phase-1" data-flow-id="s2-lc-open">
-<!-- 3-1. 申请开证 (IDR 授信占用) -->
-<path class="flow-line dealer-finance" d="M 710 95 L 710 243" marker-end="url(#arrow-hedging-2)"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="720" y="165">F3-1. 申请开证 (90天 IDR SKBDN)</text>
-<!-- F3-2. 开证至 BYD ID (青色结算箭头，与3-1一致) -->
-<path class="flow-line dealer-finance" d="M 650 245 L 650 150 L 450 150 L 450 97" marker-end="url(#arrow-hedging-2)"></path>
-<text class="flow-line-label" style="fill:#0D9488;" x="550" y="142">F3-2. 开证至 BYD ID</text>
-</g>
-<!-- F4. 信用证到期还款 -->
-<g class="flow-arrow-group s2-phase-2">
-<path class="flow-line payment" d="M 690 95 L 690 243" marker-end="url(#arrow-payment-2)"></path>
-<text class="flow-line-label" style="fill:#10B981; text-anchor: start;" x="700" y="165">F4. 信用证到期还款</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="700" y="182">经销商支付印尼盾结清信用证</text>
-</g>
-<!-- F5. 信用证到期议付IDR -->
-<g class="flow-arrow-group s2-phase-2">
-<path class="flow-line payment" d="M 630 245 L 630 170 L 470 170 L 470 97" marker-end="url(#arrow-payment-2)"></path>
-<text class="flow-line-label" style="fill:#10B981; text-anchor: middle;" x="550" y="165">F5. 信用证到期议付</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="550" y="182">Bank ID 向 BYD ID 支付印尼盾</text>
-</g>
-<!-- F6. 远期购汇 -->
-<g class="flow-arrow-group s2-phase-2">
-<path class="flow-line bydid" d="M 590 280 L 390 280 L 390 97" marker-end="url(#arrow-id-2)"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="490" y="275">F6. 远期购汇</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="490" y="292">BYD ID 向 Bank ID 购买美元</text>
-</g>
-<!-- F7. 结清应付账款 -->
-<g class="flow-arrow-group s2-phase-2">
-<path class="flow-line finance" d="M 370 95 L 370 160 L 130 160 L 130 97" marker-end="url(#arrow-finance-2)"></path>
-<text class="flow-line-label" style="fill:#2563EB;" x="250" y="155">F7. 结清应付账款</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="250" y="172">BYD ID 结清应付账款给 BYD HK (USD)</text>
-</g>
-<!-- Legend (图例) -->
-<g class="diagram-legend" transform="translate(990, 250)">
-<rect fill="#FFFFFF" height="60" rx="6" stroke="#E2E8F0" stroke-width="1" width="140" x="0" y="0"></rect>
-<text fill="#475569" font-size="10px" font-weight="bold" x="12" y="18">流程图示 (Legend)</text>
-<line stroke="#475569" stroke-width="2.5" x1="12" x2="28" y1="32" y2="32"></line>
-<text fill="#475569" font-size="10px" font-weight="bold" x="35" y="35">T</text>
-<text fill="#64748B" font-size="9.5px" x="48" y="35">贸易流 (Trade)</text>
-<line stroke="#2563EB" stroke-dasharray="3,2" stroke-width="2" x1="12" x2="28" y1="47" y2="47"></line>
-<text fill="#475569" font-size="10px" font-weight="bold" x="35" y="50">F</text>
-<text fill="#64748B" font-size="9.5px" x="48" y="50">资金流 (Finance)</text>
-</g>
-<!-- 痛点一虚线连接线 (BYD HK) -->
-<path class="s2-phase-1" d="M 270 130 L 270 330" fill="none" stroke="#EF4444" stroke-dasharray="3,3" stroke-width="1.5"></path>
-<circle class="s2-phase-1" cx="270" cy="130" fill="#EF4444" r="3"></circle>
-<!-- 痛点一看板 (BYD HK 回款压力) -->
-<foreignobject height="160" width="300" x="120" y="330">
-<div class="pain-point-embed-card" xmlns="http://www.w3.org/1999/xhtml">
-<div class="embed-card-header">
-<span class="embed-num">01</span>
-<strong style="font-size: 13.5px; color: #1E293B;">痛点一：BYD HK回款压力</strong>
-</div>
-<div class="embed-card-status" style="margin-left: 26px; margin-bottom: 8px;">
-<span class="echo-status-badge status-worsened">✗ 未解决（账期拉长至135天）</span>
-</div>
-<div class="embed-card-body">
-      回款账期被严重拉长（至 135天），导致比亚迪集团总部美元回笼速度更慢，应收账款沉淀风险加剧。
-    </div>
-</div>
-</foreignobject>
-<!-- 痛点二虚线连接线 (Dealer) -->
-<path class="s2-phase-1" d="M 710 200 L 950 200 L 950 330" fill="none" stroke="#F97316" stroke-dasharray="3,3" stroke-width="1.5"></path>
-<circle class="s2-phase-1" cx="710" cy="200" fill="#F97316" r="3"></circle>
-<!-- 痛点二看板 (经销商融资成本高) -->
-<foreignobject height="160" width="320" x="790" y="330">
-<div class="pain-point-embed-card orange-theme" xmlns="http://www.w3.org/1999/xhtml">
-<div class="embed-card-header">
-<span class="embed-num">02</span>
-<strong style="font-size: 13.5px; color: #1E293B;">痛点二：经销商融资成本高</strong>
-</div>
-<div class="embed-card-status" style="margin-left: 26px; margin-bottom: 8px;">
-<span class="echo-status-badge status-solved">✓ 成本降至 0.75%</span>
-</div>
-<div class="embed-card-body">
-      经销商实际费率降至全场最低。100% 用卢比（IDR）结算，完全免除了汇率波动与锁汇的麻烦与费用。
-    </div>
-</div>
-</foreignobject>
-</svg>
-</div>
-<!-- 场景 2 角色对齐资金成本卡片 -->
-<div class="flow-cost-columns">
-<!-- Column 1: BYD HK -->
-<div class="cost-column" data-role-link="hk">
-<div class="cost-column-header">
-<span class="column-title-dot hk"></span>
-<span class="column-title-text">BYD HK (出口港口端)</span>
-</div>
-<div class="cost-detail-block" data-flow-id="s2-ar">
-<div class="cost-block-title">F2. 应收账款资金占用</div>
-<div class="cost-block-value-row">
-<span class="cost-block-rate">0.87%</span>
-<span class="cost-block-rate-label">实际费率</span>
-</div>
-<div class="cost-block-meta">
-<div class="meta-row desc-row">
-<span class="meta-label">成本说明</span>
-<span class="meta-value desc">BYD HK 的资金占用时间延长至 135天，IDR信用证到期结清</span>
-</div>
-<div class="meta-row param-row">
-<span class="meta-label">年化费率</span>
-<div class="meta-value-group"><span class="meta-value">3.67% p.a.
-        <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">注：3M Term SOFR 美元基准利率 (3.67%)</span></span></span></div>
-</div>
-<div class="meta-row formula-row">
-<span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">3.67% × (135 / 360天) × 63.35%</span>
 </div>
 </div>
 </div>
@@ -4864,28 +4383,132 @@
 <span class="column-title-dot id"></span>
 <span class="column-title-text">BYD ID (印尼进口端)</span>
 </div>
-<div class="cost-detail-block" data-flow-id="s2-lock">
-<div class="cost-block-title"> F1. USD/IDR 远期锁汇</div>
+<div class="cost-cards-row">
+<div class="cost-detail-block" data-flow-id="s4-lc-child">
+<div class="cost-block-title">F2. SEC LC开证及承兑</div>
 <div class="cost-block-value-row">
-<span class="cost-block-rate">0.68%</span>
+<span class="cost-block-rate">0.48%</span>
 <span class="cost-block-rate-label">实际费率</span>
 </div>
 <div class="cost-block-meta">
 <div class="meta-row desc-row">
 <span class="meta-label">成本说明</span>
-<span class="meta-value desc">BYD ID 自持LC至 Day 135 收取 IDR，并按锁定汇率购汇支付 BYD HK</span>
+<span class="meta-value desc">BYD ID以Master LC作为还款来源，开立90天SEC LC</span>
 </div>
 <div class="meta-row param-row">
-<span class="meta-label">135天 USD/IDR 远期掉期点</span>
-<div class="meta-value-group"><span class="meta-value">194点
-        <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">注：1）即期汇率 USD/IDR 为 18100，135天远期汇率 USD/IDR 为 18294（即期汇率加上掉期点） ；2）掉期点采用印尼本地银行口径，参考 BCA 公布的 USD/IDR Forward Sell Rate 进行推算</span></span></span></div>
+<span class="meta-label">票证费用</span>
+<div class="meta-value-group">开证 0.25%/季；承兑 2.0% p.a.
+<span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;">
+<svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11">
+<circle cx="12" cy="12" r="10"></circle>
+<line x1="12" x2="12" y1="16" y2="12"></line>
+<line x1="12" x2="12.01" y1="8" y2="8"></line>
+</svg>
+<span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">
+    注：参考 UOB Indonesia 与 Maybank Indonesia 公开费率
+  </span>
+</span></div>
 </div>
 <div class="meta-row formula-row">
 <span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">7M USD × 194 IDR/USD ÷ 200 Bn IDR</span>
+<span class="meta-value formula">(0.25% + 2.0% × 90/360) × 63.35%</span>
 </div>
 </div>
 </div>
+<div class="cost-detail-block" data-flow-id="s4-lock">
+<div class="cost-block-title">
+  F4. 45天远期锁汇成本
+ </div>
+<div class="cost-block-value-row">
+<span class="cost-block-rate">
+   0.22%
+  </span>
+<span class="cost-block-rate-label">
+   实际费率
+  </span>
+</div>
+<div class="cost-block-meta">
+<div class="meta-row desc-row">
+<span class="meta-label">
+    成本说明
+   </span>
+<span class="meta-value desc">BYD ID 购买 45天 远期外汇合约，锁定过桥融资到期利率</span>
+</div>
+<div class="meta-row param-row">
+<span class="meta-label">
+    45天 USD/IDR 远期掉期点
+   </span>
+<div class="meta-value-group">
+    64点
+    <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;">
+<svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11">
+<circle cx="12" cy="12" r="10"></circle>
+<line x1="12" x2="12" y1="16" y2="12"></line>
+<line x1="12" x2="12.01" y1="8" y2="8"></line>
+</svg>
+<span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">
+      45D USD/IDR 远期点：64点。注：即期 18100，45天远期 18164；参考公开 USD/IDR Forward Points，按45天线性估算
+     </span>
+</span>
+</div>
+</div>
+<div class="meta-row formula-row">
+<span class="meta-label">
+    实际费率计算公式
+   </span>
+<span class="meta-value formula">
+    7M USD × 64 IDR/USD ÷ 200 Bn IDR
+   </span>
+</div>
+</div>
+</div>
+<div class="cost-detail-block" data-flow-id="s4-idr-discount">
+<div class="cost-block-title">F5. USD 45天过桥押汇</div>
+<div class="cost-block-value-row">
+<span class="cost-block-rate">
+   0.41%
+  </span>
+<span class="cost-block-rate-label">
+   实际费率
+  </span>
+</div>
+<div class="cost-block-meta">
+<div class="meta-row desc-row">
+<span class="meta-label">
+    成本说明
+   </span>
+<span class="meta-value desc">BYD ID 办45天 美元过桥贷款偿付SEC LC，以解决双证的时间差</span>
+</div>
+<div class="meta-row param-row">
+<span class="meta-label">
+    年化费率
+   </span>
+<div class="meta-value-group">
+<span class="meta-value">
+     5.17% p.a.
+     <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;">
+<svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11">
+<circle cx="12" cy="12" r="10"></circle>
+<line x1="12" x2="12" y1="16" y2="12"></line>
+<line x1="12" x2="12.01" y1="8" y2="8"></line>
+</svg>
+<span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">
+       3M Term SOFR 美元基准利率 (3.67%) + 银行押汇加点 (1.50%) = 5.17% p.a.
+      </span>
+</span>
+</span>
+</div>
+</div>
+<div class="meta-row formula-row">
+<span class="meta-label">
+    实际费率计算公式
+   </span>
+<span class="meta-value formula">
+    5.17% × (45 / 360天) × 63.35%
+   </span>
+</div>
+</div>
+</div></div>
 </div>
 <!-- Column 3: DEALER -->
 <div class="cost-column" data-role-link="dealer">
@@ -4893,16 +4516,17 @@
 <span class="column-title-dot dealer"></span>
 <span class="column-title-text">DEALER (印尼本地经销商)</span>
 </div>
-<div class="cost-detail-block" data-flow-id="s2-lc-open">
-<div class="cost-block-title">F3. IDR 信用证开证及承兑费</div>
+<div class="cost-cards-row">
+<div class="cost-detail-block" data-flow-id="s4-lc-mother">
+<div class="cost-block-title">F1. Master LC开证承兑</div>
 <div class="cost-block-value-row">
-<span class="cost-block-rate">0.75%</span>
+<span class="cost-block-rate">1.00%</span>
 <span class="cost-block-rate-label">实际费率</span>
 </div>
 <div class="cost-block-meta">
 <div class="meta-row desc-row">
 <span class="meta-label">成本说明</span>
-<span class="meta-value desc">经销商开立 90天 IDR 信用证 / SKBDN，承担开证费及远期承兑费。</span>
+<span class="meta-value desc">经销商开立 135天 IDR 母信用证 / SKBDN，承担开证费及远期承兑费。</span>
 </div>
 <div class="meta-row param-row">
 <span class="meta-label">票证费用</span>
@@ -4911,7 +4535,8 @@
 </div>
 <div class="meta-row formula-row">
 <span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">0.25% + 2.0% × 90/360</span>
+<span class="meta-value formula">0.25% + 2.0% × 135/360</span>
+</div>
 </div>
 </div>
 </div>
@@ -4925,7 +4550,7 @@
 <div class="cost-detail-block" data-role-link="summary">
 <div class="cost-block-title">全流程实际费用率</div>
 <div class="cost-block-value-row">
-<span class="cost-block-rate summary">2.30%</span>
+<span class="cost-block-rate summary recommended">2.81%</span>
 <span class="cost-block-rate-label">实际费率</span>
 </div>
 <div class="cost-block-meta">
@@ -4935,7 +4560,7 @@
 </div>
 <div class="meta-row formula-row">
 <span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">0.87% (HK) + 0.68% (ID) + 0.75% (Dealer)</span>
+<span class="meta-value formula">0.70% (HK) + 1.11% (ID) + 1.00% (Dealer)</span>
 </div>
 </div>
 </div>
@@ -4943,24 +4568,23 @@
 <!-- Footer Note for Exporter Value Share (63.35%) -->
 <div class="exporter-note-row">
 <span class="note-content">注：公式中 63.35% 代表“出口货值占比”，计算来源为：BYD HK 出口货值 (7 Mn USD = 126.7 Bn IDR) ÷ BYD ID 对经销商批售货值 (200 Bn IDR) 估算所得。</span>
-<span class="pie-info-trigger" style="display: inline-flex; align-items: center; cursor: pointer; color: #7C3AED; margin-left: 4px; vertical-align: middle;">
+<span class="pie-info-trigger" data-scen="4" style="display: inline-flex; align-items: center; cursor: pointer; color: #7C3AED; margin-left: 4px; vertical-align: middle;">
 <svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </span>
 </div>
 </div>
-<!-- 最下面放饼图区域 (已移至悬停浮窗) -->
+<!-- 最下面饼图区域 (已移至悬停浮窗) -->
 </div>
+<!-- 二级对比界面：USD 双信用证 -->
 </div>
-<!-- 场景 5 流程推演 -->
 <div class="diagram-pane" id="pane-scenario-5">
 <div class="diagram-left">
 <!-- 场景 5 文字描述放在最上方 -->
 <div class="phase-selector-container">
 <div class="phase-selector-left">
-<span class="phase-selector-title">交易阶段切换：</span>
 <div class="phase-tab-group" id="phase-tabs-s5">
-<button class="phase-tab-btn active" data-phase="1">阶段一：前期开证与资金融通 (Day 1 - 90)</button>
-<button class="phase-tab-btn" data-phase="2">阶段二：后期到期与购汇交割 (Day 90 - 135)</button>
+<button class="phase-tab-btn active" data-phase="1">阶段一：开证与锁汇</button>
+<button class="phase-tab-btn" data-phase="2">阶段二：购汇和还款</button>
 </div>
 </div>
 <span class="phase-selector-tip">
@@ -4972,8 +4596,8 @@
             提示：点击按钮或点击下方流程图均可切换阶段
         </span>
 </div>
-<div style="width: 100%; min-height: 380px; padding: 20px 0 20px 0;">
-<svg class="flow-svg" viewbox="0 0 1140 490">
+<div style="width: 100%; min-height: 380px; padding: 45px 0 20px 0;">
+<svg class="flow-svg" viewbox="0 0 1140 540">
 <defs>
 <marker id="arrow-trade-5" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
 <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#475569"></path>
@@ -4993,35 +4617,24 @@
 </defs>
 <!-- 基础贸易流 (Trade Flow) - 重新排版防止文本与线条重叠 (7 Mn -> 7 Mn) -->
 <path class="flow-line trade" d="M 230 65 L 350 65" marker-end="url(#arrow-trade-5)"></path>
-<text class="flow-line-label" style="fill:#475569;" x="290" y="24">T1. 车辆出口发运</text>
-<text class="flow-line-sublabel" style="fill:#2563EB; font-weight: bold; font-size: 10px; text-anchor: middle;" x="290" y="38">出口货值: USD 7Mn</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="290" y="52">(约 126.7 Bn IDR)</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="290" y="77">(Day 0-30)</text>
 <path class="flow-line trade" d="M 510 65 L 630 65" marker-end="url(#arrow-trade-5)"></path>
-<text class="flow-line-label" style="fill:#475569;" x="570" y="24">T2. 清关及总装交付</text>
-<g class="pie-info-group">
-<text class="flow-line-sublabel" style="fill:#7C3AED; font-weight: bold; font-size: 10px; text-anchor: middle;" x="570" y="38">批发货值: 200 Bn IDR</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="570" y="52">(约 11.05M USD)</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="570" y="77">(Day 30-45)</text>
-<g class="pie-info-trigger" data-scen="5" style="cursor: pointer;">
-<!-- 增大隐形交互区域，防止鼠标微移时抖动关闭 -->
-<circle cx="612" cy="49" fill="none" pointer-events="all" r="18"></circle>
-<!-- 实际可视的图标 -->
-<circle cx="612" cy="49" fill="#7C3AED" opacity="0.15" r="6.5"></circle>
-<text fill="#7C3AED" font-size="9px" font-weight="bold" text-anchor="middle" x="612" y="52">i</text>
-</g>
-</g>
+<text class="flow-line-label" style="fill:#475569;" x="290" y="24">T1. 车辆出口发运（Day 0）</text><text class="flow-line-sublabel" style="fill:#2563EB; font-weight: bold; font-size: 10px; text-anchor: middle;" x="290" y="38">出口货值假设:</text><text class="flow-line-sublabel" style="fill:#2563EB; font-weight: bold; font-size: 10px; text-anchor: middle;" x="290" y="50">USD 7 Mn / Rp 126.7 Bn</text><foreignobject height="52" width="120" x="510" y="70">
+<div class="t2-composition-card" xmlns="http://www.w3.org/1999/xhtml">
+<div class="comp-row"><span class="label">出口货值:</span><span class="val">Rp 126.7 Bn</span></div>
+<div class="comp-row"><span class="label">增值税:</span><span class="val">Rp 19.8 Bn</span></div>
+<div class="comp-row"><span class="label">进口毛利:</span><span class="val">Rp 40.2 Bn</span></div>
+<div class="comp-row"><span class="label">税费及物流:</span><span class="val">Rp 13.3 Bn</span></div>
+</div>
+</foreignobject><text class="flow-line-label" style="fill:#475569;" x="570" y="24">T2. 清关及总装交付（Day 45）</text><text class="flow-line-sublabel" style="fill:#7C3AED; font-weight: bold; font-size: 10px; text-anchor: middle;" x="570" y="38">批发货值假设:</text><text class="flow-line-sublabel" style="fill:#7C3AED; font-weight: bold; font-size: 10px; text-anchor: middle;" x="570" y="50">USD 11 Mn / Rp 200 Bn</text><text class="flow-line-label" style="fill:#475569;" x="850" y="24">T3. 终端零售销售回款 （Day 135）</text>
 <path class="flow-line trade" d="M 790 65 L 910 65" marker-end="url(#arrow-trade-5)"></path>
-<text class="flow-line-label" style="fill:#475569;" x="850" y="44">T3. 终端零售销售</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="850" y="77">(Day 45-135)</text>
 <!-- Bank HK (Shifted right to x=340 to align with BYD ID at x=350) -->
 <g class="flow-node">
-<rect class="node-rect bank" height="60" rx="8" ry="8" width="180" x="340" y="245"></rect>
-<g transform="translate(352, 263)">
+<rect class="node-rect bank" height="60" rx="8" ry="8" width="180" x="340" y="280"></rect>
+<g transform="translate(352, 298)">
 <path d="M3 21h18 M4 21v-3h16v3 M5 11h14 M3 11l9-6 9 6 M7 18v-7 M12 18v-7 M17 18v-7" fill="none" stroke="#64748B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
 </g>
-<text class="node-text-title" x="386" y="270">Bank HK</text>
-<text class="node-text-sub" x="386" y="288">USD开证行/贴现行</text>
+<text class="node-text-title" x="386" y="305">Bank HK</text>
+<text class="node-text-sub" x="386" y="323">USD开证行/贴现行</text>
 </g>
 <!-- 主体节点 -->
 <!-- BYD HK -->
@@ -5069,57 +4682,57 @@
 </g>
 <!-- Bank ID (Shifted right to x=630 to maintain spacing) -->
 <g class="flow-node">
-<rect class="node-rect bank" height="60" rx="8" ry="8" width="200" x="630" y="245"></rect>
-<g transform="translate(642, 263)">
+<rect class="node-rect bank" height="60" rx="8" ry="8" width="200" x="630" y="280"></rect>
+<g transform="translate(642, 298)">
 <path d="M3 21h18 M4 21v-3h16v3 M5 11h14 M3 11l9-6 9 6 M7 18v-7 M12 18v-7 M17 18v-7" fill="none" stroke="#64748B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
 </g>
-<text class="node-text-title" x="676" y="270">Bank ID</text>
-<text class="node-text-sub" x="676" y="288">本地信用证/融资/避险行</text>
+<text class="node-text-title" x="676" y="305">Bank ID</text>
+<text class="node-text-sub" x="676" y="323">本地信用证/融资/避险行</text>
 </g>
 <!-- F1: IDR Master LC开证与承兑 (135天) -->
 <g class="flow-arrow-group s5-phase-1" data-flow-id="s5-lc-mother">
-<path class="flow-line hedging" d="M 710 95 L 710 243" marker-end="url(#arrow-hedging-5)" style="stroke:#0D9488;"></path>
+<path class="flow-line hedging" d="M 710 95 L 710 278" marker-end="url(#arrow-hedging-5)" style="stroke:#0D9488;"></path>
 <text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="720" y="165">F1. IDR Master LC开证与承兑 (135天)</text>
 </g>
 <!-- F2: USD SEC LC开证与承兑 (90天) -->
 <g class="flow-arrow-group s5-phase-1" data-flow-id="s5-lc-child">
-<path class="flow-line bydid" d="M 410 95 L 410 243" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
+<path class="flow-line bydid" d="M 410 95 L 410 278" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
 <text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="400" y="165">F2. USD SEC LC开证与承兑 (90天)</text>
 </g>
 <!-- F3: SEC LC贴现 -->
 <g class="flow-arrow-group s5-phase-1" data-flow-id="s5-discount">
-<path class="flow-line finance" d="M 150 95 L 150 275 L 338 275" marker-end="url(#arrow-finance-5)" style="stroke:#2563EB;"></path>
+<path class="flow-line finance" d="M 150 95 L 150 310 L 338 310" marker-end="url(#arrow-finance-5)" style="stroke:#2563EB;"></path>
 <text class="flow-line-label" style="fill:#2563EB; text-anchor: end;" x="140" y="140">F3. SEC LC贴现</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="140" y="158">贴现 USD 7M 应收款</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="140" y="173">提前收回上游货款</text>
 </g>
 <!-- F4: SEC LC到期偿付 -->
-<g class="flow-arrow-group s5-phase-1" data-flow-id="s5-bridge">
-<path class="flow-line bydid" d="M 450 95 L 450 243" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: start;" x="460" y="185">F4. SEC LC到期偿付</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="460" y="203">使用 USD 过桥融资偿付SEC LC到期款</text>
+<g class="flow-arrow-group s5-phase-2" data-flow-id="s5-bridge">
+<path class="flow-line bydid" d="M 450 95 L 450 278" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: start;" x="460" y="215">F5. SEC LC到期偿付</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="460" y="233">使用 USD 过桥融资偿付SEC LC到期款</text>
 </g>
 <!-- F5: USD/IDR 远期锁汇 (45天) -->
 <g class="flow-arrow-group s5-phase-1" data-flow-id="s5-lock">
-<path class="flow-line bydid" d="M 470 95 L 470 150 L 650 150 L 650 243" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="560" y="140">F5. USD/IDR 远期锁汇 (45天)</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="560" y="163">锁定过桥还款汇率</text>
+<path class="flow-line bydid" d="M 470 95 L 470 170 L 650 170 L 650 278" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="560" y="160">F4. USD/IDR 远期锁汇 (45天)</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="560" y="183">锁定过桥还款汇率</text>
 </g>
 <!-- F6: Master LC到期还款 -->
 <g class="flow-arrow-group s5-phase-2">
-<path class="flow-line hedging" d="M 750 95 L 750 243" marker-end="url(#arrow-hedging-5)" style="stroke:#0D9488;"></path>
+<path class="flow-line hedging" d="M 750 95 L 750 278" marker-end="url(#arrow-hedging-5)" style="stroke:#0D9488;"></path>
 <text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="760" y="160">F6. Master LC到期还款</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="760" y="175">偿还 IDR Master LC到期款</text>
 </g>
 <!-- F7: 远期购汇交割 (45天) -->
 <g class="flow-arrow-group s5-phase-2">
-<path class="flow-line bydid" d="M 470 95 L 470 150 L 650 150 L 650 243" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="560" y="140">F7. 远期购汇交割 (45天)</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="560" y="163">向 Bank ID 购汇清偿过桥</text>
+<path class="flow-line bydid" d="M 470 95 L 470 170 L 650 170 L 650 278" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
+<text class="flow-line-label" style="fill:#7C3AED; text-anchor: middle;" x="560" y="160">F7. 远期购汇交割 (45天)</text>
+<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="560" y="183">向 Bank ID 购汇清偿过桥</text>
 </g>
 <!-- F8: Master LC净额结算 -->
 <g class="flow-arrow-group s5-phase-2">
-<path class="flow-line bydid" d="M 390 243 L 390 97" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
+<path class="flow-line bydid" d="M 390 280 L 390 97" marker-end="url(#arrow-id-5)" style="stroke:#7C3AED;"></path>
 <text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="380" y="185">F8. Master LC净额结算</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="380" y="203">支付Master LC款，偿还过桥融资本息</text>
 <text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="380" y="218">剩余金额入账</text>
@@ -5136,38 +4749,38 @@
 <text fill="#64748B" font-size="9.5px" x="48" y="50">资金流 (Finance)</text>
 </g>
 <!-- 痛点一虚线连接线 (BYD HK) -->
-<path class="s5-phase-1" d="M 270 275 L 270 330" fill="none" stroke="#EF4444" stroke-dasharray="3,3" stroke-width="1.5"></path>
-<circle class="s5-phase-1" cx="270" cy="275" fill="#EF4444" r="3"></circle>
+<path class="s5-phase-1" d="M 270 310 L 270 365" fill="none" stroke="#EF4444" stroke-dasharray="3,3" stroke-width="1.5"></path>
+<circle class="s5-phase-1" cx="270" cy="310" fill="#EF4444" r="3"></circle>
 <!-- 痛点一看板 (BYD HK 回款压力) -->
-<foreignobject height="160" width="300" x="120" y="330">
+<foreignobject height="160" width="300" x="120" y="365">
 <div class="pain-point-embed-card" xmlns="http://www.w3.org/1999/xhtml">
 <div class="embed-card-header">
-<span class="embed-num">01</span>
-<strong style="font-size: 13.5px; color: #1E293B;">痛点一：BYD HK回款压力</strong>
+<span class="embed-num">02</span>
+<strong style="font-size: 13.5px; color: #1E293B;">痛点二：BYD HK回款压力</strong>
 </div>
 <div class="embed-card-status" style="margin-left: 26px; margin-bottom: 8px;">
 <span class="echo-status-badge status-solved">✓ 已解决</span>
 </div>
 <div class="embed-card-body">
-      打通跨币种背靠背信用证结构，BYD HK 可在发货后 45天内通过境外 USD SEC LC贴现提早收回美元，满足资金周转。
+      BYD HK 发货后即可交单申请 SEC LC 贴现，提早回笼美元
     </div>
 </div>
 </foreignobject>
 <!-- 痛点二虚线连接线 (Dealer) -->
-<path class="s5-phase-1" d="M 710 200 L 950 200 L 950 330" fill="none" stroke="#F97316" stroke-dasharray="3,3" stroke-width="1.5"></path>
+<path class="s5-phase-1" d="M 710 200 L 950 200 L 950 365" fill="none" stroke="#F97316" stroke-dasharray="3,3" stroke-width="1.5"></path>
 <circle class="s5-phase-1" cx="710" cy="200" fill="#F97316" r="3"></circle>
 <!-- 痛点二看板 (经销商融资成本高) -->
-<foreignobject height="160" width="320" x="790" y="330">
+<foreignobject height="160" width="320" x="790" y="365">
 <div class="pain-point-embed-card orange-theme" xmlns="http://www.w3.org/1999/xhtml">
 <div class="embed-card-header">
-<span class="embed-num">02</span>
-<strong style="font-size: 13.5px; color: #1E293B;">痛点二：经销商融资成本高</strong>
+<span class="embed-num">01</span>
+<strong style="font-size: 13.5px; color: #1E293B;">痛点一：经销商融资成本高</strong>
 </div>
 <div class="embed-card-status" style="margin-left: 26px; margin-bottom: 8px;">
 <span class="echo-status-badge status-solved">✓ 成本降至 1.00%</span>
 </div>
 <div class="embed-card-body">
-      经销商无汇率与锁汇风险。因Master LC期限需配合拉长至 135天，实际费率比方案二的 0.75% 略有上升（为 1.00%），但仍远低于库存融资。
+      经销商承担的135天 Master LC 实际费率降低至1%，低于库存融资
     </div>
 </div>
 </foreignobject>
@@ -5212,9 +4825,8 @@
 <span class="column-title-dot id"></span>
 <span class="column-title-text">BYD ID (印尼进口端)</span>
 </div>
-<div class="cost-cards-row">
-<div class="cost-detail-block" data-flow-id="s5-lc-child">
-<div class="cost-block-title">F2. SEC LC开证及承兑费</div>
+<div class="cost-cards-row"><div class="cost-detail-block" data-flow-id="s5-lc-child">
+<div class="cost-block-title">F2. SEC LC开证及承兑</div>
 <div class="cost-block-value-row">
 <span class="cost-block-rate">0.28%</span>
 <span class="cost-block-rate-label">实际费率</span>
@@ -5234,9 +4846,29 @@
 <span class="meta-value formula">(0.25% + 0.75% × 90/360) × 63.35%</span>
 </div>
 </div>
+</div><div class="cost-detail-block" data-flow-id="s5-lock">
+<div class="cost-block-title">F4. 45天远期锁汇成本</div>
+<div class="cost-block-value-row">
+<span class="cost-block-rate">0.22%</span>
+<span class="cost-block-rate-label">实际费率</span>
 </div>
-<div class="cost-detail-block" data-flow-id="s5-bridge">
-<div class="cost-block-title">F4. 过桥押汇利息</div>
+<div class="cost-block-meta">
+<div class="meta-row desc-row">
+<span class="meta-label">成本说明</span>
+<span class="meta-value desc">BYD ID 购买 45天 远期外汇合约，锁定过桥融资到期利率</span>
+</div>
+<div class="meta-row param-row">
+<span class="meta-label">45天 USD/IDR 远期掉期点</span>
+<div class="meta-value-group"><span class="meta-value">64点
+        <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">注：1）即期汇率 USD/IDR 为 18100，45天远期汇率 USD/IDR 为 18164（即期汇率加上掉期点） ；2）掉期点采用印尼本地银行口径，参考 BCA 公布的 USD/IDR Forward Sell Rate 进行推算</span></span></span></div>
+</div>
+<div class="meta-row formula-row">
+<span class="meta-label">实际费率计算公式</span>
+<span class="meta-value formula">7M USD × 64 IDR/USD ÷ 200 Bn IDR</span>
+</div>
+</div>
+</div><div class="cost-detail-block" data-flow-id="s5-bridge">
+<div class="cost-block-title">F5. USD 45天过桥押汇</div>
 <div class="cost-block-value-row">
 <span class="cost-block-rate">0.41%</span>
 <span class="cost-block-rate-label">实际费率</span>
@@ -5256,31 +4888,7 @@
 <span class="meta-value formula">5.17% * (45 / 360) * 63.35%</span>
 </div>
 </div>
-</div>
-<div class="cost-detail-block" data-flow-id="s5-lock">
-<div class="cost-block-title">F5. 45天远期锁汇成本</div>
-<div class="cost-block-value-row">
-<span class="cost-block-rate">0.22%</span>
-<span class="cost-block-rate-label">实际费率</span>
-</div>
-<div class="cost-block-meta">
-<div class="meta-row desc-row">
-<span class="meta-label">成本说明</span>
-<span class="meta-value desc">BYD ID 购买 45天 远期外汇合约，锁定过桥融资还款时的购汇汇率。</span>
-</div>
-<div class="meta-row param-row">
-<span class="meta-label">45天 USD/IDR 远期掉期点</span>
-<div class="meta-value-group"><span class="meta-value">64点
-        <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">注：1）即期汇率 USD/IDR 为 18100，45天远期汇率 USD/IDR 为 18164（即期汇率加上掉期点） ；2）掉期点采用印尼本地银行口径，参考 BCA 公布的 USD/IDR Forward Sell Rate 进行推算</span></span></span></div>
-</div>
-<div class="meta-row formula-row">
-<span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">7M USD × 64 IDR/USD ÷ 200 Bn IDR</span>
-</div>
-</div>
-</div>
-</div>
-</div>
+</div></div></div>
 <!-- Column 3: DEALER -->
 <div class="cost-column" data-role-link="dealer">
 <div class="cost-column-header">
@@ -5289,7 +4897,7 @@
 </div>
 <div class="cost-cards-row">
 <div class="cost-detail-block" data-flow-id="s5-lc-mother">
-<div class="cost-block-title">F1. Master LC开证及承兑费</div>
+<div class="cost-block-title">F1. Master LC开证承兑</div>
 <div class="cost-block-value-row">
 <span class="cost-block-rate">1.00%</span>
 <span class="cost-block-rate-label">实际费率</span>
@@ -5339,405 +4947,19 @@
 <!-- Footer Note for Exporter Value Share (63.35%) -->
 <div class="exporter-note-row">
 <span class="note-content">注：公式中 63.35% 代表“出口货值占比”，计算来源为：BYD HK 出口货值 (7 Mn USD = 126.7 Bn IDR) ÷ BYD ID 对经销商批售货值 (200 Bn IDR) 估算所得。</span>
-<span class="pie-info-trigger" style="display: inline-flex; align-items: center; cursor: pointer; color: #7C3AED; margin-left: 4px; vertical-align: middle;">
+<span class="pie-info-trigger" data-scen="5" style="display: inline-flex; align-items: center; cursor: pointer; color: #7C3AED; margin-left: 4px; vertical-align: middle;">
 <svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
 </span>
 </div>
 </div>
 <!-- 最下面饼图区域 (已移至悬停浮窗) -->
 </div>
-<!-- 二级对比界面：USD 双信用证 -->
-<div class="sec-compare-section">
-<div class="sec-compare-header">
-<button class="sec-compare-btn" id="sec-compare-toggle-btn">
-<svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="vertical-align: middle; margin-right: 4px;" viewbox="0 0 24 24" width="14"><circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line></svg>
-<span>展开对比研究：离岸USD双信用证结构</span>
-</button>
 </div>
-<div class="sec-compare-content" id="sec-compare-content-el" style="display: none;">
-<div class="sec-compare-desc-box">
-<div class="desc-box-title">为什么不采用离岸 USD 双信用证结构？</div>
-<div class="desc-box-points">
-<div class="desc-point-item">
-<strong>1. 经销商负担未解决</strong>：经销商仍然要开立 135天的 USD 远期Master LC，并自己负责在本地锁汇并承担美元负债，无法实现印尼本币交易（去美元化）的目标，推广阻力大。
-                    </div>
-<div class="desc-point-item">
-<strong>2. 全流程费用较昂贵 (实际 2.99% / 年化 7.97%)</strong>：由于经销商锁汇期延长至 135天导致锁汇费用大涨（1.07%），全流程实际费率高达 2.99%，明显高于IDR Master+USD SEC信用证 的 2.61%。
-                    </div>
-</div>
-</div>
-<div class="sec-compare-diagram-area">
-<div class="panel-title-mini" style="margin-top: 15px;">对比组流程：离岸 USD 双信用证模式</div>
-<div class="diagram-pane active" id="pane-scenario-4-moved" style="display: flex; flex-direction: column; gap: 15px; border: none; padding: 0; background: transparent; box-shadow: none;">
-<div class="diagram-left">
-<!-- USD双信用证结构 文字描述放在最上方 -->
-<div class="phase-selector-container">
-<div class="phase-selector-left">
-<span class="phase-selector-title">交易阶段切换：</span>
-<div class="phase-tab-group" id="phase-tabs-s4">
-<button class="phase-tab-btn active" data-phase="1">阶段一：前期开证与资金融通 (Day 1 - 90)</button>
-<button class="phase-tab-btn" data-phase="2">阶段二：后期到期与购汇交割 (Day 90 - 135)</button>
-</div>
-</div>
-<span class="phase-selector-tip">
-<svg fill="none" height="12" stroke="currentColor" stroke-width="2.5" style="vertical-align: middle; margin-right: 2px;" viewbox="0 0 24 24" width="12">
-<circle cx="12" cy="12" r="10"></circle>
-<line x1="12" x2="12" y1="16" y2="12"></line>
-<line x1="12" x2="12.01" y1="8" y2="8"></line>
-</svg>
-            提示：点击按钮或点击下方流程图均可切换阶段
-        </span>
-</div>
-<div style="width: 100%; min-height: 380px; padding: 20px 0 20px 0;">
-<svg class="flow-svg" viewbox="0 0 1140 350">
-<defs>
-<marker id="arrow-trade-4" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
-<path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#475569"></path>
-</marker>
-<marker id="arrow-finance-4" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
-<path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#2563EB"></path>
-</marker>
-<marker id="arrow-hedging-4" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
-<path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0D9488"></path>
-</marker>
-<marker id="arrow-id-4" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
-<path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#7C3AED"></path>
-</marker>
-<marker id="arrow-payment-4" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="8" refy="5" viewbox="0 0 10 10">
-<path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#10B981"></path>
-</marker>
-</defs>
-<!-- 基础贸易流 (Trade Flow) - 重新排版防止文本与线条重叠 (7 Mn -> 7 Mn) -->
-<path class="flow-line trade" d="M 230 65 L 350 65" marker-end="url(#arrow-trade-4)"></path>
-<text class="flow-line-label" style="fill:#475569;" x="290" y="24">T1. 车辆出口发运</text>
-<text class="flow-line-sublabel" style="fill:#2563EB; font-weight: bold; font-size: 10px; text-anchor: middle;" x="290" y="38">出口货值: USD 7Mn</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="290" y="52">(约 126.7 Bn IDR)</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="290" y="77">(Day 0-30)</text>
-<path class="flow-line trade" d="M 510 65 L 630 65" marker-end="url(#arrow-trade-4)"></path>
-<text class="flow-line-label" style="fill:#475569;" x="570" y="24">T2. 清关及总装交付</text>
-<g class="pie-info-group">
-<text class="flow-line-sublabel" style="fill:#7C3AED; font-weight: bold; font-size: 10px; text-anchor: middle;" x="570" y="38">批发货值: 200 Bn IDR</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="570" y="52">(约 11.05M USD)</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="570" y="77">(Day 30-45)</text>
-<g class="pie-info-trigger" data-scen="4" style="cursor: pointer;">
-<!-- 增大隐形交互区域，防止鼠标微移时抖动关闭 -->
-<circle cx="612" cy="49" fill="none" pointer-events="all" r="18"></circle>
-<!-- 实际可视的图标 -->
-<circle cx="612" cy="49" fill="#7C3AED" opacity="0.15" r="6.5"></circle>
-<text fill="#7C3AED" font-size="9px" font-weight="bold" text-anchor="middle" x="612" y="52">i</text>
-</g>
-</g>
-<path class="flow-line trade" d="M 790 65 L 910 65" marker-end="url(#arrow-trade-4)"></path>
-<text class="flow-line-label" style="fill:#475569;" x="850" y="44">T3. 终端零售销售</text>
-<text class="flow-line-sublabel" style="fill:#64748B; font-size: 9px; font-weight: normal; text-anchor: middle;" x="850" y="77">(Day 45-135)</text>
-<!-- Bank HK (Shifted right to x=340 to align with BYD ID at x=350) -->
-<g class="flow-node">
-<rect class="node-rect bank" height="60" rx="8" ry="8" width="180" x="340" y="245"></rect>
-<g transform="translate(352, 263)">
-<path d="M3 21h18 M4 21v-3h16v3 M5 11h14 M3 11l9-6 9 6 M7 18v-7 M12 18v-7 M17 18v-7" fill="none" stroke="#64748B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
-</g>
-<text class="node-text-title" x="386" y="270">Bank HK</text>
-<text class="node-text-sub" x="386" y="288">USD开证行/贴现行</text>
-</g>
-<!-- 主体节点 -->
-<!-- BYD HK -->
-<g class="flow-node" data-role-link="hk">
-<rect class="node-rect hk" height="60" rx="8" ry="8" width="160" x="70" y="35"></rect>
-<g transform="translate(82, 53)">
-<rect fill="none" height="20" rx="2" ry="2" stroke="#2563EB" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" width="16" x="4" y="2"></rect>
-<line stroke="#2563EB" stroke-linecap="round" stroke-width="1.8" x1="9" x2="15" y1="6" y2="6"></line>
-<line stroke="#2563EB" stroke-linecap="round" stroke-width="1.8" x1="9" x2="15" y1="12" y2="12"></line>
-<line stroke="#2563EB" stroke-linecap="round" stroke-width="1.8" x1="9" x2="15" y1="18" y2="18"></line>
-<circle cx="6" cy="6" fill="#2563EB" r="0.7"></circle>
-<circle cx="6" cy="12" fill="#2563EB" r="0.7"></circle>
-<circle cx="6" cy="18" fill="#2563EB" r="0.7"></circle>
-</g>
-<text class="node-text-title" x="116" y="60">BYD HK</text>
-<text class="node-text-sub" x="116" y="78">出口枢纽 (香港)</text>
-</g>
-<!-- BYD ID -->
-<g class="flow-node" data-role-link="id">
-<rect class="node-rect id" height="60" rx="8" ry="8" width="160" x="350" y="35"></rect>
-<g transform="translate(362, 53)">
-<path d="M2 20V10l6 4V10l6 4V10l6 4v6H2z M10 20v-4h4v4" fill="none" stroke="#7C3AED" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
-</g>
-<text class="node-text-title" x="396" y="60">BYD ID</text>
-<text class="node-text-sub" x="396" y="78">进口总装 (印尼)</text>
-</g>
-<!-- DEALER -->
-<g class="flow-node" data-role-link="dealer">
-<rect class="node-rect dealer" height="60" rx="8" ry="8" width="160" x="630" y="35"></rect>
-<g transform="translate(642, 53)">
-<path d="M3 20h18 M20 20V10l-8-6-8 6v10 M9 20v-6h6v6" fill="none" stroke="#0D9488" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
-</g>
-<text class="node-text-title" x="676" y="60">DEALER</text>
-<text class="node-text-sub" x="676" y="78">印尼本地经销商</text>
-</g>
-<!-- CUSTOMER -->
-<g class="flow-node">
-<rect class="node-rect customer" height="60" rx="8" ry="8" width="160" x="910" y="35"></rect>
-<g transform="translate(922, 53)">
-<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" fill="none" stroke="#475569" stroke-linecap="round" stroke-width="1.8"></path>
-<circle cx="12" cy="7" fill="none" r="4" stroke="#475569" stroke-width="1.8"></circle>
-</g>
-<text class="node-text-title" x="956" y="60">CUSTOMER</text>
-<text class="node-text-sub" x="956" y="78">印尼本地终端买家</text>
-</g>
-<!-- Bank ID (Shifted right to x=630 to maintain spacing) -->
-<g class="flow-node">
-<rect class="node-rect bank" height="60" rx="8" ry="8" width="200" x="630" y="245"></rect>
-<g transform="translate(642, 263)">
-<path d="M3 21h18 M4 21v-3h16v3 M5 11h14 M3 11l9-6 9 6 M7 18v-7 M12 18v-7 M17 18v-7" fill="none" stroke="#64748B" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
-</g>
-<text class="node-text-title" x="676" y="270">Bank ID</text>
-<text class="node-text-sub" x="676" y="288">本地信用证/融资/避险行</text>
-</g>
-<!-- F1: USD Master LC开证与承兑 (Main title above line y=205, lands on Bank HK top at x=450, subtitle removed) -->
-<g class="flow-arrow-group s4-phase-1" data-flow-id="s4-lc-mother">
-<path class="flow-line hedging" d="M 710 95 L 710 215 L 450 215 L 450 243" marker-end="url(#arrow-hedging-4)" style="stroke:#0D9488;"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: middle;" x="580" y="205">F1. USD Master LC开证与承兑 (135天)</text>
-</g>
-<!-- F2: USD/IDR 远期锁汇 (Straight vertical line at x=750 to Bank ID at x=630-830, center 730) -->
-<g class="flow-arrow-group s4-phase-1" data-flow-id="s4-lock">
-<path class="flow-line hedging" d="M 750 95 L 750 243" marker-end="url(#arrow-hedging-4)" style="stroke:#0D9488;"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="760" y="160">F2. USD/IDR 远期锁汇</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="760" y="175">锁定 Day135 Master LC还款汇率</text>
-</g>
-<!-- F3: USD SEC LC开证与承兑 (Straight vertical line at x=410, perfectly aligned, subtitle removed) -->
-<g class="flow-arrow-group s4-phase-1" data-flow-id="s4-lc-child">
-<path class="flow-line bydid" d="M 410 95 L 410 243" marker-end="url(#arrow-id-4)" style="stroke:#7C3AED;"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: start;" x="420" y="155">F3. USD SEC LC开证与承兑 (90天)</text>
-</g>
-<!-- F4: SEC LC贴现 (Lands at x=338, left side of Bank HK, date hidden, text re-centered) -->
-<g class="flow-arrow-group s4-phase-1" data-flow-id="s4-discount">
-<path class="flow-line finance" d="M 150 95 L 150 275 L 338 275" marker-end="url(#arrow-finance-4)" style="stroke:#2563EB;"></path>
-<text class="flow-line-label" style="fill:#2563EB; text-anchor: end;" x="140" y="140">F4. SEC LC贴现</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="140" y="158">贴现 USD 7M 应收款</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="140" y="173">提前收回上游货款</text>
-</g>
-<!-- F5: SEC LC到期偿付 (Staggered to right of x=450, date hidden, split into 2 lines, aligned with F10 at y=185,203) -->
-<g class="flow-arrow-group s4-phase-2" data-flow-id="s4-bridge">
-<path class="flow-line bydid" d="M 450 95 L 450 243" marker-end="url(#arrow-id-4)" style="stroke:#7C3AED;"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: start;" x="460" y="185">F5. SEC LC到期偿付</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="460" y="203">使用 USD 过桥融资偿付SEC LC到期款</text>
-</g>
-<!-- F6: 远期购汇交割 (Straight vertical line at x=710, date hidden, label shifted right to x=720, text-anchor: start) -->
-<g class="flow-arrow-group s4-phase-2">
-<path class="flow-line hedging" d="M 710 95 L 710 243" marker-end="url(#arrow-hedging-4)" style="stroke:#0D9488;"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: start;" x="720" y="155">F6. 远期购汇交割</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: start;" x="720" y="170">按锁定汇率买入 USD</text>
-</g>
-<!-- F7: Master LC到期还款 (Routed through gap between banks to avoid crossing Bank ID, enters Bank HK from the right, exit line separated from F8) -->
-<g class="flow-arrow-group s4-phase-2">
-<path class="flow-line hedging" d="M 670 95 L 670 115 L 575 115 L 575 275 L 522 275" marker-end="url(#arrow-hedging-4)" style="stroke:#0D9488;"></path>
-<text class="flow-line-label" style="fill:#0D9488; text-anchor: middle;" x="630" y="135">F7. Master LC到期还款</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: middle;" x="630" y="150">偿还 USD Master LC到期款</text>
-</g>
-<!-- F8: Master LC净额结算 (Straight vertical line at x=390, date hidden, label on the left side at x=380, right-aligned, vertically shifted to y=185,203,218, changed to purple to match BYD ID role) -->
-<g class="flow-arrow-group s4-phase-2">
-<path class="flow-line bydid" d="M 390 243 L 390 97" marker-end="url(#arrow-id-4)" style="stroke:#7C3AED;"></path>
-<text class="flow-line-label" style="fill:#7C3AED; text-anchor: end;" x="380" y="185">F8. Master LC净额结算</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="380" y="203">支付Master LC款，偿还过桥融资本息</text>
-<text class="flow-line-sublabel" style="fill:#64748B; text-anchor: end;" x="380" y="218">剩余金额入账</text>
-</g>
-<!-- Legend (图例) -->
-<g class="diagram-legend" transform="translate(930, 275)">
-<rect fill="#FFFFFF" height="60" rx="6" stroke="#E2E8F0" stroke-width="1" width="140" x="0" y="0"></rect>
-<text fill="#475569" font-size="10px" font-weight="bold" x="12" y="18">流程图示 (Legend)</text>
-<line stroke="#475569" stroke-width="2.5" x1="12" x2="28" y1="32" y2="32"></line>
-<text fill="#475569" font-size="10px" font-weight="bold" x="35" y="35">T</text>
-<text fill="#64748B" font-size="9.5px" x="48" y="35">贸易流 (Trade)</text>
-<line stroke="#2563EB" stroke-dasharray="3,2" stroke-width="2" x1="12" x2="28" y1="47" y2="47"></line>
-<text fill="#475569" font-size="10px" font-weight="bold" x="35" y="50">F</text>
-<text fill="#64748B" font-size="9.5px" x="48" y="50">资金流 (Finance)</text>
-</g>
-</svg>
-</div>
-<!-- 离岸USD双信用证结构 角色对齐资金成本卡片 -->
-<div class="flow-cost-columns">
-<!-- Column 1: BYD HK -->
-<div class="cost-column" data-role-link="hk">
-<div class="cost-column-header">
-<span class="column-title-dot hk"></span>
-<span class="column-title-text">BYD HK (出口港口端)</span>
-</div>
-<div class="cost-cards-row">
-<div class="cost-detail-block" data-flow-id="s4-discount">
-<div class="cost-block-title">F4. SEC LC贴现利率</div>
-<div class="cost-block-value-row">
-<span class="cost-block-rate">0.70%</span>
-<span class="cost-block-rate-label">实际费率</span>
-</div>
-<div class="cost-block-meta">
-<div class="meta-row desc-row">
-<span class="meta-label">成本说明</span>
-<span class="meta-value desc">BYD HK 办理 90天 SEC LC贴现，提前收回上游货款。</span>
-</div>
-<div class="meta-row param-row">
-<span class="meta-label">年化费率</span>
-<div class="meta-value-group"><span class="meta-value">4.42% p.a.
-        <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">注：3M Term SOFR (3.67%) + 银行贴现加点 (0.75%)</span></span></span></div>
-</div>
-<div class="meta-row formula-row">
-<span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">4.42% × (90 / 360天) × 63.35%</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Column 2: BYD ID -->
-<div class="cost-column" data-role-link="id">
-<div class="cost-column-header">
-<span class="column-title-dot id"></span>
-<span class="column-title-text">BYD ID (印尼进口端)</span>
-</div>
-<div class="cost-cards-row">
-<div class="cost-detail-block" data-flow-id="s4-lc-child">
-<div class="cost-block-title">F3. SEC LC开证及承兑费</div>
-<div class="cost-block-value-row">
-<span class="cost-block-rate">0.28%</span>
-<span class="cost-block-rate-label">实际费率</span>
-</div>
-<div class="cost-block-meta">
-<div class="meta-row desc-row">
-<span class="meta-label">成本说明</span>
-<span class="meta-value desc">BYD ID以Master LC作为还款来源，开立90天SEC LC</span>
-</div>
-<div class="meta-row param-row">
-<span class="meta-label">票证费用</span>
-<div class="meta-value-group"><span class="meta-value">开证 0.25%/半年；承兑 0.75% p.a.
-        <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">注：参考DBS HK / BOCHK Trade Finance Service Fee，信用证开证和承兑费用</span></span></span></div>
-</div>
-<div class="meta-row formula-row">
-<span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">(0.25% + 0.75% × 90/360) × 63.35%</span>
-</div>
-</div>
-</div>
-<div class="cost-detail-block" data-flow-id="s4-bridge">
-<div class="cost-block-title">F5. 过桥押汇利息</div>
-<div class="cost-block-value-row">
-<span class="cost-block-rate">0.41%</span>
-<span class="cost-block-rate-label">实际费率</span>
-</div>
-<div class="cost-block-meta">
-<div class="meta-row desc-row">
-<span class="meta-label">成本说明</span>
-<span class="meta-value desc">SEC LC到期后，BYD ID 办理 45天 美元过桥融资清偿SEC LC。</span>
-</div>
-<div class="meta-row param-row">
-<span class="meta-label">年化费率</span>
-<div class="meta-value-group"><span class="meta-value">5.17% p.a.
-        <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">注：3M Term SOFR (3.67%) + 1.50%</span></span></span></div>
-</div>
-<div class="meta-row formula-row">
-<span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">5.17% * (45 / 360) * 63.35%</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Column 3: DEALER -->
-<div class="cost-column" data-role-link="dealer">
-<div class="cost-column-header">
-<span class="column-title-dot dealer"></span>
-<span class="column-title-text">DEALER (印尼本地经销商)</span>
-</div>
-<div class="cost-cards-row">
-<div class="cost-detail-block" data-flow-id="s4-lock">
-<div class="cost-block-title">F2. 135天远期锁汇成本</div>
-<div class="cost-block-value-row">
-<span class="cost-block-rate">1.07%</span>
-<span class="cost-block-rate-label">实际费率</span>
-</div>
-<div class="cost-block-meta">
-<div class="meta-row desc-row">
-<span class="meta-label">成本说明</span>
-<span class="meta-value desc">经销商购买 135天 远期外汇合约，锁定到期购汇汇率。</span>
-</div>
-<div class="meta-row param-row">
-<span class="meta-label">135天 USD/IDR 远期掉期点</span>
-<div class="meta-value-group"><span class="meta-value">194点
-        <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">注：1）即期汇率 USD/IDR 为 18100，135天远期汇率 USD/IDR 为 18294（即期汇率加上掉期点） ；2）掉期点采用印尼本地银行口径，参考 BCA 公布的 USD/IDR Forward Sell Rate 进行推算</span></span></span></div>
-</div>
-<div class="meta-row formula-row">
-<span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">11.05M USD × 194 IDR/USD ÷ 200 Bn IDR</span>
-</div>
-</div>
-</div>
-<div class="cost-detail-block" data-flow-id="s4-lc-mother">
-<div class="cost-block-title">F1. Master LC开证及承兑费</div>
-<div class="cost-block-value-row">
-<span class="cost-block-rate">0.53%</span>
-<span class="cost-block-rate-label">实际费率</span>
-</div>
-<div class="cost-block-meta">
-<div class="meta-row desc-row">
-<span class="meta-label">成本说明</span>
-<span class="meta-value desc">经销商以批售货值为基础，向香港银行开立 135天 USD 信用证。</span>
-</div>
-<div class="meta-row param-row">
-<span class="meta-label">票证费用</span>
-<div class="meta-value-group"><span class="meta-value">开证 0.25%/半年；承兑 0.75% p.a.
-        <span class="tooltip-container" style="display: inline-flex; align-items: center; cursor: help; color: #94A3B8; transition: color 0.15s ease; position: relative; flex-shrink: 0;"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text" style="width: 240px; bottom: 130%; left: 50%; transform: translateX(-50%); text-transform: none; font-weight: normal; text-align: left; white-space: normal;">注：参考DBS HK / BOCHK Trade Finance Service Fee，信用证开证和承兑费用</span></span></span></div>
-</div>
-<div class="meta-row formula-row">
-<span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">0.25% + 0.75% × 135/360</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Column 4: Summary Rates -->
-<div class="reference-column" data-role-link="summary" style="grid-row: 1 / span 2;">
-<div class="cost-column-header">
-<span class="column-title-dot summary"></span>
-<span class="column-title-text">SUMMARY (汇总费率)</span>
-</div>
-<div class="cost-detail-block" data-role-link="summary">
-<div class="cost-block-title">全流程实际费用率</div>
-<div class="cost-block-value-row">
-<span class="cost-block-rate summary">2.99%</span>
-<span class="cost-block-rate-label">实际费率</span>
-</div>
-<div class="cost-block-meta">
-<div class="meta-row desc-row">
-<span class="meta-label">说明</span>
-<span class="meta-value">包含总部及进口端全流程费率，所有费率口径都以 BYD ID 对 经销商批售 货值作为分母</span>
-</div>
-<div class="meta-row formula-row">
-<span class="meta-label">实际费率计算公式</span>
-<span class="meta-value formula">0.70% (HK) + 0.69% (ID) + 1.60% (Dealer)</span>
-</div>
-</div>
-</div>
-</div>
-<!-- Footer Note for Exporter Value Share (63.35%) -->
-<div class="exporter-note-row">
-<span class="note-content">注：公式中 63.35% 代表“出口货值占比”，计算来源为：BYD HK 出口货值 (7 Mn USD = 126.7 Bn IDR) ÷ BYD ID 对经销商批售货值 (200 Bn IDR) 估算所得。</span>
-<span class="pie-info-trigger" style="display: inline-flex; align-items: center; cursor: pointer; color: #7C3AED; margin-left: 4px; vertical-align: middle;">
-<svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
-</span>
-</div>
-</div>
-<!-- 最下面放饼图区域 (已移至悬停浮窗) -->
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+</div></div></div>
 <!-- 模块三 -->
 <div class="section-divider">
 <span class="step-badge">03</span>
-<span class="step-title">方案对比：单一USD成本最低，单一IDR最利经销商，双证结构最均衡</span>
+<span class="step-title">在背靠背信用证结构下，离岸 USD SEC LC 兼顾降低经销商融资成本与BYD HK 提前回款，且全流程实际费率更低</span>
 <span class="step-line"></span>
 </div>
 <div class="module-section" id="module-3">
@@ -5802,96 +5024,9 @@
 <!-- 全流程实际费用率 -->
 <div class="cell col-total-rate">2.64%<br/><span style="font-size: 11px; font-weight: normal; color: #64748B;">年化 7.04%</span></div>
 </div>
-</div><div class="grid-row" data-scenario="3" id="row-scenario-3">
+</div><div class="grid-row" data-scenario="4" id="row-scenario-4">
 <div class="main-table-group">
-<div class="cell col-seq">1</div><div class="cell col-scenario"><div class="scenario-title">方案一：单一USD信用证</div><div class="scenario-badge-row"><span class="badge-text dir-1">全流程低成本｜经销商承担USD风险</span></div></div>
-<!-- 阶段 1 -->
-<div class="cell col-stage">
-<div class="cost-item">
-<div class="item-header">
-<span class="role-badge hk">BYD HK</span>
-<span class="cost-name">45天资金占用成本</span>
-</div>
-<div class="cost-rate-row"><span>0.29%</span></div>
-</div>
-</div>
-<!-- 阶段 2 -->
-<div class="cell col-stage">
-<div class="cost-item">
-<div class="item-header">
-<span class="role-badge id">BYD ID</span>
-<span class="cost-name">USD 信用证贴现利息</span>
-</div>
-<div class="cost-rate-row"><span>0.70%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 数据来源：3M Term SOFR 美元基准利率 (3.67%) + 银行贴现加点 (0.75%)<br/>• 实际费率换算：7 Mn USD × 4.42% × (90 / 360天) ÷ 11.05M USD = 0.70% (仅贴现结清总部账款的 USD 7 Mn，剩余部分等到期议付)</span></span></div>
-</div>
-</div>
-<!-- 阶段 3 -->
-<div class="cell col-stage" style="justify-content: center; gap: 4px;">
-<div class="cost-item">
-<div class="item-header">
-<span class="role-badge dealer">经销商</span>
-<span class="cost-name">USD L/C 开证与承兑费</span>
-</div>
-<div class="cost-rate-row"><span>0.44%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 数据来源：开证行美元信用证规费<br/>• 实际费率换算：1.75% × (90 / 360天) = 0.44% (包含开证费 0.25% + 承兑费 0.0625% × 3个月)</span></span></div>
-</div>
-<div class="cost-item">
-<div class="item-header">
-<span class="role-badge dealer">经销商</span>
-<span class="cost-name">90天本地锁汇成本</span>
-</div>
-<div class="cost-rate-row"><span>0.71%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 锁汇报价：90天 掉期点：129点<br/>注：1）美元信用证金额 11.05M USD = 200 Bn IDR ÷ 18100（即期汇率）；2）即期汇率为 18100，90天远期汇率为 18229（即期加上掉期点 129点）；3）掉期点参考 BCA 公布的 USD/IDR Forward Sell Rate 测算<br/>• 实际费率计算公式：11.05M USD × 129 IDR/USD ÷ 200 Bn IDR = 0.71%</span></span></div>
-</div>
-</div>
-</div>
-<div class="rates-table-group">
-<!-- 经销商实际费用率 -->
-<div class="cell col-dealer-rate">1.15%</div>
-<!-- 全流程实际费用率 -->
-<div class="cell col-total-rate">2.14%<br/><span style="font-size: 11px; font-weight: normal; color: #64748B;">年化 5.71%</span></div>
-</div>
-</div><div class="grid-row" data-scenario="2" id="row-scenario-2">
-<div class="main-table-group">
-<div class="cell col-seq">2</div><div class="cell col-scenario"><div class="scenario-title">方案二：单一IDR信用证</div><div class="scenario-badge-row"><span class="badge-text dir-3">经销商低成本｜HK回款周期长</span></div></div>
-<!-- 阶段 1 -->
-<div class="cell col-stage">
-<div class="cost-item">
-<div class="item-header">
-<span class="role-badge hk">BYD HK</span>
-<span class="cost-name">135天资金占用成本</span>
-</div>
-<div class="cost-rate-row"><span>0.87%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 数据来源：3M Term SOFR 美元基准利率 (3.67%) + 银行贴现加点 (0.75%)<br/>• 实际费率换算：3.67% × (135 / 360天) × 63.35% = 0.87%</span></span></div>
-</div>
-</div>
-<!-- 阶段 2 -->
-<div class="cell col-stage">
-<div class="cost-item">
-<div class="item-header">
-<span class="role-badge id">BYD ID</span>
-<span class="cost-name">远期锁汇成本</span>
-</div>
-<div class="cost-rate-row"><span>0.68%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 锁汇报价：135D USD/IDR 远期点：194点<br/>注：1）即期汇率 USD/IDR 为 18100，135天远期汇率 USD/IDR 为 18294（即期汇率加上掉期点） ；2）掉期点采用印尼本地银行口径，参考 BCA 公布的 USD/IDR Forward Sell Rate 进行推算<br/>• 实际费率计算公式：7M USD × 194 IDR/USD ÷ 200 Bn IDR = 0.68%</span></span></div>
-</div>
-</div>
-<!-- 阶段 3 -->
-<div class="cell col-stage">
-<div class="cost-item">
-<div class="item-header">
-<span class="role-badge dealer">经销商</span>
-<span class="cost-name">90天国内信用证费</span>
-</div>
-<div class="cost-rate-row"><span>0.75%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 票证费用：开证 0.25%/季；承兑 2.0% p.a.<br/>注：参考 UOB Indonesia 与 Maybank Indonesia 公开费率<br/>• 实际费率计算公式：0.25% + 2.0% × 90/360</span></span></div>
-</div>
-</div>
-</div>
-<div class="rates-table-group">
-<!-- 经销商实际费用率 -->
-<div class="cell col-dealer-rate">0.75%</div>
-<!-- 全流程实际费用率 -->
-<div class="cell col-total-rate">2.30%<br/><span style="font-size: 11px; font-weight: normal; color: #64748B;">年化 6.13%</span></div>
-</div>
-</div><div class="grid-row" data-scenario="5" id="row-scenario-5">
-<div class="main-table-group">
-<div class="cell col-seq">3</div><div class="cell col-scenario"><div class="scenario-title">方案三：IDR Master+USD SEC信用证</div><div class="scenario-badge-row"><span class="badge-text dir-2">渠道友好｜HK提前回款｜结构复杂</span></div></div>
+<div class="cell col-seq">1</div><div class="cell col-scenario"><strong>分支一：IDR Master LC + 本地 USD SEC LC</strong></div>
 <!-- 阶段 1 -->
 <div class="cell col-stage" style="justify-content: center; gap: 4px;">
 <div class="cost-item">
@@ -5901,12 +5036,87 @@
 </div>
 <div class="cost-rate-row"><span>0.70%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 数据来源：3M Term SOFR 美元基准利率 (3.67%) + 银行贴现加点 (0.75%) = 4.42% p.a.<br/>• 实际费率换算：4.42% × (90 / 360天) × 63.35% = 0.70%</span></span></div>
 </div>
+</div>
+<!-- 阶段 2 -->
+<div class="cell col-stage" style="justify-content: center; gap: 4px;"><div class="cost-item">
+<div class="item-header">
+<span class="role-badge id">BYD ID</span>
+<span class="cost-name">USD SEC LC开证及承兑</span>
+</div>
+<div class="cost-rate-row"><span>0.48%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 票证费用：开证 0.25%/季；承兑 2.0% p.a. 注：参考 UOB Indonesia 与 Maybank Indonesia 公开费率<br/>• 实际费率换算：（0.25% + 2.0% × 90/360） × 63.35% = 0.48%</span></span></div>
+</div>
 <div class="cost-item">
 <div class="item-header">
 <span class="role-badge id">BYD ID</span>
-<span class="cost-name">USD 45天过桥押汇利息</span>
+<span class="cost-name">45天远期锁汇成本</span>
 </div>
-<div class="cost-rate-row"><span>0.41%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 数据来源：3M Term SOFR 美元基准利率 (3.67%) + 押汇加点 (1.50%) = 5.17% p.a.<br/>• 实际费率换算：5.17% × (45 / 360天) × 63.35% = 0.41%</span></span></div>
+<div class="cost-rate-row">
+<span>0.22%</span>
+<span class="tooltip-container">
+<svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
+<span class="tooltip-text">
+        • 锁汇报价：45D USD/IDR 远期点：64点
+        <br/>
+        注：即期 18100，45天远期锁汇 18164；参考公开 USD/IDR Forward Points，按45天线性估算
+        <br/>
+        • 实际费率计算公式：7M USD × 64 IDR/USD ÷ 200 Bn IDR = 0.22%
+      </span>
+</span>
+</div>
+</div><div class="cost-item" data-comparison-f5="true">
+<div class="item-header">
+<span class="role-badge id">BYD ID</span>
+<span class="cost-name">USD 45天过桥押汇</span>
+</div>
+<div class="cost-rate-row">
+<span>0.41%</span>
+<span class="tooltip-container">
+<svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
+<span class="tooltip-text">
+        • 押汇利率：3M SOFR (3.67%) + 银行加点 (1.50%) = 5.17% p.a.
+        <br/>
+        注：3M Term SOFR 美元基准利率为 3.67%，银行押汇加点为 1.50%
+        <br/>
+        • 实际费率换算：5.17% × (45 / 360天) × 63.35% = 0.41%
+      </span>
+</span>
+</div>
+</div></div>
+<!-- 阶段 3 -->
+<div class="cell col-stage" style="justify-content: center; gap: 4px;"><div class="cost-item">
+<div class="item-header">
+<span class="role-badge dealer">经销商</span>
+<span class="cost-name">Master LC开证承兑</span>
+</div>
+<div class="cost-rate-row"><span>1.00%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 票证费用：开证 0.25%/季；承兑 2.0% p.a.<br/>注：参考 UOB Indonesia 与 Maybank Indonesia 公开费率<br/>• 实际费率换算：0.25% + 2.0% × 135/360 = 1.00%</span></span></div>
+</div></div>
+</div>
+<div class="rates-table-group">
+<div class="cell col-dealer-rate">1.00%</div>
+<div class="cell col-total-rate">2.81%<br/><span style="font-size: 11px; font-weight: normal; color: #64748B;">年化 7.49%</span></div>
+</div>
+</div>
+<div class="grid-row" data-scenario="5" id="row-scenario-5">
+<div class="main-table-group">
+<div class="cell col-seq">2</div><div class="cell col-scenario"><strong>分支二：IDR Master LC + 离岸 USD SEC LC</strong></div>
+<!-- 阶段 1 -->
+<div class="cell col-stage" style="justify-content: center; gap: 4px;">
+<div class="cost-item">
+<div class="item-header">
+<span class="role-badge hk">BYD HK</span>
+<span class="cost-name">SEC LC 90天贴现利息</span>
+</div>
+<div class="cost-rate-row">
+<span>0.70%</span>
+<span class="tooltip-container">
+<svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
+<span class="tooltip-text">
+          • 数据来源：3M Term SOFR 美元基准利率 (3.67%) + 银行贴现加点 (0.75%) = 4.42% p.a.
+          <br/>
+          • 实际费率换算：4.42% × (90 / 360天) × 63.35% = 0.70%
+        </span>
+</span>
+</div>
 </div>
 </div>
 <!-- 阶段 2 -->
@@ -5914,24 +5124,66 @@
 <div class="cost-item">
 <div class="item-header">
 <span class="role-badge id">BYD ID</span>
-<span class="cost-name">USD SEC LC开证及承兑费</span>
+<span class="cost-name">USD SEC LC开证及承兑</span>
 </div>
-<div class="cost-rate-row"><span>0.28%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 票证费用：开证 0.25%/半年；承兑 0.75% p.a.<br/>注：参考DBS HK / BOCHK Trade Finance Service Fee，信用证开证和承兑费用<br/>• 实际费率计算公式：(0.25% + 0.75% × 90/360) × 63.35% = 0.28%</span></span></div>
+<div class="cost-rate-row">
+<span>0.28%</span>
+<span class="tooltip-container">
+<svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
+<span class="tooltip-text">
+          • 票证费用：开证 0.25%/半年；承兑 0.75% p.a.
+          <br/>
+          注：参考DBS HK / BOCHK Trade Finance Service Fee，信用证开证和承兑费用
+          <br/>
+          • 实际费率换算：(0.25% + 0.75% × 90/360) × 63.35% = 0.28%
+        </span>
+</span>
+</div>
 </div>
 <div class="cost-item">
 <div class="item-header">
 <span class="role-badge id">BYD ID</span>
 <span class="cost-name">45天远期锁汇成本</span>
 </div>
-<div class="cost-rate-row"><span>0.22%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" style="margin-left: 6px; color: #94A3B8; vertical-align: middle;" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 锁汇报价：45天 掉期点：64点<br/>注：1）美元信用证金额 11.05M USD = 200 Bn IDR ÷ 18100（即期汇率）；2）即期汇率为 18100，45天远期汇率为 18164（即期加上掉期点 64点）；3）掉期点参考 BCA 公布的 USD/IDR Forward Sell Rate 测算<br/>• 实际费率计算公式：7M USD × 64 IDR/USD ÷ 200 Bn IDR = 0.22%</span></span></div>
+<div class="cost-rate-row">
+<span>0.22%</span>
+<span class="tooltip-container">
+<svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
+<span class="tooltip-text">
+        • 锁汇报价：45D USD/IDR 远期点：64点
+        <br/>
+        注：即期 18100，45天远期锁汇 18164；参考公开 USD/IDR Forward Points，按45天线性估算
+        <br/>
+        • 实际费率计算公式：7M USD × 64 IDR/USD ÷ 200 Bn IDR = 0.22%
+      </span>
+</span>
 </div>
 </div>
+<div class="cost-item" data-comparison-f5="true">
+<div class="item-header">
+<span class="role-badge id">BYD ID</span>
+<span class="cost-name">USD 45天过桥押汇</span>
+</div>
+<div class="cost-rate-row">
+<span>0.41%</span>
+<span class="tooltip-container">
+<svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg>
+<span class="tooltip-text">
+        • 押汇利率：3M SOFR (3.67%) + 银行加点 (1.50%) = 5.17% p.a.
+        <br/>
+        注：3M Term SOFR 美元基准利率为 3.67%，银行押汇加点为 1.50%
+        <br/>
+        • 实际费率换算：5.17% × (45 / 360天) × 63.35% = 0.41%
+      </span>
+</span>
+</div>
+</div></div>
 <!-- 阶段 3 -->
 <div class="cell col-stage">
 <div class="cost-item">
 <div class="item-header">
 <span class="role-badge dealer">经销商</span>
-<span class="cost-name">Master LC开证及承兑费</span>
+<span class="cost-name">Master LC开证承兑</span>
 </div>
 <div class="cost-rate-row"><span>1.00%</span><span class="tooltip-container"><svg fill="none" height="11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="11"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="16" y2="12"></line><line x1="12" x2="12.01" y1="8" y2="8"></line></svg><span class="tooltip-text">• 票证费用：开证 0.25%/季；承兑 2.0% p.a.<br/>注：参考 UOB Indonesia 与 Maybank Indonesia 公开费率<br/>• 实际费率计算公式：0.25% + 2.0% × 135/360 = 1.00%</span></span></div>
 </div>
@@ -5943,331 +5195,282 @@
 <!-- 全流程实际费用率 -->
 <div class="cell col-total-rate">2.61%<br/><span style="font-size: 11px; font-weight: normal; color: #64748B;">年化 6.96%</span></div>
 </div>
-</div></div><div class="m4-focus-cards" style="margin-top: 15px;">
-    <!-- 成本最低 -->
-    <div class="m4-focus-card green-focus">
-        <div class="m4-focus-card-icon">
-            <svg fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="18"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg>
-        </div>
-        <div class="m4-focus-card-content">
-            <div class="m4-focus-card-tag">成本最低</div>
-            <div class="m4-focus-card-title">方案一：单一 USD 信用证</div>
-            <div class="m4-focus-card-desc">全流程成本最低 (2.14%)，适合强授信、具备锁汇能力的头部经销商。</div>
-        </div>
-    </div>
-    <!-- 经销商最友好 -->
-    <div class="m4-focus-card purple-focus">
-        <div class="m4-focus-card-icon">
-            <svg fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="18"><path d="M17 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-        </div>
-        <div class="m4-focus-card-content">
-            <div class="m4-focus-card-tag">经销商最友好</div>
-            <div class="m4-focus-card-title">方案二：单一 IDR 信用证</div>
-            <div class="m4-focus-card-desc">经销商成本最低 (0.75%)，但 BYD HK 135天资金占用较长，回款慢。</div>
-        </div>
-    </div>
-    <!-- 推荐平衡方案 -->
-    <div class="m4-focus-card orange-focus">
-        <div class="m4-focus-card-icon">
-            <svg fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="18"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34"></path><path d="M12 2a6 6 0 0 1 6 6v1H6V8a6 6 0 0 1 6-6z"></path></svg>
-        </div>
-        <div class="m4-focus-card-content">
-            <div class="m4-focus-card-tag">推荐平衡方案</div>
-            <div class="m4-focus-card-title">方案三：IDR Master + USD SEC 信用证</div>
-            <div class="m4-focus-card-desc">全流程成本适中 (2.61%)，风险分配更均衡，兼顾渠道接受度与HK提前回款。</div>
-        </div>
-    </div>
-</div>
+</div></div>
 </div> <!-- closes #module-3 -->
 <!-- 模块四 -->
 <div class="section-divider">
 <span class="step-badge">04</span>
-<span class="step-title">落地执行：双信用证结构最复杂，需结合BYD和经销商诉求，重点评估贸易文书完备性和双证结构可行性</span>
+<span class="step-title">落地执行：双信用证结构复杂，需重点评估贸易文书完备性和双证结构可行性</span>
 <span class="step-line"></span>
 </div>
 <div class="module-section" id="module-4" style="background: #F8FAFC; padding: 10px 0;">
-    
-
-    
-    <!-- 三栏对比主模块 -->
-    <div class="m4-cards-container">
-        <!-- 方案一 -->
-        <div class="m4-card green-theme">
-            <div class="m4-card-header">
-                <div class="m4-card-title-row">
-                    <div class="m4-card-icon">
-                        <svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="14"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" x2="8" y1="13" y2="13"></line><line x1="16" x2="8" y1="17" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                    </div>
-                    <div class="m4-card-title">方案一：单一 USD 信用证</div>
-                </div>
-                <div class="m4-card-tags">
-                    <span class="m4-tag">结构简单</span>
-                    <span class="m4-tag">经销商承担汇率风险</span>
-                </div>
-            </div>
-            <div class="m4-card-body">
-                <div class="m4-phase-section phase-1">
-                    <div class="m4-phase-badge">
-                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                        <span>开立阶段</span>
-                    </div>
-                    <div class="m4-phase-docs">
-                        <ul class="m4-doc-list">
-                            <li><span class="m4-doc-text">USD信用证开证申请书</span></li>
-                            <li><span class="m4-doc-text">外贸采购合同 (USD)</span></li>
-                            <li><span class="m4-doc-text">Proforma Invoice (PI)</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="m4-phase-section phase-2">
-                    <div class="m4-phase-badge">
-                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><polyline points="9 15 11 17 15 13"></polyline></svg>
-                        <span>承兑阶段</span>
-                    </div>
-                    <div class="m4-phase-docs">
-                        <ul class="m4-doc-list">
-                            <li><span class="m4-doc-text">本地销售发票</span></li>
-                            <li><span class="m4-doc-text">印尼本地交付证明 (POD/BSTK)</span></li>
-                            <li><span class="m4-doc-text">本地物流签收单据</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="m4-phase-section phase-3">
-                    <div class="m4-phase-badge">
-                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
-                        <span>远期锁汇</span>
-                    </div>
-                    <div class="m4-phase-docs">
-                        <ul class="m4-doc-list">
-                            <li><span class="m4-doc-text">USD/IDR 90天远期锁汇申请书</span></li>
-                            <li><span class="m4-doc-text">到期购汇交割指令及付款申请</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="m4-card-footer">
-                <div class="m4-footer-icon">
-                    <svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                </div>
-                <div class="m4-footer-content">
-                    <div class="m4-footer-label">经销商承担复杂度</div>
-                    <div class="m4-footer-desc">需同时管理 USD 开证、锁汇、购汇与到期付款</div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 方案二 -->
-        <div class="m4-card purple-theme">
-            <div class="m4-card-header">
-                <div class="m4-card-title-row">
-                    <div class="m4-card-icon">
-                        <svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="14"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                    </div>
-                    <div class="m4-card-title">方案二：单一 IDR 信用证 (SKBDN)</div>
-                </div>
-                <div class="m4-card-tags">
-                    <span class="m4-tag">经销商最友好</span>
-                    <span class="m4-tag">复杂度转移至 BYD ID</span>
-                </div>
-            </div>
-            <div class="m4-card-body">
-                <div class="m4-phase-section phase-1">
-                    <div class="m4-phase-badge">
-                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                        <span>开立阶段</span>
-                    </div>
-                    <div class="m4-phase-docs">
-                        <ul class="m4-doc-list">
-                            <li><span class="m4-doc-text">SKBDN (国内本币证) 开证申请书</span></li>
-                            <li><span class="m4-doc-text">本地销售合同 (IDR)</span></li>
-                            <li><span class="m4-doc-text">Proforma Invoice (PI)</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="m4-phase-section phase-2">
-                    <div class="m4-phase-badge">
-                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><polyline points="9 15 11 17 15 13"></polyline></svg>
-                        <span>承兑阶段</span>
-                    </div>
-                    <div class="m4-phase-docs">
-                        <ul class="m4-doc-list">
-                            <li><span class="m4-doc-text">本地销售发票</span></li>
-                            <li><span class="m4-doc-text">印尼本地交付证明 (POD/BSTK)</span></li>
-                            <li><span class="m4-doc-text">本地物流签收单据</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="m4-phase-section phase-3">
-                    <div class="m4-phase-badge">
-                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
-                        <span>远期锁汇</span>
-                    </div>
-                    <div class="m4-phase-docs">
-                        <ul class="m4-doc-list">
-                            <li><span class="m4-doc-text">USD/IDR 135天远期锁汇申请书</span></li>
-                            <li><span class="m4-doc-text">到期购汇交割指令及付款申请</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="m4-card-footer">
-                <div class="m4-footer-icon">
-                    <svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                </div>
-                <div class="m4-footer-content">
-                    <div class="m4-footer-label">复杂度转移至 BYD ID</div>
-                    <div class="m4-footer-desc">需管理 135 天本币回款及 USD 购汇成本</div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- 方案三 -->
-        <div class="m4-card orange-theme">
-            <div class="m4-card-header">
-                <div class="m4-card-title-row">
-                    <div class="m4-card-icon">
-                        <svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="14"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
-                    </div>
-                    <div class="m4-card-title">方案三：IDR Master + USD SEC 信用证</div>
-                </div>
-                <div class="m4-card-tags">
-                    <span class="m4-tag">结构最复杂</span>
-                    <span class="m4-tag">银行 + BYD ID 协同最重</span>
-                </div>
-            </div>
-            <div class="m4-card-body">
-                <div class="m4-phase-section phase-1">
-                    <div class="m4-phase-badge">
-                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                        <span>开立阶段</span>
-                    </div>
-                    <div class="m4-phase-docs">
-                        <ul class="m4-doc-list">
-                            <li><span class="m4-doc-text"><strong>Master LC (IDR)：</strong>开证申请书、采购合同、PI</span></li>
-                            <li><span class="m4-doc-text"><strong>SEC LC (USD)：</strong>开证申请书、背靠背协议、外贸采购合同</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="m4-phase-section phase-2">
-                    <div class="m4-phase-badge">
-                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><polyline points="9 15 11 17 15 13"></polyline></svg>
-                        <span>承兑阶段</span>
-                    </div>
-                    <div class="m4-phase-docs">
-                        <ul class="m4-doc-list">
-                            <li><span class="m4-doc-text"><strong>Master LC (IDR)：</strong>本地销售发票、POD/BSTK、物流签收</span></li>
-                            <li><span class="m4-doc-text"><strong>SEC LC (USD)：</strong>商业发票、海运提单 (B/L) 及随附单据</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="m4-phase-section phase-3">
-                    <div class="m4-phase-badge">
-                        <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
-                        <span>远期锁汇</span>
-                    </div>
-                    <div class="m4-phase-docs">
-                        <ul class="m4-doc-list">
-                            <li><span class="m4-doc-text">USD/IDR 45天远期锁汇申请书</span></li>
-                            <li><span class="m4-doc-text">USD 45天过桥融资协议</span></li>
-                            <li><span class="m4-doc-text">到期购汇交割指令 / Master & SEC 单据</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="m4-card-footer">
-                <div class="m4-footer-icon">
-                    <svg viewBox="0 0 24 24" width="12" height="12" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="22" x2="21" y2="22"></line><line x1="6" y1="18" x2="6" y2="11"></line><line x1="10" y1="18" x2="10" y2="11"></line><line x1="14" y1="18" x2="14" y2="11"></line><line x1="18" y1="18" x2="18" y2="11"></line><polygon points="12 2 2 7 22 7"></polygon></svg>
-                </div>
-                <div class="m4-footer-content">
-                    <div class="m4-footer-label">银行 + BYD ID 协同最复杂</div>
-                    <div class="m4-footer-desc">需协调双证结构、双重交单、过桥融资与锁汇安排</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- 决策抓手 -->
-    <div class="decision-bar-m4">
-        <!-- Title -->
-        <div style="display: flex; align-items: center; gap: 8px; font-weight: 600; color: #1C1C1E; font-size: 15px; width: 100%; margin-bottom: 4px;">
-            <span style="width: 3.5px; height: 15px; background-color: #007AFF; border-radius: 2px; display: inline-block;"></span>
-            <span>下一步</span>
-        </div>
-        
-        <!-- Parent container for list groups -->
-        <div style="display: flex; flex-direction: column; gap: 24px; width: 100%;">
-            
-            <!-- BYD Group -->
-            <div style="display: flex; flex-direction: column; gap: 6px;">
-                <div style="font-size: 13px; font-weight: 700; color: #1C1C1E; background-color: #F2F2F7; padding: 8px 12px; border-radius: 6px; display: flex; align-items: center; gap: 6px; margin-bottom: 4px; text-align: left;">
+<!-- 三栏对比主模块 -->
+<div class="m4-cards-container">
+<!-- 分支一：印尼本地开立子证 -->
+<div class="m4-card purple-theme">
+<div class="m4-card-header">
+<div class="m4-card-title-row">
+<div class="m4-card-icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="14">
+<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+</div>
+<div class="m4-card-title">分支一：IDR Master LC + 本地 USD SEC LC</div>
+</div>
+</div>
+<div class="m4-card-body">
+<div class="m4-phase-section phase-1">
+<div class="m4-phase-badge">
+<svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="16">
+<rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect>
+<line x1="16" x2="16" y1="2" y2="6"></line>
+<line x1="8" x2="8" y1="2" y2="6"></line>
+<line x1="3" x2="21" y1="10" y2="10"></line>
+</svg>
+<span>开立阶段</span>
+</div>
+<div class="m4-phase-docs">
+<ul class="m4-doc-list">
+<li>
+<span class="m4-doc-text"><strong>Master LC (IDR)：</strong>开证申请书、本地销售采购合同、Proforma Invoice (PI)</span>
+</li>
+<li>
+<span class="m4-doc-text"><strong>SEC LC (USD)：</strong>开证申请书、印尼本地母子证联动/背靠背协议、外贸采购合同 (USD)</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="m4-phase-section phase-2">
+<div class="m4-phase-badge">
+<svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="16">
+<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+<polyline points="14 2 14 8 20 8"></polyline>
+<polyline points="9 15 11 17 15 13"></polyline>
+</svg>
+<span>承兑与交单</span>
+</div>
+<div class="m4-phase-docs">
+<ul class="m4-doc-list">
+<li>
+<span class="m4-doc-text"><strong>Master LC (IDR)：</strong>本地销售发票、印尼本地交付证明 (POD/BSTK)、本地物流签收单据</span>
+</li>
+<li>
+<span class="m4-doc-text"><strong>SEC LC (USD)：</strong>商业发票、海运提单 (B/L)、45天 美元过桥押汇协议/信托收据 (T.R.)</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="m4-phase-section phase-3">
+<div class="m4-phase-badge">
+<svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="16">
+<rect height="11" rx="2" ry="2" width="18" x="3" y="11"></rect>
+<path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+</svg>
+<span>远期锁汇</span>
+</div>
+<div class="m4-phase-docs">
+<ul class="m4-doc-list">
+<li>
+<span class="m4-doc-text">USD/IDR 45天远期锁汇协议 / 远期套保申请书</span>
+</li>
+<li>
+<span class="m4-doc-text">45天过桥押汇到期还款及交割指令，Master LC 到期付款申请书</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="m4-card-footer">
+<div class="m4-footer-icon">
+<svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12">
+<line x1="3" x2="21" y1="22" y2="22"></line>
+<line x1="6" x2="6" y1="18" y2="11"></line>
+<line x1="10" x2="10" y1="18" y2="11"></line>
+<line x1="14" x2="14" y1="18" y2="11"></line>
+<line x1="18" x2="18" y1="18" y2="11"></line>
+<polygon points="12 2 2 7 22 7"></polygon>
+</svg>
+</div>
+<div class="m4-footer-content">
+<div class="m4-footer-label">
+      BYD ID 开证需占用印尼实体本地授信
+     </div>
+</div>
+</div>
+</div>
+<!-- 分支二：香港离岸开立子证 -->
+<div class="m4-card orange-theme">
+<div class="m4-card-header">
+<div class="m4-card-title-row">
+<div class="m4-card-icon">
+<svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="14">
+<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+</svg>
+</div>
+<div class="m4-card-title">分支二：IDR Master LC + 离岸 USD SEC LC</div>
+</div>
+</div>
+<div class="m4-card-body">
+<div class="m4-phase-section phase-1">
+<div class="m4-phase-badge">
+<svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="16">
+<rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect>
+<line x1="16" x2="16" y1="2" y2="6"></line>
+<line x1="8" x2="8" y1="2" y2="6"></line>
+<line x1="3" x2="21" y1="10" y2="10"></line>
+</svg>
+<span>开立阶段</span>
+</div>
+<div class="m4-phase-docs">
+<ul class="m4-doc-list">
+<li>
+<span class="m4-doc-text"><strong>Master LC (IDR)：</strong>开证申请书、本地销售采购合同、Proforma Invoice (PI)</span>
+</li>
+<li>
+<span class="m4-doc-text"><strong>SEC LC (USD)：</strong>离岸开证申请书、跨国银行境内外分行额度切分/转授权协议、外贸采购合同</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="m4-phase-section phase-2">
+<div class="m4-phase-badge">
+<svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="16">
+<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+<polyline points="14 2 14 8 20 8"></polyline>
+<polyline points="9 15 11 17 15 13"></polyline>
+</svg>
+<span>承兑与交单</span>
+</div>
+<div class="m4-phase-docs">
+<ul class="m4-doc-list">
+<li>
+<span class="m4-doc-text"><strong>Master LC (IDR)：</strong>本地销售发票、印尼本地交付证明 (POD/BSTK)、本期提车交货证明</span>
+</li>
+<li>
+<span class="m4-doc-text"><strong>SEC LC (USD)：</strong>商业发票、海运提单 (B/L) 及 45天 美元过桥押汇协议/信托收据 (T.R.)</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="m4-phase-section phase-3">
+<div class="m4-phase-badge">
+<svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="16">
+<rect height="11" rx="2" ry="2" width="18" x="3" y="11"></rect>
+<path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+</svg>
+<span>远期锁汇</span>
+</div>
+<div class="m4-phase-docs">
+<ul class="m4-doc-list">
+<li>
+<span class="m4-doc-text">USD/IDR 45天远期锁汇协议 / 远期套保申请书</span>
+</li>
+<li>
+<span class="m4-doc-text">45天过桥押汇到期还款及交割指令，Master LC 到期付款申请书</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="m4-card-footer">
+<div class="m4-footer-icon">
+<svg fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24" width="12">
+<line x1="3" x2="21" y1="22" y2="22"></line>
+<line x1="6" x2="6" y1="18" y2="11"></line>
+<line x1="10" x2="10" y1="18" y2="11"></line>
+<line x1="14" x2="14" y1="18" y2="11"></line>
+<line x1="18" x2="18" y1="18" y2="11"></line>
+<polygon points="12 2 2 7 22 7"></polygon>
+</svg>
+</div>
+<div class="m4-footer-content">
+<div class="m4-footer-label">
+      BYD ID 开证无需占用印尼本地授信
+     </div>
+</div>
+</div>
+</div>
+</div>
+<!-- 决策抓手 -->
+<div class="decision-bar-m4">
+<!-- Title -->
+<div style="display: flex; align-items: center; gap: 8px; font-weight: 600; color: #1C1C1E; font-size: 15px; width: 100%; margin-bottom: 4px;">
+<span style="width: 3.5px; height: 15px; background-color: #007AFF; border-radius: 2px; display: inline-block;"></span>
+<span>下一步</span>
+</div>
+<!-- Parent container for list groups -->
+<div style="display: flex; flex-direction: column; gap: 24px; width: 100%;">
+<!-- BYD Group -->
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<div style="font-size: 13px; font-weight: 700; color: #1C1C1E; background-color: #F2F2F7; padding: 8px 12px; border-radius: 6px; display: flex; align-items: center; gap: 6px; margin-bottom: 4px; text-align: left;">
                     👥 与 BYD 沟通要点
                 </div>
-                <div style="display: flex; flex-direction: column; padding: 0 4px;">
-                    <!-- Row 1 -->
-                    <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid #E5E5EA; align-items: flex-start;">
-                        <div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">提前回款需求</div>
-                        <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
-                            <div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">明确 BYD HK 对贸易回款时效性的诉求</div>
-                            <div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">决定是否必须使用复杂的贴现架构，或可直接采用低成本到期信用证。</div>
-                        </div>
-                    </div>
-                    <!-- Row 2 -->
-                    <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid #E5E5EA; align-items: flex-start;">
-                        <div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">开证主体沟通</div>
-                        <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
-                            <div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">排查经销商的美元开证资格和外汇敞口及衍生品的管理能力，并确认 BYD ID 是否接受作为 SEC LC 的开立主体</div>
-                            <div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">直接关系到方案一与方案三的实操准入，以及印尼实体授信额度占用和运营负担的承受度。</div>
-                        </div>
-                    </div>
-                    <!-- Row 3 -->
-                    <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; align-items: flex-start;">
-                        <div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">法律文书检查</div>
-                        <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
-                            <div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">在 Master LC 与 SEC LC 开立、离岸贴现及远期套保等关键节点所需的贸易单证与法务协议是否齐全</div>
-                            <div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">确保全流程单证流与法务流合规闭环，避免因单证不符导致贴现或付汇受阻。</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Bank Group -->
-            <div style="display: flex; flex-direction: column; gap: 6px;">
-                <div style="font-size: 13px; font-weight: 700; color: #1C1C1E; background-color: #F2F2F7; padding: 8px 12px; border-radius: 6px; display: flex; align-items: center; gap: 6px; margin-bottom: 4px; text-align: left;">
+<div style="display: flex; flex-direction: column; padding: 0 4px;">
+<!-- Row 1 -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid #E5E5EA; align-items: flex-start;">
+<div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">提前回款需求</div>
+<div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
+<div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">明确 BYD HK 对贸易回款时效性的诉求</div>
+<div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">作为撬动BYD配合准备信用证相关单据的支点</div>
+</div>
+</div>
+<!-- Row 2 -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid #E5E5EA; align-items: flex-start;">
+<div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">开证主体沟通</div>
+<div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
+<div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">确认 BYD ID 是否接受作为 SEC LC 的开立主体</div>
+<div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">双证结构把复杂度集中到 BYD ID，由其承担双证搭桥、资金衔接、汇率管理和银行协同责任</div>
+</div>
+</div>
+<!-- Row 3 -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; align-items: flex-start;">
+<div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">法律文书检查</div>
+<div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
+<div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">在 Master LC 与 SEC LC 开立、离岸贴现及远期套保等关键节点所需的贸易单证与法务协议是否齐全</div>
+<div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">确保全流程单证流与法务流合规闭环，避免因单证不符导致贴现或付汇受阻。</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Bank Group -->
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<div style="font-size: 13px; font-weight: 700; color: #1C1C1E; background-color: #F2F2F7; padding: 8px 12px; border-radius: 6px; display: flex; align-items: center; gap: 6px; margin-bottom: 4px; text-align: left;">
                     🏦 与 银行 沟通要点
                 </div>
-                <div style="display: flex; flex-direction: column; padding: 0 4px;">
-                    <!-- Row 1 -->
-                    <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid #E5E5EA; align-items: flex-start;">
-                        <div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">验证双信用证联动结构</div>
-                        <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
-                            <div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">确认境内外银行是否接受 IDR Master LC 与 USD SEC LC 的联动开立，重点核实 SEC LC 能否免保证金占用 Master LC 额度</div>
-                            <div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">这是双证方案落地的技术前提，旨在避免对印尼公司造成二次授信与资金压占压力。</div>
-                        </div>
-                    </div>
-                    <!-- Row 2 -->
-                    <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid #E5E5EA; align-items: flex-start;">
-                        <div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">锁定离岸贴现利率</div>
-                        <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
-                            <div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">与香港贴现行确认 SEC LC 的美元贴现利率</div>
-                            <div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">直接决定方案三离岸美元低息贴现的最终融资成本和降本幅度的有效性。</div>
-                        </div>
-                    </div>
-                    <!-- Row 3 -->
-                    <div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; align-items: flex-start;">
-                        <div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">获取锁汇掉期报价</div>
-                        <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
-                            <div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">向银行获取 45天 及 135天 远期合约（DF/NDF）的最新外汇掉期报价</div>
-                            <div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">用于精准测算全流程汇率风险对冲成本，锁定防范本币波动的财务敞口。</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
+<div style="display: flex; flex-direction: column; padding: 0 4px;">
+<!-- Row 1 -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid #E5E5EA; align-items: flex-start;">
+<div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">验证双信用证联动结构</div>
+<div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
+<div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">确认境内外银行是否接受 IDR Master LC 与 USD SEC LC 的联动开立，重点核实 SEC LC 能否免保证金占用 Master LC 额度</div>
+<div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">这是双证方案落地的技术前提，旨在避免对印尼公司造成二次授信与资金压占压力。</div>
 </div>
-</div> <!-- closes module-content-viewport -->
-
+</div>
+<!-- Row 2 -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; border-bottom: 1px solid #E5E5EA; align-items: flex-start;">
+<div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">锁定离岸贴现利率</div>
+<div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
+<div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">与香港贴现行确认 SEC LC 的美元贴现利率</div>
+<div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">直接决定双信用证模式（分支一及分支二）的最终融资成本和降本幅度的有效性。</div>
+</div>
+</div>
+<!-- Row 3 -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px 24px; padding: 14px 0; align-items: flex-start;">
+<div style="flex: 0 0 160px; font-weight: 600; color: #1C1C1E; font-size: 13.5px; text-align: left;">获取锁汇掉期报价</div>
+<div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 3px; text-align: left;">
+<div style="color: #1C1C1E; font-weight: 500; font-size: 13.5px; line-height: 1.4;">向银行获取 45天、90天 及 135天 远期合约（DF/NDF）的最新外汇掉期报价</div>
+<div style="color: #8E8E93; font-size: 12px; line-height: 1.45;">用于精准测算全流程汇率风险对冲成本，锁定防范本币波动的财务敞口。</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- closes module-content-viewport -->
 <!-- 批发货值拆分悬停浮窗 -->
 <div class="pie-tooltip-popup" id="pie-tooltip-popup">
 <div class="chart-title">200 Bn IDR 批发货值构成拆分 (估算)</div>
@@ -6347,19 +5550,12 @@
             panes.forEach(pane => {
                 if (pane.id === `pane-scenario-${scenarioNum}`) {
                     pane.classList.add('active');
-                } else if (pane.id !== 'pane-scenario-1' && pane.id !== 'pane-scenario-4-moved') {
+                } else if (pane.id !== 'pane-scenario-1') {
                     pane.classList.remove('active');
                 }
             });
 
-            // Update Table Rows in Module 3
-            rows.forEach(row => {
-                if (row.getAttribute('data-scenario') === scenarioNum) {
-                    row.classList.add('active-row');
-                } else {
-                    row.classList.remove('active-row');
-                }
-            });
+            // Update Table Rows disabled (static table)
         }
 
         // Tab buttons click handlers
@@ -6370,26 +5566,12 @@
             });
         });
 
-        // Table rows click handlers for bi-directional linking
-        rows.forEach(row => {
-            row.addEventListener('click', (e) => {
-                if (e.target.closest('.pie-info-trigger') || e.target.closest('.tooltip-container') || e.target.closest('.tooltip-text')) {
-                    return;
-                }
-                const scenarioNum = row.getAttribute('data-scenario');
-                if (scenarioNum) {
-
-                    switchScenario(scenarioNum);
-                }
-            });
-        });
+        // Table rows click handlers disabled by request
 
         // 2. Phase tab switching and SVG click integration for all 5 scenarios
         const scenarioConfigs = [
             { id: 'pane-scenario-1', tabsId: 'phase-tabs-s1' },
-            { id: 'pane-scenario-2', tabsId: 'phase-tabs-s2' },
-            { id: 'pane-scenario-3', tabsId: 'phase-tabs-s3' },
-            { id: 'pane-scenario-4-moved', tabsId: 'phase-tabs-s4' },
+            { id: 'pane-scenario-4', tabsId: 'phase-tabs-s4' },
             { id: 'pane-scenario-5', tabsId: 'phase-tabs-s5' }
         ];
 
@@ -6437,23 +5619,6 @@
                 });
             }
         });
-
-        // 3. Secondary Compare View Toggle Logic (Scenario 4 inside Scenario 5)
-        const secToggleBtn = document.getElementById('sec-compare-toggle-btn');
-        const secCompareContent = document.getElementById('sec-compare-content-el');
-        if (secToggleBtn && secCompareContent) {
-            secToggleBtn.addEventListener('click', () => {
-                if (secCompareContent.style.display === 'none') {
-                    secCompareContent.style.display = 'block';
-                    secToggleBtn.classList.add('expanded');
-                    secToggleBtn.querySelector('span').textContent = '收起对比研究：离岸USD双信用证结构';
-                } else {
-                    secCompareContent.style.display = 'none';
-                    secToggleBtn.classList.remove('expanded');
-                    secToggleBtn.querySelector('span').textContent = '展开对比研究：离岸USD双信用证结构';
-                }
-            });
-        }
 
         // 4. Pie chart hover/click tooltip handler (Downward opening & background blur + debounce)
         const pieTooltipPopup = document.getElementById('pie-tooltip-popup');
@@ -6660,8 +5825,8 @@
                         if (act === 'lc-open' || act === 'lc-open-repay' || act === 'lock' || act === 'lock-settle') return 'dealer';
                     }
                     if (scen === 4) {
-                        if (act === 'bridge' || act === 'lc-child' || act === 'acceptance-mother') return 'id';
-                        if (act === 'lc-mother' || act === 'lc-open' || act === 'lock') return 'dealer';
+                        if (act === 'bridge' || act === 'lc-child' || act === 'acceptance-mother' || act === 'lock') return 'id';
+                        if (act === 'lc-mother' || act === 'lc-open') return 'dealer';
                     }
                     if (scen === 5) {
                         if (act === 'bridge' || act === 'lc-child' || act === 'lock' || act === 'lock-settle') return 'id';
@@ -6751,8 +5916,7 @@
         });
 
         // Initialize defaults
-        switchScenario('3');
-
+        switchScenario('4');
 
     });</script>
 <style>/* Set cell box-sizing to border-box to prevent rate column overflow/clip */
@@ -7012,18 +6176,7 @@
 }
 
 /* 4. Elegant Active Row Highlights: Full accent line + soft background wash (No side stripes or ghost shadows) */
-.grid-row.active-row .main-table-group {
-    border: 1.5px solid #2563eb !important;
-    background: #eff6ff !important; /* clean soft blue wash */
-    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.06) !important;
-    transform: translateY(-1px);
-}
-.grid-row.active-row .rates-table-group {
-    border: 1.5px solid #2563eb !important;
-    background: #f0f7ff !important; /* matching wash for rates group */
-    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.06) !important;
-    transform: translateY(-1px);
-}
+
 
 /* Base borders on inactive rows to match the 1.5px thickness and prevent text jitter */
 .grid-row:not(.header-row) .main-table-group {
@@ -7143,7 +6296,7 @@
     color: #0f172a !important;
     border-bottom: 1px solid #f1f5f9 !important;
     padding-bottom: 6px !important;
-    margin-bottom: 4px !important;
+    margin-bottom: 0px !important;
     display: flex !important;
     align-items: center !important;
     gap: 6px !important;
@@ -7221,7 +6374,7 @@
     color: var(--direction-accent) !important;
     border-bottom: 1px solid #edf2f7 !important;
     padding-bottom: 7px !important;
-    margin-bottom: 4px !important;
+    margin-bottom: 0px !important;
 }
 .conclusion-item {
     display: flex !important;
@@ -7350,7 +6503,6 @@
     color: #516173 !important;
 }
 
-
 /* ---------------------------------------------------- */
 /* ---------------------------------------------------- */
 /* === MODULE 1 EMBEDDED PAIN POINT CARD STYLES === */
@@ -7368,6 +6520,11 @@
     background: linear-gradient(135deg, #FFF7ED 0%, #FFFFFF 100%) !important;
     border-color: rgba(249, 115, 22, 0.15) !important;
     box-shadow: 0 4px 12px rgba(249, 115, 22, 0.03) !important;
+}
+.pain-point-embed-card.purple-theme {
+    background: linear-gradient(135deg, #F5F3FF 0%, #FFFFFF 100%) !important;
+    border-color: rgba(124, 58, 237, 0.15) !important;
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.03) !important;
 }
 .pain-point-embed-card:hover {
     transform: translateY(-2px) !important;
@@ -7434,7 +6591,7 @@
 
 .m4-cards-container {
     display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 24px !important;
     padding: 0 20px 24px 20px !important;
 }
@@ -7630,7 +6787,7 @@
     padding: 18px 24px !important;
     border-top: 1px solid #E2E8F0 !important;
     display: flex !important;
-    align-items: flex-start !important;
+    align-items: center !important;
     gap: 12px !important;
 }
 .m4-footer-icon {
@@ -7664,7 +6821,7 @@
     font-size: 13.5px !important;
     font-weight: 700 !important;
     color: #1E293B !important;
-    margin-bottom: 4px !important;
+    margin-bottom: 0px !important;
 }
 .m4-footer-desc {
     font-size: 12px !important;
@@ -7686,7 +6843,7 @@
 }
 .m4-focus-cards {
     display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 16px !important;
 }
 .m4-focus-card {
@@ -7744,7 +6901,7 @@
     font-size: 14px !important;
     font-weight: 700 !important;
     color: #1E293B !important;
-    margin-bottom: 4px !important;
+    margin-bottom: 0px !important;
 }
 .m4-focus-card-desc {
     font-size: 12px !important;
@@ -7840,7 +6997,7 @@
     color: #334155 !important;
     font-size: 12.5px !important;
     margin-top: 8px !important;
-    margin-bottom: 4px !important;
+    margin-bottom: 0px !important;
     padding-left: 0 !important;
 }
 .m4-doc-group-header::before {
@@ -8171,5 +7328,6 @@
 }
 
 </style>
-</div></body>
+</div>
+</body>
 </html>
